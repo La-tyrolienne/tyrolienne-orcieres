@@ -1,0 +1,127 @@
+{
+    "metadata": {
+        "title": "Roll Air Cable | Giant Zipline Orcières",
+        "description": "Experience the unique giant zipline in the Alps - 1.8km at 130km/h"
+    },
+    "navigation": {
+        "home": "Home",
+        "info": "Useful Info",
+        "tickets": "Prices",
+        "histoire": "Our Story",
+        "contact": "Contact",
+        "book": "Buy"
+    },
+    "hero": {
+        "title": "Roll Air Cable",
+        "subtitle": "An unforgettable family experience",
+        "description": "Controlled sensations, maximum security, exceptional panorama",
+        "cta": "See prices",
+        "scroll": "Discover"
+    },
+    "reassurance": {
+        "age": "From 6-7 years*",
+        "ageNote": "*If the safety harness fits the child",
+        "team": "Qualified team",
+        "security": "Safe equipment",
+        "briefing": "Complete briefing",
+        "cta": "Everything you need to know",
+        "calendar_check": "Check opening calendar"
+    },
+    "audiences": {
+        "title": "An adventure for everyone",
+        "families": {
+            "title": "Families",
+            "description": "Kid-friendly activity, permanent supervision"
+        },
+        "adults": {
+            "title": "Adultes",
+            "description": "Impressive but accessible sensations"
+        },
+        "groups": {
+            "title": "Groups",
+            "description": "Shared moments, common memories"
+        }
+    },
+    "tickets": {
+        "title": "Prices",
+        "subtitle": "Buy your ticket for this unique experience",
+        "adult": "Adult",
+        "child": "Child",
+        "priceWinter": "40 €",
+        "priceSummer": "35 €",
+        "priceNote": "Single price per person",
+        "groupDiscount": "-3 € / ticket",
+        "groupCondition": "Groups from 10 people",
+        "book": "Buy a ticket",
+        "securePayment": "Secure payment",
+        "reassurance": "Supervising team, safe equipment, complete briefing before each flight"
+    },
+    "experience": {
+        "title": "An unforgettable family experience",
+        "description": "Embark on a unique adventure on one of Europe's longest ziplines.",
+        "stats": {
+            "speed": "Top Speed",
+            "length": "Flight Length",
+            "height": "Flying Height",
+            "duration": "Flight Time"
+        }
+    },
+    "calendar": {
+        "title": "Opening Calendar",
+        "open": "Open",
+        "closed": "Closed",
+        "special": "Special hours",
+        "winterSeason": "Winter (December to April)",
+        "summerSeason": "Summer (July-August)"
+    },
+    "info": {
+        "title": "Useful Information",
+        "access": {
+            "title": "Getting to the start",
+            "description": "Embark via Télémix Drouvet 1 then 2. Arrival at 2650m."
+        },
+        "safety": {
+            "title": "Safety first",
+            "description": "Pro harness, auto braking, complete briefing."
+        },
+        "weather": {
+            "title": "Weather & Outfit",
+            "description": "Sports outfit recommended. Activity suspended in bad weather."
+        },
+        "conditions": {
+            "title": "Requirements",
+            "age": "Minimum age: 6-7 years* (if harness fits)",
+            "duration": "Duration: ~1 min 20",
+            "weight": "Weight: 20 to 130 kg"
+        },
+        "equipment": {
+            "title": "Recommended outfit",
+            "winter": "Warm ski clothes, gloves, sunglasses or goggles. Skiers leave with their poles and skis. Backpack allowed (max 30L), except for snowboarders.",
+            "summer": "Comfortable sportswear, sneakers or hiking shoes. Sunglasses recommended. Backpack allowed (max 30L)."
+        }
+    },
+    "footer": {
+        "description": "The longest zipline in the Alps - A unique family experience.",
+        "station": "Orcières Merlette 1850 Station",
+        "address": "Orcières Merlette 1850 Station",
+        "phone": "06 84 44 88 10",
+        "rights": "All rights reserved",
+        "legal": "Legal",
+        "privacy": "Privacy policy",
+        "cta": "See prices"
+    },
+    "theme": {
+        "winter": "Winter",
+        "summer": "Summer"
+    },
+    "stats": {
+        "length": "Length",
+        "lengthValue": "1.8 km",
+        "speed": "Speed",
+        "speedValue": "130 km/h",
+        "altitude": "Altitude",
+        "altitudeValue": "2650 m",
+        "duration": "Duration",
+        "durationValue": "~1min 20"
+    }
+}

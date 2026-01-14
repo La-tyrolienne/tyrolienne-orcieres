@@ -1,0 +1,127 @@
+{
+    "metadata": {
+        "title": "Roll Air Cable | Tyrolienne Géante Orcières",
+        "description": "Vivez l'expérience unique de la plus longue tyrolienne des Alpes - 1.8km à 130km/h"
+    },
+    "navigation": {
+        "home": "Accueil",
+        "info": "Infos Pratiques",
+        "tickets": "Tarifs",
+        "histoire": "Notre Histoire",
+        "contact": "Contact",
+        "book": "Acheter"
+    },
+    "hero": {
+        "title": "Roll Air Cable",
+        "subtitle": "Une expérience inoubliable à partager en famille",
+        "description": "Sensations maîtrisées, sécurité maximale, panorama exceptionnel",
+        "cta": "Voir les tarifs",
+        "scroll": "Découvrir"
+    },
+    "reassurance": {
+        "age": "Dès 6-7 ans*",
+        "ageNote": "*Si le harnais de sécurité est adapté à l'enfant",
+        "team": "Équipe qualifiée",
+        "security": "Matériel sécurisé",
+        "briefing": "Briefing complet",
+        "cta": "Tout savoir avant de venir",
+        "calendar_check": "Vérifier le calendrier d'ouverture"
+    },
+    "audiences": {
+        "title": "Une aventure pour tous",
+        "families": {
+            "title": "Familles",
+            "description": "Activité adaptée aux enfants, encadrement permanent"
+        },
+        "adults": {
+            "title": "Adultes",
+            "description": "Sensations impressionnantes mais accessibles"
+        },
+        "groups": {
+            "title": "Groupes",
+            "description": "Moments partagés, souvenirs communs"
+        }
+    },
+    "tickets": {
+        "title": "Tarifs",
+        "subtitle": "Achetez votre billet pour cette expérience unique",
+        "adult": "Adulte",
+        "child": "Enfant",
+        "priceWinter": "40 €",
+        "priceSummer": "35 €",
+        "priceNote": "Tarif unique par personne",
+        "groupDiscount": "-3 € / ticket",
+        "groupCondition": "Groupe dès 10 personnes",
+        "book": "Acheter un ticket",
+        "securePayment": "Paiement sécurisé",
+        "reassurance": "Équipe encadrante, matériel sécurisé, briefing complet avant chaque vol"
+    },
+    "experience": {
+        "title": "Une expérience inoubliable à partager en famille",
+        "description": "Embarquez pour une aventure unique sur l'une des plus longues tyroliennes d'Europe.",
+        "stats": {
+            "speed": "Vitesse de pointe",
+            "length": "Longueur du vol",
+            "height": "Hauteur de survol",
+            "duration": "Temps de vol"
+        }
+    },
+    "calendar": {
+        "title": "Calendrier d'ouverture",
+        "open": "Ouvert",
+        "closed": "Fermé",
+        "special": "Horaires spéciaux",
+        "winterSeason": "Hiver (Décembre à Avril)",
+        "summerSeason": "Été (Juillet-Août)"
+    },
+    "info": {
+        "title": "Informations Pratiques",
+        "access": {
+            "title": "Accès au départ",
+            "description": "Embarquement via le Télémix Drouvet 1 puis 2. Arrivée à 2650m."
+        },
+        "safety": {
+            "title": "Sécurité avant tout",
+            "description": "Harnais pro, freinage auto, briefing complet."
+        },
+        "weather": {
+            "title": "Météo & Tenue",
+            "description": "Tenue de sport conseillée. Activité suspendue si météo défavorable."
+        },
+        "conditions": {
+            "title": "Conditions requises",
+            "age": "Âge minimum : 6-7 ans* (si le harnais s'adapte)",
+            "duration": "Durée : ~1 min 20",
+            "weight": "Poids : 20 à 130 kg"
+        },
+        "equipment": {
+            "title": "Tenue recommandée",
+            "winter": "Vêtements chauds de ski, gants, lunettes de soleil ou masque. Les skieurs partent avec leurs bâtons et leurs skis. Sac à dos possible (max 30L), sauf pour les snowboardeurs.",
+            "summer": "Vêtements de sport confortables, baskets ou chaussures de randonnée. Lunettes de soleil conseillées. Sac à dos possible (max 30L)."
+        }
+    },
+    "footer": {
+        "description": "La plus longue tyrolienne des Alpes - Une expérience unique à partager en famille.",
+        "station": "Station d'Orcières Merlette 1850",
+        "address": "Station d'Orcières Merlette 1850",
+        "phone": "06 84 44 88 10",
+        "rights": "Tous droits réservés",
+        "legal": "Mentions légales",
+        "privacy": "Politique de confidentialité",
+        "cta": "Voir les tarifs"
+    },
+    "theme": {
+        "winter": "Hiver",
+        "summer": "Été"
+    },
+    "stats": {
+        "length": "Longueur",
+        "lengthValue": "1.8 km",
+        "speed": "Vitesse",
+        "speedValue": "130 km/h",
+        "altitude": "Altitude",
+        "altitudeValue": "2650 m",
+        "duration": "Durée",
+        "durationValue": "~1min 20"
+    }
+}
