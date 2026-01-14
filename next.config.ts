@@ -5,13 +5,6 @@ const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 
 const nextConfig: NextConfig = {
   /* config options here */
-  experimental: {
-    turbopack: {
-      resolveAlias: {
-        'tailwindcss': 'tailwindcss',
-      },
-    }
-  }
 };
 
 export default withNextIntl(nextConfig);
