@@ -99,13 +99,16 @@ export default function AdminPage() {
                 } else if (getRes.status === 404) {
                     throw new Error('Dépôt ou fichier non trouvé. Vérifiez le nom du dépôt.');
                 } else {
-                    throw new Error(`Erreur GitHub: ${errorData.message || getRes.statusText}`);
+                    throw new Error(`Erreur GitHub (${getRes.status}): ${errorData.message || getRes.statusText}`);
                 }
             }
             const fileData = await getRes.json();
             const sha = fileData.sha;
 
-            // 2. Update the file
+            // 2. Update the file - use TextEncoder for proper UTF-8 encoding
+            const jsonContent = JSON.stringify(closures, null, 2);
+            const base64Content = btoa(unescape(encodeURIComponent(jsonContent)));
+
             const putRes = await fetch(`https://api.github.com/repos/${repo}/contents/public/data/custom-closures.json`, {
                 method: 'PUT',
                 headers: {
@@ -113,8 +116,8 @@ export default function AdminPage() {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    message: `📅 Mise à jour du calendrier (${closures.length} jours fermés)`,
-                    content: btoa(JSON.stringify(closures, null, 2)),
+                    message: `Mise a jour du calendrier (${closures.length} jours fermes)`,
+                    content: base64Content,
                     sha: sha,
                 }),
             });
@@ -123,10 +126,11 @@ export default function AdminPage() {
                 setMessage({ type: 'success', text: 'Calendrier mis à jour ! Le site va être redéployé d\'ici quelques minutes.' });
             } else {
                 const errorData = await putRes.json().catch(() => ({}));
-                throw new Error(`Erreur de mise à jour: ${errorData.message || putRes.statusText}`);
+                throw new Error(`Erreur de mise à jour (${putRes.status}): ${errorData.message || putRes.statusText}`);
             }
         } catch (error: any) {
-            setMessage({ type: 'error', text: error.message });
+            console.error('GitHub API Error:', error);
+            setMessage({ type: 'error', text: error.message || 'Erreur inconnue' });
         } finally {
             setIsSaving(false);
         }
