@@ -89,30 +89,41 @@ export default function AdminPage() {
         try {
             // 1. Get current file data (to get the SHA) - add cache buster
             const timestamp = Date.now();
-            const getRes = await fetch(`https://api.github.com/repos/${repo}/contents/public/data/custom-closures.json?t=${timestamp}`, {
+            const getRes = await fetch(`https://api.github.com/repos/${repo}/contents/public/data/custom-closures.json?ref=main&_=${timestamp}`, {
+                method: 'GET',
                 headers: {
-                    Authorization: `token ${token}`,
-                    Accept: 'application/vnd.github.v3+json',
-                    'Cache-Control': 'no-cache'
+                    'Authorization': `Bearer ${token}`,
+                    'Accept': 'application/json',
+                    'X-GitHub-Api-Version': '2022-11-28'
                 },
+                cache: 'no-store'
             });
 
             if (!getRes.ok) {
-                const errorData = await getRes.json().catch(() => ({}));
+                const errorText = await getRes.text();
                 if (getRes.status === 401) {
                     throw new Error('Token invalide ou expiré. Vérifiez votre token GitHub.');
                 } else if (getRes.status === 404) {
                     throw new Error('Dépôt ou fichier non trouvé. Vérifiez le nom du dépôt.');
                 } else {
-                    throw new Error(`Erreur GitHub (${getRes.status}): ${errorData.message || getRes.statusText}`);
+                    throw new Error(`Erreur GitHub (${getRes.status}): ${errorText}`);
                 }
             }
-            const fileData = await getRes.json();
+
+            const responseText = await getRes.text();
+            let fileData;
+            try {
+                fileData = JSON.parse(responseText);
+            } catch {
+                console.error('Response was not JSON:', responseText.substring(0, 100));
+                throw new Error('Réponse invalide de GitHub. Réessayez.');
+            }
+
             const sha = fileData.sha;
 
             if (!sha) {
-                console.error('File data:', fileData);
-                throw new Error('SHA du fichier non trouvé. Réessayez.');
+                console.error('File data received:', JSON.stringify(fileData).substring(0, 200));
+                throw new Error(`SHA non trouvé. Type reçu: ${Array.isArray(fileData) ? 'array' : typeof fileData}. Vérifiez le token.`);
             }
 
             // 2. Update the file - use TextEncoder for proper UTF-8 encoding
