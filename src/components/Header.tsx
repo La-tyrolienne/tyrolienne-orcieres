@@ -30,10 +30,16 @@ export function Header() {
 
     const switchLocale = () => {
         const newLocale = locale === 'fr' ? 'en' : 'fr';
-        // Remove current locale prefix if present, then add new one
-        const pathWithoutLocale = pathname.replace(/^\/(fr|en)/, '') || '/';
-        const newPath = newLocale === 'fr' ? pathWithoutLocale : `/${newLocale}${pathWithoutLocale}`;
-        router.push(newPath);
+        // Remove current locale prefix if present
+        let pathWithoutLocale = pathname.replace(/^\/(fr|en)(\/|$)/, '/');
+        if (pathWithoutLocale === '') pathWithoutLocale = '/';
+
+        // For French (default), don't add prefix. For English, add /en prefix
+        if (newLocale === 'fr') {
+            router.push(pathWithoutLocale);
+        } else {
+            router.push(`/en${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`);
+        }
     };
 
     const navItems = [
