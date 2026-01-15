@@ -31,7 +31,12 @@ export default function AdminPage() {
 
     const loadClosures = async (tk: string, rp: string) => {
         setIsLoading(true);
+        setMessage(null);
         try {
+            if (!tk || !rp) {
+                setMessage({ type: 'error', text: 'Token et dépôt requis. Cliquez sur ⚙️ pour configurer.' });
+                return;
+            }
             const response = await fetch(`https://api.github.com/repos/${rp}/contents/public/data/custom-closures.json`, {
                 headers: {
                     Authorization: `token ${tk}`,
@@ -41,9 +46,17 @@ export default function AdminPage() {
             if (response.ok) {
                 const data = await response.json();
                 setClosures(data);
+                setMessage({ type: 'success', text: 'Calendrier chargé avec succès.' });
+            } else if (response.status === 401) {
+                setMessage({ type: 'error', text: 'Token invalide. Vérifiez votre token GitHub.' });
+            } else if (response.status === 404) {
+                setMessage({ type: 'error', text: 'Dépôt non trouvé. Vérifiez: ' + rp });
+            } else {
+                setMessage({ type: 'error', text: `Erreur ${response.status}: ${response.statusText}` });
             }
-        } catch (error) {
+        } catch (error: any) {
             console.error('Failed to load closures', error);
+            setMessage({ type: 'error', text: 'Erreur réseau. Vérifiez votre connexion et la configuration.' });
         } finally {
             setIsLoading(false);
         }
