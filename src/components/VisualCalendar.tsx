@@ -6,12 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight, Calendar } from 'lucide-react';
 import { isInSeason, getOpeningHours, isClosedDate } from '@/config/closures';
-
-const DAYS = ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim'];
-const MONTHS = [
-    'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin',
-    'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
-];
+import { useTranslations } from 'next-intl';
 
 interface VisualCalendarProps {
     className?: string;
@@ -20,6 +15,10 @@ interface VisualCalendarProps {
 }
 
 export function VisualCalendar({ className, customClosures: propCustomClosures, onDateClick }: VisualCalendarProps) {
+    const t = useTranslations('calendar');
+    const DAYS = t.raw('days') as string[];
+    const MONTHS = t.raw('months') as string[];
+
     const today = new Date();
     const [currentMonth, setCurrentMonth] = useState(today.getMonth());
     const [currentYear, setCurrentYear] = useState(today.getFullYear());
@@ -105,22 +104,22 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
                 case 'open':
                     bgColor = 'bg-green-500/20 hover:bg-green-500/30';
                     textColor = 'text-green-700 dark:text-green-400';
-                    title = `Ouvert ${hours}`;
+                    title = `${t('open')} ${hours}`;
                     break;
                 case 'closed':
                     bgColor = 'bg-muted/50';
                     textColor = 'text-muted-foreground';
-                    title = 'Fermeture saisonnière';
+                    title = t('seasonalClosure');
                     break;
                 case 'exception':
                     bgColor = 'bg-red-500/20 hover:bg-red-500/30';
                     textColor = 'text-red-700 dark:text-red-400';
-                    title = 'Fermé exceptionnellement';
+                    title = t('exceptionalClosure');
                     break;
                 case 'today':
                     bgColor = 'bg-primary hover:bg-primary/90';
                     textColor = 'text-primary-foreground';
-                    title = `Aujourd'hui - ${hours || 'Fermé'}`;
+                    title = `${t('today')} - ${hours || t('closed')}`;
                     break;
             }
 
@@ -150,7 +149,7 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
                 <div className="flex items-center justify-between mb-4 sm:mb-6">
                     <div className="flex items-center gap-2">
                         <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
-                        <h3 className="text-base sm:text-lg font-bold">Calendrier</h3>
+                        <h3 className="text-base sm:text-lg font-bold">{t('calendarTitle')}</h3>
                     </div>
                 </div>
 
@@ -172,9 +171,9 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
                     season === 'summer' ? 'bg-orange-500/10 text-orange-600' :
                         'bg-muted text-muted-foreground'
                     }`}>
-                    {season === 'winter' ? '❄️ Saison Hiver' :
-                        season === 'summer' ? '☀️ Saison Été' :
-                            '⛔ Fermeture Annuelle'}
+                    {season === 'winter' ? t('winterSeasonLabel') :
+                        season === 'summer' ? t('summerSeasonLabel') :
+                            t('annualClosure')}
                 </div>
 
                 {/* Days Header */}
@@ -193,34 +192,34 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
 
                 {/* Legend */}
                 <div className="mt-6 pt-4 border-t border-border">
-                    <p className="text-xs font-bold text-muted-foreground mb-3">Légende</p>
+                    <p className="text-xs font-bold text-muted-foreground mb-3">{t('legend')}</p>
                     <div className="grid grid-cols-2 gap-2 text-xs">
                         <div className="flex items-center gap-2">
                             <div className="w-4 h-4 rounded bg-green-500/20" />
-                            <span>Ouvert</span>
+                            <span>{t('open')}</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <div className="w-4 h-4 rounded bg-red-500/20" />
-                            <span>Fermé</span>
+                            <span>{t('closed')}</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <div className="w-4 h-4 rounded bg-muted/50" />
-                            <span>Hors saison</span>
+                            <span>{t('offSeason')}</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <div className="w-4 h-4 rounded bg-primary" />
-                            <span>Aujourd'hui</span>
+                            <span>{t('today')}</span>
                         </div>
                     </div>
                 </div>
 
                 {/* Opening Hours */}
                 <div className="mt-4 p-3 bg-muted/30 rounded-lg text-xs">
-                    <p className="font-bold mb-2">Dates & Horaires</p>
-                    <p className="mb-1">❄️ <strong>Hiver 2025-26</strong></p>
-                    <p className="text-muted-foreground mb-2">13 déc → 12 avr • 9h30-14h30 (piétons) / 15h30 (skieurs)</p>
-                    <p className="mb-1">☀️ <strong>Été 2026</strong></p>
-                    <p className="text-muted-foreground">Juillet-Août • 9h30-16h00</p>
+                    <p className="font-bold mb-2">{t('datesAndHours')}</p>
+                    <p className="mb-1">❄️ <strong>{t('winter2025')}</strong></p>
+                    <p className="text-muted-foreground mb-2">{t('winter2025Hours')}</p>
+                    <p className="mb-1">☀️ <strong>{t('summer2026')}</strong></p>
+                    <p className="text-muted-foreground">{t('summer2026Hours')}</p>
                 </div>
             </CardContent>
         </Card>
