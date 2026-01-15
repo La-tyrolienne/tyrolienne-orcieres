@@ -29,7 +29,7 @@ export function Footer() {
             <div className="bg-primary py-12">
                 <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
                     <h3 className="text-2xl md:text-3xl font-black uppercase italic tracking-tighter">
-                        Prêt pour le grand saut ?
+                        {t('ctaTitle')}
                     </h3>
                     <Button
                         asChild
@@ -108,7 +108,7 @@ export function Footer() {
 
                     {/* Legal */}
                     <div>
-                        <h4 className="font-black uppercase italic tracking-widest text-xs mb-8 text-primary">Légal</h4>
+                        <h4 className="font-black uppercase italic tracking-widest text-xs mb-8 text-primary">{t('legal_title')}</h4>
                         <ul className="space-y-4 text-sm text-zinc-400 font-bold">
                             <li>
                                 <Link href="/mentions-legales" className="hover:text-white transition-colors uppercase tracking-wider">

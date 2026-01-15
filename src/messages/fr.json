@@ -12,6 +12,7 @@
         "book": "Acheter"
     },
     "hero": {
+        "titleLine1": "La tyrolienne",
         "title": "Roll Air Cable",
         "subtitle": "Une expérience inoubliable à partager en famille",
         "description": "Sensations maîtrisées, sécurité maximale, panorama exceptionnel",
@@ -28,6 +29,9 @@
         "calendar_check": "Vérifier le calendrier d'ouverture"
     },
     "audiences": {
+        "sectionTitle": "Pour qui ?",
+        "sectionSubtitle": "Expérience familiale",
+        "videoFallback": "Votre navigateur ne supporte pas la vidéo.",
         "title": "Une aventure pour tous",
         "families": {
             "title": "Familles",
@@ -101,6 +105,8 @@
         }
     },
     "footer": {
+        "ctaTitle": "Prêt pour le grand saut ?",
+        "legal_title": "Légal",
         "description": "L'une des plus grandes tyroliennes d'Europe - Une expérience unique à partager en famille.",
         "station": "Station d'Orcières Merlette 1850",
         "address": "Station d'Orcières Merlette 1850",

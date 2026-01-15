@@ -100,7 +100,7 @@ export function HeroSection() {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="font-[family-name:var(--font-bebas)] text-4xl sm:text-5xl md:text-7xl lg:text-9xl text-white mb-8 md:mb-12 uppercase drop-shadow-2xl leading-[1.1] md:leading-[0.9] tracking-tight md:tracking-wide"
                 >
-                    La tyrolienne <br />
+                    {t('titleLine1')} <br />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-primary to-accent">Roll'Air Câble</span>
                 </motion.h1>
 

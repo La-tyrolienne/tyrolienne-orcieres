@@ -36,8 +36,8 @@ export function AudienceSection() {
                             viewport={{ once: true }}
                             className="text-3xl sm:text-4xl md:text-7xl font-black uppercase italic tracking-tighter mb-8 md:mb-16 text-zinc-900 leading-[1.1] md:leading-[0.9]"
                         >
-                            Pour qui ? <br />
-                            <span className="text-primary text-xl sm:text-2xl md:text-5xl">Expérience familiale</span>
+                            {t('sectionTitle')} <br />
+                            <span className="text-primary text-xl sm:text-2xl md:text-5xl">{t('sectionSubtitle')}</span>
                         </motion.h2>
 
                         <div className="space-y-6">
@@ -85,7 +85,7 @@ export function AudienceSection() {
                         >
                             {/* Add your video source here */}
                             <source src="/videos/tyrolienne.mp4" type="video/mp4" />
-                            Votre navigateur ne supporte pas la vidéo.
+                            {t('videoFallback')}
                         </video>
                         {/* Play overlay icon */}
                         <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 hover:opacity-100 transition-opacity">

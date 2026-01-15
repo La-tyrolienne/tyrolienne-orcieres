@@ -12,6 +12,7 @@
         "book": "Buy"
     },
     "hero": {
+        "titleLine1": "The zipline",
         "title": "Roll Air Cable",
         "subtitle": "An unforgettable family experience",
         "description": "Controlled sensations, maximum security, exceptional panorama",
@@ -28,13 +29,16 @@
         "calendar_check": "Check opening calendar"
     },
     "audiences": {
+        "sectionTitle": "For whom?",
+        "sectionSubtitle": "Family experience",
+        "videoFallback": "Your browser does not support video.",
         "title": "An adventure for everyone",
         "families": {
             "title": "Families",
             "description": "Kid-friendly activity, permanent supervision"
         },
         "adults": {
-            "title": "Adultes",
+            "title": "Adults",
             "description": "Smooth and enjoyable sensation"
         },
         "groups": {
@@ -101,6 +105,8 @@
         }
     },
     "footer": {
+        "ctaTitle": "Ready for the big jump?",
+        "legal_title": "Legal",
         "description": "One of Europe's largest ziplines - A unique family experience.",
         "station": "Orcières Merlette 1850 Station",
         "address": "Orcières Merlette 1850 Station",
