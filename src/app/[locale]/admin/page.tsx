@@ -79,7 +79,16 @@ export default function AdminPage() {
                 headers: { Authorization: `token ${token}` },
             });
 
-            if (!getRes.ok) throw new Error('Impossible de récupérer le fichier sur GitHub');
+            if (!getRes.ok) {
+                const errorData = await getRes.json().catch(() => ({}));
+                if (getRes.status === 401) {
+                    throw new Error('Token invalide ou expiré. Vérifiez votre token GitHub.');
+                } else if (getRes.status === 404) {
+                    throw new Error('Dépôt ou fichier non trouvé. Vérifiez le nom du dépôt.');
+                } else {
+                    throw new Error(`Erreur GitHub: ${errorData.message || getRes.statusText}`);
+                }
+            }
             const fileData = await getRes.json();
             const sha = fileData.sha;
 
@@ -100,7 +109,8 @@ export default function AdminPage() {
             if (putRes.ok) {
                 setMessage({ type: 'success', text: 'Calendrier mis à jour ! Le site va être redéployé d\'ici quelques minutes.' });
             } else {
-                throw new Error('Erreur lors de la mise à jour sur GitHub');
+                const errorData = await putRes.json().catch(() => ({}));
+                throw new Error(`Erreur de mise à jour: ${errorData.message || putRes.statusText}`);
             }
         } catch (error: any) {
             setMessage({ type: 'error', text: error.message });
