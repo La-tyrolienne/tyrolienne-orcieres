@@ -87,11 +87,13 @@ export default function AdminPage() {
         setMessage(null);
 
         try {
-            // 1. Get current file data (to get the SHA)
-            const getRes = await fetch(`https://api.github.com/repos/${repo}/contents/public/data/custom-closures.json`, {
+            // 1. Get current file data (to get the SHA) - add cache buster
+            const timestamp = Date.now();
+            const getRes = await fetch(`https://api.github.com/repos/${repo}/contents/public/data/custom-closures.json?t=${timestamp}`, {
                 headers: {
                     Authorization: `token ${token}`,
-                    Accept: 'application/vnd.github.v3+json'
+                    Accept: 'application/vnd.github.v3+json',
+                    'Cache-Control': 'no-cache'
                 },
             });
 
