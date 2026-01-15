@@ -89,7 +89,10 @@ export default function AdminPage() {
         try {
             // 1. Get current file data (to get the SHA)
             const getRes = await fetch(`https://api.github.com/repos/${repo}/contents/public/data/custom-closures.json`, {
-                headers: { Authorization: `token ${token}` },
+                headers: {
+                    Authorization: `token ${token}`,
+                    Accept: 'application/vnd.github.v3+json'
+                },
             });
 
             if (!getRes.ok) {
@@ -104,6 +107,11 @@ export default function AdminPage() {
             }
             const fileData = await getRes.json();
             const sha = fileData.sha;
+
+            if (!sha) {
+                console.error('File data:', fileData);
+                throw new Error('SHA du fichier non trouvé. Réessayez.');
+            }
 
             // 2. Update the file - use TextEncoder for proper UTF-8 encoding
             const jsonContent = JSON.stringify(closures, null, 2);
