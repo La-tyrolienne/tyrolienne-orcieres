@@ -4,7 +4,8 @@ import { locales, defaultLocale } from './i18n';
 export default createMiddleware({
     locales,
     defaultLocale,
-    localePrefix: 'as-needed'
+    localePrefix: 'as-needed',
+    localeDetection: false  // Disable auto-detection, always start in French
 });
 
 export const config = {
@@ -12,5 +13,5 @@ export const config = {
     // - API routes
     // - Static files (/_next, /images, etc.)
     // - Files with extensions (.ico, .png, etc.)
-    matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+    matcher: ['/((?!api|_next|_vercel|.*\\..*).*)', '/']
 };
