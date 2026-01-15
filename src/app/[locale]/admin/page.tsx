@@ -110,7 +110,7 @@ export default function AdminPage() {
     };
 
     return (
-        <div className="min-h-screen bg-zinc-50 py-12 px-4">
+        <div className="min-h-screen bg-zinc-50 pt-28 pb-12 px-4">
             <div className="container mx-auto max-w-2xl">
                 <div className="flex items-center justify-between mb-8">
                     <h1 className="text-3xl font-black uppercase italic tracking-tighter">Admin Calendrier</h1>
