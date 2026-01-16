@@ -5,17 +5,20 @@ import { VisualCalendar } from '@/components/VisualCalendar';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Settings, Save, Lock, Github, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
+import { Settings, Save, Lock, Github, CheckCircle2, AlertCircle, Loader2, X, Check } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Closure, ClosureReason, closureReasons, formatDateFr, getClosureIcons } from '@/types/closures';
 
 export default function AdminPage() {
     const [token, setToken] = useState('');
     const [repo, setRepo] = useState(''); // format: owner/repo
-    const [closures, setClosures] = useState<string[]>([]);
+    const [closures, setClosures] = useState<Closure[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [isSaving, setIsSaving] = useState(false);
     const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null);
     const [showSettings, setShowSettings] = useState(false);
+    const [selectedDate, setSelectedDate] = useState<string | null>(null);
+    const [selectedReasons, setSelectedReasons] = useState<ClosureReason[]>([]);
 
     // Initialize from localStorage
     useEffect(() => {
@@ -45,7 +48,23 @@ export default function AdminPage() {
             });
             if (response.ok) {
                 const data = await response.json();
-                setClosures(data);
+                // Support both old formats and new format
+                if (Array.isArray(data)) {
+                    const normalized: Closure[] = data.map((item: any) => {
+                        if (typeof item === 'string') {
+                            // Very old format: just date string
+                            return { date: item, reasons: ['other'] as ClosureReason[] };
+                        } else if (item.reason) {
+                            // Old format: single reason
+                            return { date: item.date, reasons: [item.reason] as ClosureReason[] };
+                        } else if (item.reasons) {
+                            // New format: array of reasons
+                            return item as Closure;
+                        }
+                        return { date: item.date || item, reasons: ['other'] as ClosureReason[] };
+                    });
+                    setClosures(normalized);
+                }
                 setMessage({ type: 'success', text: 'Calendrier chargé avec succès.' });
             } else if (response.status === 401) {
                 setMessage({ type: 'error', text: 'Token invalide. Vérifiez votre token GitHub.' });
@@ -69,12 +88,32 @@ export default function AdminPage() {
         loadClosures(token, repo);
     };
 
-    const handleDateToggle = (dateStr: string) => {
-        setClosures(prev =>
-            prev.includes(dateStr)
-                ? prev.filter(d => d !== dateStr)
-                : [...prev, dateStr]
+    const handleDateClick = (dateStr: string) => {
+        const existingClosure = closures.find(c => c.date === dateStr);
+        if (existingClosure) {
+            // Remove closure
+            setClosures(prev => prev.filter(c => c.date !== dateStr));
+        } else {
+            // Show reason selector
+            setSelectedDate(dateStr);
+            setSelectedReasons([]);
+        }
+    };
+
+    const toggleReason = (reason: ClosureReason) => {
+        setSelectedReasons(prev =>
+            prev.includes(reason)
+                ? prev.filter(r => r !== reason)
+                : [...prev, reason]
         );
+    };
+
+    const handleConfirmReasons = () => {
+        if (selectedDate && selectedReasons.length > 0) {
+            setClosures(prev => [...prev, { date: selectedDate, reasons: selectedReasons }]);
+            setSelectedDate(null);
+            setSelectedReasons([]);
+        }
     };
 
     const handlePublish = async () => {
@@ -200,6 +239,50 @@ export default function AdminPage() {
                     </Card>
                 )}
 
+                {/* Reason Selector Modal */}
+                {selectedDate && (
+                    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
+                        <Card className="w-full max-w-sm shadow-2xl">
+                            <CardHeader className="pb-2">
+                                <div className="flex items-center justify-between">
+                                    <CardTitle className="text-lg font-bold">Raisons de fermeture</CardTitle>
+                                    <Button variant="ghost" size="icon" onClick={() => setSelectedDate(null)}>
+                                        <X className="w-4 h-4" />
+                                    </Button>
+                                </div>
+                                <CardDescription>
+                                    Fermeture du {formatDateFr(selectedDate)}
+                                </CardDescription>
+                            </CardHeader>
+                            <CardContent className="space-y-2">
+                                <p className="text-sm text-muted-foreground mb-3">Sélectionnez une ou plusieurs raisons :</p>
+                                {(Object.entries(closureReasons) as [ClosureReason, typeof closureReasons[ClosureReason]][]).map(([key, value]) => {
+                                    const isSelected = selectedReasons.includes(key);
+                                    return (
+                                        <Button
+                                            key={key}
+                                            variant={isSelected ? "default" : "outline"}
+                                            className={`w-full justify-start gap-4 h-14 text-lg ${isSelected ? 'bg-primary text-primary-foreground' : ''}`}
+                                            onClick={() => toggleReason(key)}
+                                        >
+                                            <span className="text-3xl">{value.icon}</span>
+                                            <span className="font-semibold flex-1 text-left">{value.labelFr}</span>
+                                            {isSelected && <Check className="w-5 h-5" />}
+                                        </Button>
+                                    );
+                                })}
+                                <Button
+                                    className="w-full h-12 mt-4 font-bold"
+                                    onClick={handleConfirmReasons}
+                                    disabled={selectedReasons.length === 0}
+                                >
+                                    Confirmer ({selectedReasons.length} raison{selectedReasons.length > 1 ? 's' : ''})
+                                </Button>
+                            </CardContent>
+                        </Card>
+                    </div>
+                )}
+
                 {!token || !repo ? (
                     <Alert className="mb-8 border-orange-200 bg-orange-50 text-orange-800">
                         <AlertCircle className="h-4 w-4 text-orange-600" />
@@ -227,13 +310,31 @@ export default function AdminPage() {
                                 <VisualCalendar
                                     className="border-none shadow-none"
                                     customClosures={closures}
-                                    onDateClick={handleDateToggle}
+                                    onDateClick={handleDateClick}
                                 />
                             </CardContent>
                             <div className="p-4 bg-zinc-50 border-t flex flex-col gap-3">
                                 <div className="text-sm text-zinc-500 font-medium">
                                     <strong>{closures.length}</strong> jours marqués comme fermés exceptionnellement.
                                 </div>
+                                {closures.length > 0 && (
+                                    <div className="flex flex-wrap gap-2">
+                                        {closures.slice(0, 5).map(c => {
+                                            // Parse date manually to avoid timezone issues
+                                            const [year, month, day] = c.date.split('-').map(Number);
+                                            const months = ['janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
+                                            const dateDisplay = `${day} ${months[month - 1]}`;
+                                            return (
+                                                <span key={c.date} className="inline-flex items-center gap-1 text-xs bg-red-100 text-red-700 px-2 py-1 rounded-full">
+                                                    <span className="text-base">{getClosureIcons(c.reasons)}</span> {dateDisplay}
+                                                </span>
+                                            );
+                                        })}
+                                        {closures.length > 5 && (
+                                            <span className="text-xs text-zinc-400">+{closures.length - 5} autres</span>
+                                        )}
+                                    </div>
+                                )}
                                 <Button
                                     className="w-full h-12 text-lg font-black uppercase italic tracking-tighter"
                                     onClick={handlePublish}
@@ -251,8 +352,8 @@ export default function AdminPage() {
                         <div className="p-6 bg-zinc-100 rounded-2xl">
                             <h3 className="text-sm font-black uppercase italic mb-2 tracking-tight">Instructions Mobile</h3>
                             <ul className="text-xs text-zinc-500 space-y-2 list-disc pl-4">
-                                <li>Touchez un jour pour basculer entre <strong>Ouvert</strong> (Vert) et <strong>Fermé</strong> (Rouge).</li>
-                                <li>Le marquage rouge indique une fermeture exceptionnelle (météo, technique).</li>
+                                <li>Touchez un jour <strong>vert</strong> pour le marquer comme fermé et choisir les raisons.</li>
+                                <li>Touchez un jour <strong>rouge</strong> pour le remettre ouvert.</li>
                                 <li>Une fois fini, cliquez sur <strong>Publier</strong> pour mettre le site à jour.</li>
                             </ul>
                         </div>

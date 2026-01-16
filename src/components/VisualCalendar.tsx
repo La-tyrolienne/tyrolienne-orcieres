@@ -7,10 +7,11 @@ import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight, Calendar } from 'lucide-react';
 import { isInSeason, getOpeningHours, isClosedDate } from '@/config/closures';
 import { useTranslations } from 'next-intl';
+import { Closure, ClosureReason, closureReasons, getClosureIcons } from '@/types/closures';
 
 interface VisualCalendarProps {
     className?: string;
-    customClosures?: string[];
+    customClosures?: Closure[] | string[] | any[];
     onDateClick?: (date: string) => void;
 }
 
@@ -22,18 +23,39 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
     const today = new Date();
     const [currentMonth, setCurrentMonth] = useState(today.getMonth());
     const [currentYear, setCurrentYear] = useState(today.getFullYear());
-    const [fetchedClosures, setFetchedClosures] = useState<string[]>([]);
+    const [fetchedClosures, setFetchedClosures] = useState<Closure[]>([]);
+    const [hoveredDate, setHoveredDate] = useState<string | null>(null);
 
     useEffect(() => {
         if (!propCustomClosures) {
             fetch('/data/custom-closures.json')
                 .then(res => res.json())
-                .then(data => setFetchedClosures(data))
+                .then(data => {
+                    setFetchedClosures(normalizeClosures(data));
+                })
                 .catch(() => { });
         }
     }, [propCustomClosures]);
 
-    const activeCustomClosures = propCustomClosures || fetchedClosures;
+    // Normalize closures to new format (with reasons array)
+    const normalizeClosures = (closures: any[] | undefined): Closure[] => {
+        if (!closures || !Array.isArray(closures)) return [];
+        return closures.map((item: any) => {
+            if (typeof item === 'string') {
+                // Very old format: just date string
+                return { date: item, reasons: ['other'] as ClosureReason[] };
+            } else if (item.reason && !item.reasons) {
+                // Old format: single reason
+                return { date: item.date, reasons: [item.reason] as ClosureReason[] };
+            } else if (item.reasons) {
+                // New format: array of reasons
+                return item as Closure;
+            }
+            return { date: item.date || item, reasons: ['other'] as ClosureReason[] };
+        });
+    };
+
+    const activeCustomClosures = propCustomClosures ? normalizeClosures(propCustomClosures) : fetchedClosures;
 
     const getDaysInMonth = (month: number, year: number) => {
         return new Date(year, month + 1, 0).getDate();
@@ -63,13 +85,25 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
         }
     };
 
+    const getClosureInfo = (dateStr: string): Closure | undefined => {
+        return activeCustomClosures.find(c => c.date === dateStr);
+    };
+
+    // Format date to YYYY-MM-DD without timezone conversion
+    const formatDateStr = (year: number, month: number, day: number): string => {
+        const m = String(month + 1).padStart(2, '0');
+        const d = String(day).padStart(2, '0');
+        return `${year}-${m}-${d}`;
+    };
+
     const getDayStatus = (day: number): 'open' | 'closed' | 'exception' | 'today' => {
         const date = new Date(currentYear, currentMonth, day);
-        const dateStr = date.toISOString().split('T')[0];
+        const dateStr = formatDateStr(currentYear, currentMonth, day);
         const isToday = date.toDateString() === today.toDateString();
 
         // Check if it's in the static config OR in the custom closures
-        if (isClosedDate(date) || activeCustomClosures.includes(dateStr)) return 'exception';
+        const closure = getClosureInfo(dateStr);
+        if (isClosedDate(date) || closure) return 'exception';
 
         // Check if it's in season
         const season = isInSeason(date);
@@ -93,8 +127,9 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
         for (let day = 1; day <= daysInMonth; day++) {
             const status = getDayStatus(day);
             const date = new Date(currentYear, currentMonth, day);
-            const dateStr = date.toISOString().split('T')[0];
+            const dateStr = formatDateStr(currentYear, currentMonth, day);
             const hours = getOpeningHours(date);
+            const closure = getClosureInfo(dateStr);
 
             let bgColor = '';
             let textColor = 'text-foreground';
@@ -114,7 +149,12 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
                 case 'exception':
                     bgColor = 'bg-red-500/20 hover:bg-red-500/30';
                     textColor = 'text-red-700 dark:text-red-400';
-                    title = t('exceptionalClosure');
+                    if (closure) {
+                        const reasonLabels = closure.reasons.map(r => closureReasons[r].labelFr).join(', ');
+                        title = `${t('exceptionalClosure')} - ${reasonLabels}`;
+                    } else {
+                        title = t('exceptionalClosure');
+                    }
                     break;
                 case 'today':
                     bgColor = 'bg-primary hover:bg-primary/90';
@@ -123,16 +163,34 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
                     break;
             }
 
+            const isHovered = hoveredDate === dateStr;
+
             days.push(
                 <motion.div
                     key={day}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                     onClick={() => onDateClick?.(dateStr)}
-                    className={`h-8 w-8 sm:h-10 sm:w-10 rounded-lg flex items-center justify-center text-xs sm:text-sm font-bold transition-all ${bgColor} ${textColor} ${onDateClick ? 'cursor-pointer' : 'cursor-default'}`}
+                    onMouseEnter={() => setHoveredDate(dateStr)}
+                    onMouseLeave={() => setHoveredDate(null)}
+                    className={`h-8 w-8 sm:h-10 sm:w-10 rounded-lg flex items-center justify-center text-xs sm:text-sm font-bold transition-all relative ${bgColor} ${textColor} ${onDateClick ? 'cursor-pointer' : 'cursor-default'}`}
                     title={title}
                 >
+                    {/* Show icons for exceptional closures */}
+                    {status === 'exception' && closure && (
+                        <span className="absolute -top-2 -right-2 text-sm drop-shadow-md">
+                            {getClosureIcons(closure.reasons)}
+                        </span>
+                    )}
                     {day}
+
+                    {/* Tooltip on hover for exceptional closures */}
+                    {isHovered && status === 'exception' && closure && !onDateClick && (
+                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-zinc-900 text-white text-[10px] rounded whitespace-nowrap z-10 shadow-lg">
+                            {getClosureIcons(closure.reasons)} {closure.reasons.map(r => closureReasons[r].labelFr).join(', ')}
+                            <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-zinc-900" />
+                        </div>
+                    )}
                 </motion.div>
             );
         }
@@ -211,6 +269,20 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
                             <span>{t('today')}</span>
                         </div>
                     </div>
+
+                    {/* Closure reasons legend */}
+                    {activeCustomClosures.length > 0 && (
+                        <div className="mt-4 pt-3 border-t border-border/50">
+                            <p className="text-xs font-bold text-muted-foreground mb-2">Fermetures exceptionnelles :</p>
+                            <div className="flex flex-wrap gap-2">
+                                {Object.entries(closureReasons).map(([key, value]) => (
+                                    <span key={key} className="inline-flex items-center gap-1 text-[10px] text-muted-foreground">
+                                        {value.icon} {value.labelFr}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    )}
                 </div>
 
                 {/* Opening Hours */}
