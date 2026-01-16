@@ -246,8 +246,13 @@ export default function AdminPage() {
                             <CardHeader className="pb-2">
                                 <div className="flex items-center justify-between">
                                     <CardTitle className="text-lg font-bold">Raisons de fermeture</CardTitle>
-                                    <Button variant="ghost" size="icon" onClick={() => setSelectedDate(null)}>
-                                        <X className="w-4 h-4" />
+                                    <Button
+                                        variant="ghost"
+                                        size="icon"
+                                        onClick={() => setSelectedDate(null)}
+                                        className="min-h-[44px] min-w-[44px] rounded-full hover:bg-zinc-100"
+                                    >
+                                        <X className="w-5 h-5" />
                                     </Button>
                                 </div>
                                 <CardDescription>

@@ -63,7 +63,7 @@ export function Header() {
     const SeasonToggle = () => (
         <button
             onClick={toggleSeason}
-            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
+            className="flex items-center gap-2 px-3 sm:px-4 py-2.5 sm:py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all min-h-[44px] min-w-[44px] justify-center"
         >
             <AnimatePresence mode="wait">
                 {season === 'winter' ? (
@@ -75,8 +75,8 @@ export function Header() {
                         transition={{ duration: 0.2 }}
                         className="flex items-center gap-2"
                     >
-                        <Snowflake className="h-4 w-4 text-blue-300" />
-                        <span className="text-xs font-bold uppercase tracking-wider text-white">{tTheme('winter')}</span>
+                        <Snowflake className="h-5 w-5 sm:h-4 sm:w-4 text-blue-300" />
+                        <span className="hidden sm:block text-xs font-bold uppercase tracking-wider text-white">{tTheme('winter')}</span>
                     </motion.div>
                 ) : (
                     <motion.div
@@ -87,8 +87,8 @@ export function Header() {
                         transition={{ duration: 0.2 }}
                         className="flex items-center gap-2"
                     >
-                        <Sun className="h-4 w-4 text-orange-300" />
-                        <span className="text-xs font-bold uppercase tracking-wider text-white">{tTheme('summer')}</span>
+                        <Sun className="h-5 w-5 sm:h-4 sm:w-4 text-orange-300" />
+                        <span className="hidden sm:block text-xs font-bold uppercase tracking-wider text-white">{tTheme('summer')}</span>
                     </motion.div>
                 )}
             </AnimatePresence>
@@ -98,10 +98,10 @@ export function Header() {
     const LocaleToggle = () => (
         <button
             onClick={switchLocale}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all text-white"
+            className="flex items-center gap-1.5 px-3 py-2.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all text-white min-h-[44px] min-w-[44px] justify-center"
         >
-            <Globe className="h-4 w-4" />
-            <span className="uppercase text-xs font-bold">{locale}</span>
+            <Globe className="h-5 w-5 sm:h-4 sm:w-4" />
+            <span className="uppercase text-sm sm:text-xs font-bold">{locale}</span>
         </button>
     );
 
@@ -156,11 +156,12 @@ export function Header() {
                     </div>
 
                     {/* Mobile: Menu Button */}
-                    <div className="lg:hidden flex items-center gap-3">
+                    <div className="lg:hidden flex items-center gap-2">
                         <SeasonToggle />
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
-                            className="p-2.5 rounded-xl text-white"
+                            className="p-3 rounded-xl text-white min-h-[44px] min-w-[44px] flex items-center justify-center bg-white/10 hover:bg-white/20 transition-all"
+                            aria-label="Menu"
                         >
                             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
                         </button>

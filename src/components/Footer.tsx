@@ -54,14 +54,14 @@ export function Footer() {
                         <p className="text-sm text-zinc-400 font-medium leading-relaxed">
                             {t('description')}
                         </p>
-                        <div className="flex gap-4">
+                        <div className="flex gap-3">
                             {socialLinks.map((social) => (
                                 <a
                                     key={social.label}
                                     href={social.href}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="w-10 h-10 rounded-xl bg-zinc-800 flex items-center justify-center hover:bg-primary transition-colors duration-300"
+                                    className="w-11 h-11 rounded-xl bg-zinc-800 flex items-center justify-center hover:bg-primary transition-colors duration-300"
                                     aria-label={social.label}
                                 >
                                     <social.icon className="w-5 h-5" />

@@ -168,12 +168,12 @@ export function VisualCalendar({ className, customClosures: propCustomClosures, 
             days.push(
                 <motion.div
                     key={day}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
                     onClick={() => onDateClick?.(dateStr)}
                     onMouseEnter={() => setHoveredDate(dateStr)}
                     onMouseLeave={() => setHoveredDate(null)}
-                    className={`h-8 w-8 sm:h-10 sm:w-10 rounded-lg flex items-center justify-center text-xs sm:text-sm font-bold transition-all relative ${bgColor} ${textColor} ${onDateClick ? 'cursor-pointer' : 'cursor-default'}`}
+                    className={`h-10 w-10 sm:h-11 sm:w-11 rounded-xl flex items-center justify-center text-sm sm:text-base font-bold transition-all relative ${bgColor} ${textColor} ${onDateClick ? 'cursor-pointer active:scale-95' : 'cursor-default'}`}
                     title={title}
                 >
                     {/* Show icons for exceptional closures */}
