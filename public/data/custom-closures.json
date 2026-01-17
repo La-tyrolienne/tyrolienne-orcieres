@@ -5,5 +5,17 @@
       "snow",
       "fog"
     ]
+  },
+  {
+    "date": "2026-01-17",
+    "reasons": [
+      "wind"
+    ]
+  },
+  {
+    "date": "2026-01-18",
+    "reasons": [
+      "wind"
+    ]
   }
 ]
