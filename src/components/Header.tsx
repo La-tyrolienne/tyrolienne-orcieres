@@ -116,12 +116,12 @@ export function Header() {
                 <nav className="flex items-center justify-between">
                     {/* Left: Logo */}
                     <Link href="/" className="flex items-center gap-3 group">
-                        <div className="relative w-12 h-12">
+                        <div className="relative w-14 h-10">
                             <Image
                                 src="/logo-rollair.png"
                                 alt="Roll'Air Câble"
                                 fill
-                                className="object-contain brightness-0 invert"
+                                className="object-contain mix-blend-lighten"
                             />
                         </div>
                         <span className="hidden sm:block text-white font-black uppercase italic tracking-tight text-lg">
