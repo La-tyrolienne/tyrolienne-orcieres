@@ -115,18 +115,15 @@ export function Header() {
             <div className="container mx-auto px-4">
                 <nav className="flex items-center justify-between">
                     {/* Left: Logo */}
-                    <Link href="/" className="flex items-center gap-3 group">
-                        <div className="relative w-60 h-[72px]">
+                    <Link href="/" className="flex items-center group">
+                        <div className="relative w-44 h-14">
                             <Image
                                 src="/logo-transparent.png"
                                 alt="Roll'Air Câble"
                                 fill
-                                className="object-contain"
+                                className="object-contain object-left"
                             />
                         </div>
-                        <span className="hidden sm:block text-white font-black uppercase italic tracking-tight text-xl">
-                            Roll&apos;Air Câble
-                        </span>
                     </Link>
 
                     {/* Center: Navigation Links */}
