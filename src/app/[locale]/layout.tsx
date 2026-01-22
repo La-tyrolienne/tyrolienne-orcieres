@@ -32,6 +32,9 @@ export async function generateMetadata(): Promise<Metadata> {
         title: metadata.title,
         description: metadata.description,
         keywords: ['tyrolienne', 'zipline', 'Orcières', 'Merlette', 'Roll Air Cable', 'Alpes', 'ski', 'montagne'],
+        verification: {
+            google: '4DmBmCnBfJZAkiD4DrbtuBlfS9rsRb-X6Z4C2RKfkKw',
+        },
         openGraph: {
             title: metadata.title,
             description: metadata.description,
