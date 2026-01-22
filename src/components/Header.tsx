@@ -118,10 +118,10 @@ export function Header() {
                     <Link href="/" className="flex items-center gap-3 group">
                         <div className="relative w-12 h-12">
                             <Image
-                                src="/logo-white.png"
+                                src="/logo-rollair.png"
                                 alt="Roll'Air Câble"
                                 fill
-                                className="object-contain"
+                                className="object-contain brightness-0 invert"
                             />
                         </div>
                         <span className="hidden sm:block text-white font-black uppercase italic tracking-tight text-lg">
