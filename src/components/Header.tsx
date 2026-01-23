@@ -116,7 +116,7 @@ export function Header() {
                 <nav className="flex items-center justify-between">
                     {/* Left: Logo */}
                     <Link href="/" className="flex items-center gap-3 group">
-                        <div className="relative w-14 h-10">
+                        <div className="relative w-[84px] h-[60px]">
                             <Image
                                 src="/logo-transparent.png"
                                 alt="Roll'Air Câble"
