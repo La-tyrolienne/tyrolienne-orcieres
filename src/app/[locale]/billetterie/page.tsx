@@ -154,6 +154,48 @@ export default function BilletteriePage() {
                                         {t('book')}
                                     </a>
                                 </Button>
+
+                                {/* Secure Payment Badges */}
+                                <div className="mt-6 pt-6 border-t border-border/50">
+                                    <div className="flex flex-col items-center gap-4">
+                                        <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                                            <Shield className="w-4 h-4 text-green-500" />
+                                            <span>Paiement 100% sécurisé via <strong className="text-foreground">Weezevent</strong></span>
+                                        </div>
+                                        <div className="flex flex-wrap items-center justify-center gap-3">
+                                            {/* Payment method badges */}
+                                            <div className="flex items-center gap-1 px-3 py-1.5 bg-muted/50 rounded-lg">
+                                                <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor">
+                                                    <path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z" />
+                                                </svg>
+                                                <span className="text-xs font-medium">CB</span>
+                                            </div>
+                                            <div className="flex items-center gap-1 px-3 py-1.5 bg-muted/50 rounded-lg">
+                                                <span className="text-xs font-bold text-blue-600">VISA</span>
+                                            </div>
+                                            <div className="flex items-center gap-1 px-3 py-1.5 bg-muted/50 rounded-lg">
+                                                <span className="text-xs font-bold text-orange-500">Mastercard</span>
+                                            </div>
+                                            <div className="flex items-center gap-1 px-3 py-1.5 bg-muted/50 rounded-lg">
+                                                <span className="text-xs font-medium">PayPal</span>
+                                            </div>
+                                        </div>
+                                        <div className="flex items-center gap-4 text-[10px] text-muted-foreground">
+                                            <span className="flex items-center gap-1">
+                                                <svg viewBox="0 0 24 24" className="w-3 h-3" fill="currentColor">
+                                                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                                                </svg>
+                                                SSL/TLS
+                                            </span>
+                                            <span className="flex items-center gap-1">
+                                                <svg viewBox="0 0 24 24" className="w-3 h-3" fill="currentColor">
+                                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                                                </svg>
+                                                3D Secure
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
                             </CardContent>
                         </Card>
                     </motion.div>
