@@ -9,6 +9,7 @@ import { TicketSection } from '@/components/TicketSection';
 import { FAQSection } from '@/components/FAQSection';
 import { LocalisationSection } from '@/components/LocalisationSection';
 import { FinalCTA } from '@/components/FinalCTA';
+import { TestimonialsSection } from '@/components/TestimonialsSection';
 
 // Schema.org structured data for SEO - TouristAttraction
 const touristAttractionSchema = {
@@ -115,6 +116,7 @@ export default function Home() {
                 <ReassuranceBanner />
                 <AudienceSection />
                 <TicketSection />
+                <TestimonialsSection />
             </main>
         </>
     );
