@@ -10,8 +10,8 @@ import { FAQSection } from '@/components/FAQSection';
 import { LocalisationSection } from '@/components/LocalisationSection';
 import { FinalCTA } from '@/components/FinalCTA';
 
-// Schema.org structured data for SEO
-const jsonLd = {
+// Schema.org structured data for SEO - TouristAttraction
+const touristAttractionSchema = {
     '@context': 'https://schema.org',
     '@type': 'TouristAttraction',
     name: "Roll'Air Câble - Tyrolienne Géante",
@@ -59,12 +59,55 @@ const jsonLd = {
     touristType: ['Familles', 'Aventuriers', 'Groupes'],
 };
 
+// Schema.org Product/Service for rich snippets
+const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: 'Descente en Tyrolienne Géante - Roll\'Air Câble',
+    description: 'Vol en tyrolienne géante de 1.8km à travers les Alpes. Vitesse jusqu\'à 130km/h, altitude 2650m. Activité familiale accessible dès 6-7 ans avec équipement de sécurité fourni.',
+    image: 'https://www.latyrolienne.fr/og-image.jpg',
+    brand: {
+        '@type': 'Brand',
+        name: 'Roll\'Air Câble',
+    },
+    offers: [
+        {
+            '@type': 'Offer',
+            name: 'Billet Hiver',
+            price: '40',
+            priceCurrency: 'EUR',
+            availability: 'https://schema.org/InStock',
+            validFrom: '2025-12-13',
+            validThrough: '2026-04-12',
+            url: 'https://www.latyrolienne.fr/billetterie',
+        },
+        {
+            '@type': 'Offer',
+            name: 'Billet Été',
+            price: '35',
+            priceCurrency: 'EUR',
+            availability: 'https://schema.org/InStock',
+            validFrom: '2026-07-01',
+            validThrough: '2026-08-31',
+            url: 'https://www.latyrolienne.fr/billetterie',
+        },
+    ],
+    // TODO: Ajouter aggregateRating quand les avis Google seront récupérés
+    // aggregateRating: {
+    //     '@type': 'AggregateRating',
+    //     ratingValue: '4.8',
+    //     reviewCount: '150',
+    // },
+};
+
 export default function Home() {
+    const schemas = [touristAttractionSchema, productSchema];
+
     return (
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
             />
             <main>
                 <HeroSection />
