@@ -72,7 +72,7 @@ export function Footer() {
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="font-black uppercase italic tracking-widest text-xs mb-8 text-primary">Navigation</h4>
+                        <h4 className="font-black uppercase italic tracking-widest text-xs mb-8 text-white">Navigation</h4>
                         <ul className="space-y-4">
                             {quickLinks.map((link) => (
                                 <li key={link.href}>
@@ -89,7 +89,7 @@ export function Footer() {
 
                     {/* Contact */}
                     <div>
-                        <h4 className="font-black uppercase italic tracking-widest text-xs mb-8 text-primary">Contact</h4>
+                        <h4 className="font-black uppercase italic tracking-widest text-xs mb-8 text-white">Contact</h4>
                         <ul className="space-y-4">
                             <li className="flex items-start gap-4 text-sm text-zinc-400 font-bold">
                                 <MapPin className="w-5 h-5 shrink-0 text-primary" />
@@ -108,7 +108,7 @@ export function Footer() {
 
                     {/* Legal */}
                     <div>
-                        <h4 className="font-black uppercase italic tracking-widest text-xs mb-8 text-primary">{t('legal_title')}</h4>
+                        <h4 className="font-black uppercase italic tracking-widest text-xs mb-8 text-white">{t('legal_title')}</h4>
                         <ul className="space-y-4 text-sm text-zinc-400 font-bold">
                             <li>
                                 <Link href="/mentions-legales" className="hover:text-white transition-colors uppercase tracking-wider">
@@ -125,7 +125,7 @@ export function Footer() {
                 </div>
 
                 <div className="mt-20 pt-8 border-t border-zinc-800 text-center">
-                    <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-600">
+                    <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-400">
                         © {new Date().getFullYear()} Roll Air Cable - Orcières Merlette. {t('rights')}.
                     </p>
                 </div>
