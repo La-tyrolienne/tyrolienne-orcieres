@@ -116,6 +116,11 @@ export function Footer() {
                                 </Link>
                             </li>
                             <li>
+                                <Link href="/cgv" className="hover:text-white transition-colors uppercase tracking-wider">
+                                    CGV
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href="/confidentialite" className="hover:text-white transition-colors uppercase tracking-wider">
                                     {t('privacy')}
                                 </Link>
