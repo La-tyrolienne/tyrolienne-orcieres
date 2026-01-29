@@ -34,13 +34,29 @@ export async function generateMetadata(): Promise<Metadata> {
     return {
         title: metadata.title,
         description: metadata.description,
-        keywords: ['tyrolienne', 'zipline', 'Orcières', 'Merlette', 'Roll Air Cable', 'Alpes', 'ski', 'montagne'],
+        keywords: [
+            'tyrolienne familiale',
+            'tyrolienne géante Alpes',
+            'activité famille montagne',
+            'zipline enfants',
+            'Orcières Merlette',
+            'Roll Air Cable',
+            'sortie famille Hautes-Alpes',
+            'parc aventure montagne',
+            'tyrolienne sécurisée',
+            'activité outdoor famille'
+        ],
+        alternates: {
+            canonical: 'https://www.latyrolienne.fr',
+        },
         verification: {
             google: '4DmBmCnBfJZAkiD4DrbtuBlfS9rsRb-X6Z4C2RKfkKw',
         },
         openGraph: {
             title: metadata.title,
             description: metadata.description,
+            url: 'https://www.latyrolienne.fr',
+            siteName: "Roll'Air Câble - Tyrolienne Orcières",
             locale: locale === 'fr' ? 'fr_FR' : 'en_US',
             type: 'website',
         },
