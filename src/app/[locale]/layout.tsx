@@ -85,8 +85,66 @@ export default async function RootLayout({
     const locale = await getLocale();
     const messages = await getMessages();
 
+    // Schema.org Organization for Google Knowledge Panel
+    const organizationSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: "Roll'Air Câble",
+        alternateName: 'La Tyrolienne Orcières',
+        url: 'https://www.latyrolienne.fr',
+        logo: 'https://www.latyrolienne.fr/logo-transparent.png',
+        image: 'https://www.latyrolienne.fr/og-image.jpg',
+        description: 'Tyrolienne géante familiale dans les Alpes françaises. 1.8km de vol à 130km/h, accessible dès 6-7 ans.',
+        foundingDate: '2009',
+        founders: [
+            {
+                '@type': 'Person',
+                name: 'Régis Rochet',
+            },
+            {
+                '@type': 'Person',
+                name: 'Denis Reynier',
+            },
+        ],
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Station de ski Orcières Merlette 1850',
+            addressLocality: 'Orcières',
+            postalCode: '05170',
+            addressRegion: 'Hautes-Alpes',
+            addressCountry: 'FR',
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 44.6947,
+            longitude: 6.3264,
+        },
+        contactPoint: {
+            '@type': 'ContactPoint',
+            telephone: '+33-6-84-44-88-10',
+            contactType: 'customer service',
+            availableLanguage: ['French', 'English'],
+        },
+        sameAs: [
+            'https://facebook.com/rollaircable',
+            'https://instagram.com/rollaircable.orcieres',
+            'https://youtube.com/orcieres',
+        ],
+        areaServed: {
+            '@type': 'Place',
+            name: 'Orcières Merlette, Hautes-Alpes, France',
+        },
+        priceRange: '€€',
+    };
+
     return (
         <html lang={locale} suppressHydrationWarning>
+            <head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+                />
+            </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} ${bebasNeue.variable} antialiased min-h-screen`}
             >
