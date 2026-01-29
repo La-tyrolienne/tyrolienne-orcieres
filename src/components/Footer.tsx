@@ -128,6 +128,9 @@ export function Footer() {
                     <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-400">
                         © {new Date().getFullYear()} Roll Air Cable - Orcières Merlette. {t('rights')}.
                     </p>
+                    <p className="text-[9px] uppercase tracking-[0.2em] text-zinc-500 mt-2">
+                        Site créé par Noa Rochet
+                    </p>
                 </div>
             </div>
         </footer>

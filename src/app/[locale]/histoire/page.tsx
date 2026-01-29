@@ -183,6 +183,67 @@ export default function HistoirePage() {
                 </div>
             </section>
 
+            {/* Team Section */}
+            <section className="py-16 md:py-24">
+                <div className="container mx-auto px-4">
+                    <motion.h2
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="font-[family-name:var(--font-bebas)] text-3xl md:text-5xl text-center mb-12 md:mb-16"
+                    >
+                        Notre équipe
+                    </motion.h2>
+
+                    <div className="max-w-4xl mx-auto">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            {[
+                                {
+                                    name: 'Régis Rochet',
+                                    role: 'Co-fondateur & Gérant',
+                                    description: 'Passionné de montagne, Régis accueille les visiteurs au départ et s\'assure que chaque vol commence en toute sécurité.',
+                                },
+                                {
+                                    name: 'Denis Reynier',
+                                    role: 'Co-fondateur & Gérant',
+                                    description: 'Denis réceptionne les visiteurs à l\'arrivée et les oriente pour leur retour.',
+                                },
+                                {
+                                    name: 'Noa Rochet',
+                                    role: 'Communication & Digital',
+                                    description: 'Noa gère la présence en ligne et l\'expérience client de Roll\'Air Câble.',
+                                },
+                            ].map((member, index) => (
+                                <motion.div
+                                    key={member.name}
+                                    initial={{ opacity: 0, y: 30 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: index * 0.1 }}
+                                    className="text-center"
+                                >
+                                    <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
+                                        <Users className="w-10 h-10 text-primary" />
+                                    </div>
+                                    <h3 className="text-xl font-bold mb-1">{member.name}</h3>
+                                    <p className="text-sm text-primary font-medium uppercase tracking-wider mb-3">{member.role}</p>
+                                    <p className="text-muted-foreground text-sm">{member.description}</p>
+                                </motion.div>
+                            ))}
+                        </div>
+
+                        <motion.p
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            viewport={{ once: true }}
+                            className="text-center text-muted-foreground mt-12 text-sm"
+                        >
+                            Une équipe familiale, passionnée et qualifiée, à votre service depuis 2009.
+                        </motion.p>
+                    </div>
+                </div>
+            </section>
+
             {/* Location Section */}
             <section className="py-16 md:py-24">
                 <div className="container mx-auto px-4">
