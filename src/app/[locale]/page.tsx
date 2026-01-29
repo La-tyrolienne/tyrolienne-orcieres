@@ -92,12 +92,13 @@ const productSchema = {
             url: 'https://www.latyrolienne.fr/billetterie',
         },
     ],
-    // TODO: Ajouter aggregateRating quand les avis Google seront récupérés
-    // aggregateRating: {
-    //     '@type': 'AggregateRating',
-    //     ratingValue: '4.8',
-    //     reviewCount: '150',
-    // },
+    aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.4',
+        bestRating: '5',
+        worstRating: '1',
+        reviewCount: '36',
+    },
 };
 
 export default function Home() {
