@@ -64,6 +64,7 @@ export function Header() {
         <button
             onClick={toggleSeason}
             className="flex items-center gap-2 px-3 sm:px-4 py-2.5 sm:py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all min-h-[44px] min-w-[44px] justify-center"
+            aria-label={season === 'winter' ? 'Switch to summer mode' : 'Switch to winter mode'}
         >
             <AnimatePresence mode="wait">
                 {season === 'winter' ? (
@@ -99,6 +100,7 @@ export function Header() {
         <button
             onClick={switchLocale}
             className="flex items-center gap-1.5 px-3 py-2.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all text-white min-h-[44px] min-w-[44px] justify-center"
+            aria-label={locale === 'fr' ? 'Switch to English' : 'Passer en français'}
         >
             <Globe className="h-5 w-5 sm:h-4 sm:w-4" />
             <span className="uppercase text-sm sm:text-xs font-bold">{locale}</span>
@@ -122,6 +124,8 @@ export function Header() {
                                 alt="Roll'Air Câble"
                                 fill
                                 className="object-contain"
+                                sizes="84px"
+                                quality={80}
                             />
                         </div>
                         <span className="hidden sm:block text-white font-black uppercase italic tracking-tight text-lg">

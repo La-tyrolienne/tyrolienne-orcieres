@@ -16,7 +16,7 @@ export function Snowfall() {
     const [snowflakes, setSnowflakes] = useState<Snowflake[]>([]);
 
     useEffect(() => {
-        const flakes: Snowflake[] = Array.from({ length: 50 }, (_, i) => ({
+        const flakes: Snowflake[] = Array.from({ length: 25 }, (_, i) => ({
             id: i,
             x: Math.random() * 100,
             size: Math.random() * 4 + 2,

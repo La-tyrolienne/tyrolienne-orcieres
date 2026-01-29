@@ -7,8 +7,18 @@ import { Button } from '@/components/ui/button';
 import { ChevronDown, Zap, Mountain, Clock, Ruler } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { SkierAnimation } from './SkierAnimation';
-import { Snowfall } from './Snowfall';
+import dynamic from 'next/dynamic';
+
+// Lazy load animations - not critical for initial render
+const SkierAnimation = dynamic(() => import('./SkierAnimation').then(mod => ({ default: mod.SkierAnimation })), {
+    ssr: false,
+    loading: () => null,
+});
+
+const Snowfall = dynamic(() => import('./Snowfall').then(mod => ({ default: mod.Snowfall })), {
+    ssr: false,
+    loading: () => null,
+});
 
 export function HeroSection() {
     const { season } = useTheme();
@@ -48,7 +58,8 @@ export function HeroSection() {
                             fill
                             className="object-cover"
                             priority
-                            quality={100}
+                            quality={85}
+                            sizes="100vw"
                         />
                         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
                     </motion.div>
@@ -65,8 +76,9 @@ export function HeroSection() {
                             alt="Tyrolienne été"
                             fill
                             className="object-cover"
-                            priority
-                            quality={90}
+                            loading="lazy"
+                            quality={75}
+                            sizes="100vw"
                         />
                         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/50" />
                     </motion.div>

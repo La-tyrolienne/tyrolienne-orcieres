@@ -10,17 +10,20 @@ import "../globals.css";
 const geistSans = Geist({
     variable: "--font-geist-sans",
     subsets: ["latin"],
+    display: 'swap',
 });
 
 const geistMono = Geist_Mono({
     variable: "--font-geist-mono",
     subsets: ["latin"],
+    display: 'swap',
 });
 
 const bebasNeue = Bebas_Neue({
     variable: "--font-bebas",
     subsets: ["latin"],
     weight: "400",
+    display: 'swap',
 });
 
 export async function generateMetadata(): Promise<Metadata> {
