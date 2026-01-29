@@ -81,7 +81,7 @@ export function AudienceSection() {
                             loop
                             muted
                             playsInline
-                            poster="/hero-winter-new.jpg"
+                            poster="/hero-winter-new.webp"
                         >
                             {/* Add your video source here */}
                             <source src="/videos/tyrolienne.mp4" type="video/mp4" />
