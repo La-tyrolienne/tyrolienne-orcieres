@@ -29,7 +29,8 @@ export function LocalisationSection() {
                                         <h4 className="font-black uppercase italic tracking-widest text-sm mb-2">Adresse</h4>
                                         <p className="text-zinc-600 font-medium text-lg">
                                             Sommet du Télémix Drouvet II<br />
-                                            05170 Orcières
+                                            Station Orcières Merlette 1850<br />
+                                            05170 Orcières, Hautes-Alpes
                                         </p>
                                     </div>
                                 </div>
