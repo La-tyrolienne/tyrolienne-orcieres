@@ -10,8 +10,6 @@ export default function robots(): MetadataRoute.Robots {
                     '/fr/',
                     '/fr/billetterie',
                     '/fr/informations',
-                    '/fr/faq',
-                    '/fr/avis',
                     '/fr/histoire',
                     '/fr/cgv',
                     '/fr/mentions-legales',

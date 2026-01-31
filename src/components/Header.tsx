@@ -57,8 +57,7 @@ export function Header() {
         { href: '/', label: t('home') },
         { href: '/billetterie', label: t('tickets') },
         { href: '/informations', label: t('info') },
-        { href: '/faq', label: 'FAQ' },
-        { href: '/avis', label: 'Avis' },
+        { href: '/histoire', label: t('histoire') },
     ];
 
     const SeasonToggle = () => (
