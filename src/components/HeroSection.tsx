@@ -53,12 +53,12 @@ export function HeroSection() {
                         className="absolute inset-0"
                     >
                         <Image
-                            src="/hero-winter-new.jpg"
+                            src="/hero-winter-optimized.webp"
                             alt="Tyrolienne hiver"
                             fill
                             className="object-cover"
                             priority
-                            quality={85}
+                            quality={75}
                             sizes="100vw"
                         />
                         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
@@ -72,7 +72,7 @@ export function HeroSection() {
                         className="absolute inset-0"
                     >
                         <Image
-                            src="/hero-summer.png"
+                            src="/hero-summer-optimized.webp"
                             alt="Tyrolienne été"
                             fill
                             className="object-cover"
@@ -106,15 +106,12 @@ export function HeroSection() {
                     </span>
                 </motion.div>
 
-                <motion.h1
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.4 }}
+                <h1
                     className="font-[family-name:var(--font-bebas)] text-4xl sm:text-5xl md:text-7xl lg:text-9xl text-white mb-8 md:mb-12 uppercase drop-shadow-2xl leading-[1.1] md:leading-[0.9] tracking-tight md:tracking-wide"
                 >
                     {t('titleLine1')} <br />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-primary to-accent">Roll'Air Câble</span>
-                </motion.h1>
+                </h1>
 
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
