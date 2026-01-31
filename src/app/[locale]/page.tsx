@@ -102,8 +102,29 @@ const productSchema = {
     },
 };
 
+// Schema.org VideoObject for video indexing
+const videoSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: 'Tyrolienne Roll\'Air Câble - Vol en Hautes-Alpes',
+    description: 'Découvrez la plus grande tyrolienne des Hautes-Alpes. 1870m de vol à 130km/h au-dessus des montagnes d\'Orcières Merlette.',
+    thumbnailUrl: 'https://www.latyrolienne.fr/video-poster.webp',
+    uploadDate: '2024-01-01',
+    duration: 'PT1M30S',
+    contentUrl: 'https://www.latyrolienne.fr/videos/tyrolienne.mp4',
+    embedUrl: 'https://www.latyrolienne.fr',
+    publisher: {
+        '@type': 'Organization',
+        name: 'Roll\'Air Câble',
+        logo: {
+            '@type': 'ImageObject',
+            url: 'https://www.latyrolienne.fr/logo-transparent.png',
+        },
+    },
+};
+
 export default function Home() {
-    const schemas = [touristAttractionSchema, productSchema];
+    const schemas = [touristAttractionSchema, productSchema, videoSchema];
 
     return (
         <>
