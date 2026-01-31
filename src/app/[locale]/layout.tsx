@@ -32,19 +32,20 @@ export async function generateMetadata(): Promise<Metadata> {
     const metadata = messages.metadata as Record<string, string>;
 
     return {
-        title: metadata.title,
+        title: {
+            default: metadata.title,
+            template: '%s | La Tyrolienne d\'Orcières',
+        },
         description: metadata.description,
         keywords: [
-            'tyrolienne familiale',
+            'tyrolienne Orcières',
             'tyrolienne géante Alpes',
-            'activité famille montagne',
-            'zipline enfants',
-            'Orcières Merlette',
-            'Roll Air Cable',
-            'sortie famille Hautes-Alpes',
-            'parc aventure montagne',
-            'tyrolienne sécurisée',
-            'activité outdoor famille'
+            'tyrolienne familiale',
+            'vol tyrolienne 130km/h',
+            'Orcières Merlette 1850',
+            'Roll Air Câble',
+            'tyrolienne Hautes-Alpes',
+            'tyrolienne sécurisée enfants',
         ],
         alternates: {
             canonical: 'https://www.latyrolienne.fr',
@@ -64,7 +65,7 @@ export async function generateMetadata(): Promise<Metadata> {
                     url: 'https://www.latyrolienne.fr/og-image.jpg',
                     width: 1200,
                     height: 630,
-                    alt: 'Tyrolienne géante familiale dans les Alpes - Roll\'Air Câble Orcières',
+                    alt: 'Tyrolienne géante à Orcières - Roll\'Air Câble',
                 },
             ],
         },
@@ -76,6 +77,7 @@ export async function generateMetadata(): Promise<Metadata> {
         },
     };
 }
+
 
 export default async function RootLayout({
     children,
