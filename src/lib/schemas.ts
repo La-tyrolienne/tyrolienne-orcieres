@@ -1,0 +1,203 @@
+// JSON-LD Schema generators for La Tyrolienne
+
+const BASE_URL = 'https://www.latyrolienne.fr';
+
+export interface FAQItem {
+    question: string;
+    answer: string;
+}
+
+// Organization schema (already in layout, exported for reference)
+export function generateOrganizationSchema() {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: "Roll'Air Câble",
+        alternateName: 'La Tyrolienne Orcières',
+        url: BASE_URL,
+        logo: `${BASE_URL}/logo-transparent.png`,
+        image: `${BASE_URL}/og-image.jpg`,
+        description: 'Tyrolienne géante familiale dans les Alpes françaises. 1.8km de vol à 130km/h, accessible dès 6-7 ans.',
+        foundingDate: '2009',
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Station de ski Orcières Merlette 1850',
+            addressLocality: 'Orcières',
+            postalCode: '05170',
+            addressRegion: 'Hautes-Alpes',
+            addressCountry: 'FR',
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 44.6947,
+            longitude: 6.3264,
+        },
+        contactPoint: {
+            '@type': 'ContactPoint',
+            telephone: '+33-6-84-44-88-10',
+            contactType: 'customer service',
+            availableLanguage: ['French', 'English'],
+        },
+        sameAs: [
+            'https://facebook.com/rollaircable',
+            'https://instagram.com/rollaircable.orcieres',
+        ],
+    };
+}
+
+// LocalBusiness schema
+export function generateLocalBusinessSchema() {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        '@id': `${BASE_URL}/#localbusiness`,
+        name: "Roll'Air Câble - Tyrolienne Orcières",
+        image: `${BASE_URL}/og-image.jpg`,
+        telephone: '+33684448810',
+        email: 'info@latyrolienne.fr',
+        url: BASE_URL,
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Station Orcières Merlette 1850',
+            addressLocality: 'Orcières',
+            postalCode: '05170',
+            addressRegion: 'Hautes-Alpes',
+            addressCountry: 'FR',
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 44.6947,
+            longitude: 6.3264,
+        },
+        priceRange: '€€',
+        aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.4',
+            reviewCount: '36',
+            bestRating: '5',
+            worstRating: '1',
+        },
+    };
+}
+
+// Product schema for the zipline activity
+export function generateProductSchema(season: 'winter' | 'summer' = 'summer') {
+    const price = season === 'winter' ? 40 : 35;
+
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: "Tyrolienne Roll'Air Câble",
+        description: 'Vol en tyrolienne géante de 1.8km à 130km/h dans les Alpes. Accessible dès 6-7 ans.',
+        image: `${BASE_URL}/og-image.jpg`,
+        brand: {
+            '@type': 'Brand',
+            name: "Roll'Air Câble",
+        },
+        offers: {
+            '@type': 'Offer',
+            price: price.toString(),
+            priceCurrency: 'EUR',
+            availability: 'https://schema.org/InStock',
+            url: `${BASE_URL}/fr/billetterie`,
+            validFrom: '2025-01-01',
+            seller: {
+                '@type': 'Organization',
+                name: "Roll'Air Câble",
+            },
+        },
+        aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.4',
+            reviewCount: '36',
+            bestRating: '5',
+            worstRating: '1',
+        },
+    };
+}
+
+// FAQPage schema
+export function generateFAQSchema(items: FAQItem[]) {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: items.map((item) => ({
+            '@type': 'Question',
+            name: item.question,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: item.answer,
+            },
+        })),
+    };
+}
+
+// TouristAttraction schema
+export function generateTouristAttractionSchema() {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'TouristAttraction',
+        name: "Roll'Air Câble - Tyrolienne Orcières",
+        description: 'La plus grande tyrolienne des Alpes françaises. 1870m de vol à 130km/h.',
+        image: `${BASE_URL}/og-image.jpg`,
+        url: BASE_URL,
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Station Orcières Merlette 1850',
+            addressLocality: 'Orcières',
+            postalCode: '05170',
+            addressCountry: 'FR',
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 44.6947,
+            longitude: 6.3264,
+        },
+        isAccessibleForFree: false,
+        publicAccess: true,
+    };
+}
+
+// BreadcrumbList schema (generated by Breadcrumbs component)
+export function generateBreadcrumbSchema(items: { label: string; href: string }[]) {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: items.map((item, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: item.label,
+            item: `${BASE_URL}${item.href}`,
+        })),
+    };
+}
+
+// Review schema for individual reviews
+export function generateReviewSchema(reviews: { author: string; rating: number; text: string; date: string }[]) {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: "Tyrolienne Roll'Air Câble",
+        aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.4',
+            reviewCount: reviews.length.toString(),
+            bestRating: '5',
+            worstRating: '1',
+        },
+        review: reviews.map((r) => ({
+            '@type': 'Review',
+            reviewRating: {
+                '@type': 'Rating',
+                ratingValue: r.rating.toString(),
+                bestRating: '5',
+            },
+            author: {
+                '@type': 'Person',
+                name: r.author,
+            },
+            datePublished: r.date,
+            reviewBody: r.text,
+        })),
+    };
+}
