@@ -3,9 +3,9 @@ import type { Metadata } from 'next';
 
 // SSR Metadata for SEO
 export const metadata: Metadata = {
-    title: 'Informations Pratiques - Tyrolienne Orcières | Accès, Équipement, Conditions',
-    description: 'Toutes les informations pratiques pour la tyrolienne d\'Orcières. Accès, conditions, équipement fourni, déroulement du vol. Âge minimum 6-7 ans.',
-    keywords: ['informations tyrolienne', 'accès tyrolienne Orcières', 'équipement tyrolienne', 'conditions tyrolienne'],
+    title: 'Infos Pratiques Tyrolienne Orcières | Accès, Âge, Sécurité',
+    description: 'Tout savoir avant votre tyrolienne à Orcières Hautes-Alpes. Accès station, âge minimum 6-7 ans, équipement fourni, conditions météo.',
+    keywords: ['informations tyrolienne Hautes-Alpes', 'accès tyrolienne Orcières', 'âge minimum tyrolienne', 'sécurité tyrolienne'],
     openGraph: {
         title: 'Informations Pratiques Tyrolienne Orcières',
         description: 'Tout savoir avant votre vol en tyrolienne.',

@@ -7,9 +7,9 @@ export async function generateMetadata(): Promise<Metadata> {
     const t = await getTranslations('tickets');
 
     return {
-        title: 'Billetterie - Tyrolienne Orcières | Réserver en ligne',
-        description: 'Réservez votre billet pour la tyrolienne d\'Orcières. Tarif 35-40€, équipement inclus. Paiement sécurisé, billet valable 1 an.',
-        keywords: ['billetterie tyrolienne', 'réserver tyrolienne Orcières', 'tarif tyrolienne', 'billet tyrolienne'],
+        title: 'Tarifs & Réservation Tyrolienne Orcières | 35-40€ Hautes-Alpes',
+        description: 'Réservez votre tyrolienne à Orcières Hautes-Alpes. Tarif 35€ (été) ou 40€ (hiver). 1870m de vol à 130km/h. Billet valable 1 an.',
+        keywords: ['tarif tyrolienne Hautes-Alpes', 'réserver tyrolienne Orcières', 'prix tyrolienne Alpes', 'billet tyrolienne'],
         openGraph: {
             title: 'Billetterie Tyrolienne Orcières',
             description: 'Réservez votre vol en tyrolienne. 1.8km à 130km/h.',
