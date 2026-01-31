@@ -4,7 +4,7 @@ import { useTheme } from './theme-provider';
 import { useTranslations } from 'next-intl';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ChevronDown, Zap, Mountain, Clock, Ruler } from 'lucide-react';
+import { Zap, Mountain, Clock, Ruler } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
@@ -27,8 +27,6 @@ export function HeroSection() {
     const { scrollY } = useScroll();
 
     const backgroundY = useTransform(scrollY, [0, 500], [0, 150]);
-    const opacity = useTransform(scrollY, [0, 400], [1, 0]);
-    const scale = useTransform(scrollY, [0, 400], [1, 0.9]);
 
     const stats = [
         { icon: Ruler, label: tStats('length'), value: tStats('lengthValue') },
@@ -91,20 +89,13 @@ export function HeroSection() {
             {/* Skier Animation */}
             <SkierAnimation />
 
-            {/* Content */}
-            <motion.div
-                style={{ opacity, scale }}
+            {/* Content - No animation on container for instant LCP */}
+            <div
                 className="relative z-10 container mx-auto px-4 text-center pt-24 md:pt-32 pb-32 md:pb-48"
             >
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                >
-                    <span className="inline-block px-4 md:px-6 py-2 mb-6 md:mb-8 text-xs md:text-sm font-bold uppercase tracking-[0.2em] rounded-full bg-black/40 backdrop-blur-md text-white border border-white/20">
-                        {season === 'winter' ? '❄️ Winter Edition' : '☀️ Summer Edition'}
-                    </span>
-                </motion.div>
+                <span className="inline-block px-4 md:px-6 py-2 mb-6 md:mb-8 text-xs md:text-sm font-bold uppercase tracking-[0.2em] rounded-full bg-black/40 backdrop-blur-md text-white border border-white/20">
+                    {season === 'winter' ? '❄️ Winter Edition' : '☀️ Summer Edition'}
+                </span>
 
                 <h1
                     className="font-[family-name:var(--font-bebas)] text-4xl sm:text-5xl md:text-7xl lg:text-9xl text-white mb-8 md:mb-12 uppercase drop-shadow-2xl leading-[1.1] md:leading-[0.9] tracking-tight md:tracking-wide"
@@ -113,12 +104,7 @@ export function HeroSection() {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-primary to-accent">Roll'Air Câble</span>
                 </h1>
 
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.8 }}
-                    className="flex flex-col sm:flex-row gap-6 justify-center items-center"
-                >
+                <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                     <Button
                         asChild
                         size="lg"
@@ -134,8 +120,8 @@ export function HeroSection() {
                     >
                         <Link href="/histoire">{t('scroll')}</Link>
                     </Button>
-                </motion.div>
-            </motion.div>
+                </div>
+            </div>
 
             {/* Stats Bar */}
             <motion.div
