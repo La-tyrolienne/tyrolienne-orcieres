@@ -38,14 +38,17 @@ export async function generateMetadata(): Promise<Metadata> {
         },
         description: metadata.description,
         keywords: [
+            'tyrolienne Hautes-Alpes',
             'tyrolienne Orcières',
             'tyrolienne géante Alpes',
-            'tyrolienne familiale',
+            'activité Hautes-Alpes famille',
+            'tyrolienne familiale 05',
             'vol tyrolienne 130km/h',
             'Orcières Merlette 1850',
             'Roll Air Câble',
-            'tyrolienne Hautes-Alpes',
+            'loisirs Hautes-Alpes',
             'tyrolienne sécurisée enfants',
+            'activité montagne Champsaur',
         ],
         alternates: {
             canonical: 'https://www.latyrolienne.fr',
@@ -139,12 +142,59 @@ export default async function RootLayout({
         priceRange: '€€',
     };
 
+    // LocalBusiness schema for local SEO
+    const localBusinessSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'TouristAttraction',
+        '@id': 'https://www.latyrolienne.fr/#attraction',
+        name: 'Tyrolienne Roll\'Air Câble - Hautes-Alpes',
+        alternateName: 'La Tyrolienne d\'Orcières',
+        description: 'La plus grande tyrolienne des Hautes-Alpes. 1870m de vol à 130km/h au cœur du Champsaur. Activité familiale accessible dès 6-7 ans.',
+        image: 'https://www.latyrolienne.fr/og-image.jpg',
+        url: 'https://www.latyrolienne.fr',
+        telephone: '+33684448810',
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Station Orcières Merlette 1850',
+            addressLocality: 'Orcières',
+            postalCode: '05170',
+            addressRegion: 'Hautes-Alpes',
+            addressCountry: 'FR',
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 44.6947,
+            longitude: 6.3264,
+        },
+        aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.4',
+            reviewCount: '36',
+            bestRating: '5',
+            worstRating: '1',
+        },
+        isAccessibleForFree: false,
+        publicAccess: true,
+        openingHoursSpecification: [
+            {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+                opens: '09:00',
+                closes: '17:00',
+            },
+        ],
+    };
+
     return (
         <html lang={locale} suppressHydrationWarning>
             <head>
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+                />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
                 />
             </head>
             <body
