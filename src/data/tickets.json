@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "TKT-97EE567F",
+    "stripeSessionId": "cs_test_a1QAN32mzCgf7pYN2x2dNJZWV3ke3U8jU7JLiXYw4SLhgjBLfEfmKLMDqm",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "noa.rochet@gmail.com",
+    "customerName": "Noa rochet",
+    "createdAt": "2026-02-21T18:37:51.458Z",
+    "validUntil": "2027-02-21T18:37:51.458Z",
+    "status": "active"
+  }
+]
