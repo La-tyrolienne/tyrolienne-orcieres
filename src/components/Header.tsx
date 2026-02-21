@@ -4,7 +4,8 @@ import { useTheme } from './theme-provider';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Snowflake, Sun, Menu, X, Globe } from 'lucide-react';
+import { Snowflake, Sun, Menu, X, Globe, ShoppingCart } from 'lucide-react';
+import { useCart } from '@/context/CartContext';
 import { Button } from '@/components/ui/button';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -12,6 +13,7 @@ import Image from 'next/image';
 
 export function Header() {
     const { season, toggleSeason } = useTheme();
+    const { totalItems } = useCart();
     const t = useTranslations('navigation');
     const tTheme = useTranslations('theme');
     const locale = useLocale();
@@ -115,9 +117,9 @@ export function Header() {
                 }`}
         >
             <div className="container mx-auto px-4">
-                <nav className="flex items-center justify-between">
+                <nav className="flex items-center justify-between gap-4">
                     {/* Left: Logo */}
-                    <Link href="/" className="flex items-center gap-3 group">
+                    <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
                         <div className="relative w-[84px] h-[60px]">
                             <Image
                                 src="/logo-transparent.png"
@@ -128,18 +130,18 @@ export function Header() {
                                 quality={80}
                             />
                         </div>
-                        <span className="hidden sm:block text-white font-black uppercase italic tracking-tight text-lg">
+                        <span className="hidden xl:block text-white font-black uppercase italic tracking-tight text-lg">
                             Roll&apos;Air Câble
                         </span>
                     </Link>
 
                     {/* Center: Navigation Links */}
-                    <div className="hidden lg:flex items-center justify-center gap-10 absolute left-1/2 -translate-x-1/2">
+                    <div className="hidden lg:flex items-center justify-center gap-6 flex-1">
                         {navItems.map((item) => (
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="relative text-sm font-bold uppercase tracking-widest text-white hover:text-primary transition-colors group"
+                                className="relative text-xs font-bold uppercase tracking-widest text-white hover:text-primary transition-colors group whitespace-nowrap"
                             >
                                 {item.label}
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
@@ -147,21 +149,45 @@ export function Header() {
                         ))}
                     </div>
 
-                    {/* Right: Season Toggle + Locale + CTA */}
-                    <div className="hidden lg:flex items-center gap-3">
+                    {/* Right: Season Toggle + Locale + Cart + CTA */}
+                    <div className="hidden lg:flex items-center gap-2 flex-shrink-0">
                         <SeasonToggle />
                         <LocaleToggle />
+                        <Link
+                            href="/panier"
+                            className="relative flex items-center justify-center p-2.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all min-h-[44px] min-w-[44px]"
+                            aria-label="Panier"
+                        >
+                            <ShoppingCart className="h-4 w-4 text-white" />
+                            {totalItems > 0 && (
+                                <span className="absolute -top-1 -right-1 bg-primary text-white text-[10px] font-bold rounded-full w-5 h-5 flex items-center justify-center">
+                                    {totalItems}
+                                </span>
+                            )}
+                        </Link>
                         <Button
                             asChild
-                            className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-widest px-6 py-5 rounded-full shadow-lg shadow-primary/30 hover:scale-105 transition-all text-sm"
+                            className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-widest px-5 py-4 rounded-full shadow-lg shadow-primary/30 hover:scale-105 transition-all text-xs"
                         >
-                            <a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=774049&widget_key=E774049&locale=fr_FR&color_primary=00AEEF&code=61890&width_auto=1" target="_blank" rel="noopener noreferrer">{t('book')}</a>
+                            <Link href="/billetterie">{t('book')}</Link>
                         </Button>
                     </div>
 
                     {/* Mobile: Menu Button */}
                     <div className="lg:hidden flex items-center gap-2">
                         <SeasonToggle />
+                        <Link
+                            href="/panier"
+                            className="relative flex items-center justify-center p-3 rounded-xl text-white min-h-[44px] min-w-[44px] bg-white/10 hover:bg-white/20 transition-all"
+                            aria-label="Panier"
+                        >
+                            <ShoppingCart className="w-5 h-5" />
+                            {totalItems > 0 && (
+                                <span className="absolute -top-1 -right-1 bg-primary text-white text-[10px] font-bold rounded-full w-5 h-5 flex items-center justify-center">
+                                    {totalItems}
+                                </span>
+                            )}
+                        </Link>
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             className="p-3 rounded-xl text-white min-h-[44px] min-w-[44px] flex items-center justify-center bg-white/10 hover:bg-white/20 transition-all"
@@ -200,7 +226,7 @@ export function Header() {
                                 asChild
                                 className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-widest px-6 rounded-full"
                             >
-                                <a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=774049&widget_key=E774049&locale=fr_FR&color_primary=00AEEF&code=61890&width_auto=1" target="_blank" rel="noopener noreferrer">{t('book')}</a>
+                                <Link href="/billetterie" onClick={() => setIsMenuOpen(false)}>{t('book')}</Link>
                             </Button>
                         </div>
                     </motion.div>

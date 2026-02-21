@@ -1,18 +1,23 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Ticket, Shield, CreditCard, Calendar, Check, Users, Clock, Snowflake, Sun, Info } from 'lucide-react';
+import { Ticket, Shield, CreditCard, Calendar, Check, Users, Clock, Snowflake, Sun, Info, ShoppingCart, Minus, Plus, CheckCircle } from 'lucide-react';
 import { useTheme } from '@/components/theme-provider';
+import { useCart } from '@/context/CartContext';
 import { VisualCalendar } from '@/components/VisualCalendar';
 import Image from 'next/image';
+import { useState } from 'react';
 
 export function BilletterieContent() {
     const t = useTranslations('tickets');
     const { season } = useTheme();
+    const { addItem } = useCart();
+    const [quantity, setQuantity] = useState(1);
+    const [showAdded, setShowAdded] = useState(false);
 
     const price = season === 'winter' ? 40 : 35;
     const seasonLabel = season === 'winter' ? 'Hiver' : 'Été';
@@ -24,7 +29,7 @@ export function BilletterieContent() {
         'Briefing sécurité complet',
         'Encadrement par équipe qualifiée',
         'Billet nominatif',
-        'Valable 1 an à partir de l\'achat',
+        'Valable 2 saisons (hiver ou été selon le billet)',
     ];
 
     const conditions = [
@@ -37,7 +42,7 @@ export function BilletterieContent() {
         { icon: Shield, title: 'Paiement 100% sécurisé', desc: 'Protocole SSL et 3D Secure' },
         { icon: Clock, title: 'Confirmation immédiate', desc: 'Billet reçu par email instantanément' },
         { icon: CreditCard, title: 'Multiples moyens de paiement', desc: 'CB, PayPal, Apple Pay, Google Pay' },
-        { icon: Calendar, title: 'Validité 1 an', desc: 'Utilisez votre billet quand vous voulez, durant nos périodes d\'ouverture' },
+        { icon: Calendar, title: 'Validité 2 saisons', desc: 'Billet hiver valable 2 saisons d\'hiver, billet été valable 2 saisons d\'été' },
     ];
 
     return (
@@ -45,8 +50,8 @@ export function BilletterieContent() {
             {/* Hero Banner */}
             <div className="relative h-[40vh] min-h-[350px] flex items-center justify-center overflow-hidden">
                 <Image
-                    src="/cable-detail.png"
-                    alt="Billetterie"
+                    src={season === 'winter' ? '/hero-winter-new.jpg' : '/hero-summer-optimized.png'}
+                    alt="Billetterie Tyrolienne"
                     fill
                     className="object-cover"
                     priority
@@ -146,21 +151,68 @@ export function BilletterieContent() {
                                     <span>*L'âge minimum dépend de l'adaptation du harnais de sécurité à l'enfant</span>
                                 </p>
 
+                                {/* Quantity Selector */}
+                                <div className="flex items-center justify-center gap-4 mb-4">
+                                    <button
+                                        onClick={() => setQuantity(q => Math.max(1, q - 1))}
+                                        className="w-12 h-12 rounded-xl bg-muted/50 hover:bg-muted flex items-center justify-center transition-colors"
+                                        aria-label="Réduire la quantité"
+                                    >
+                                        <Minus className="w-5 h-5" />
+                                    </button>
+                                    <span className="text-3xl font-black w-16 text-center">{quantity}</span>
+                                    <button
+                                        onClick={() => setQuantity(q => q + 1)}
+                                        className="w-12 h-12 rounded-xl bg-muted/50 hover:bg-muted flex items-center justify-center transition-colors"
+                                        aria-label="Augmenter la quantité"
+                                    >
+                                        <Plus className="w-5 h-5" />
+                                    </button>
+                                </div>
+
+                                <p className="text-center text-sm text-muted-foreground mb-4">
+                                    Total: <strong className="text-foreground">{price * quantity}€</strong>
+                                </p>
+
                                 <Button
-                                    asChild
-                                    className="w-full py-7 text-lg font-bold uppercase tracking-wider rounded-xl bg-primary hover:bg-primary/90 shadow-[0_0_30px_rgba(var(--primary),0.3)] hover:shadow-[0_0_40px_rgba(var(--primary),0.5)] transition-all"
+                                    onClick={() => {
+                                        addItem({
+                                            season,
+                                            price,
+                                            quantity,
+                                            label: `Tyrolienne ${seasonLabel}`,
+                                        });
+                                        setShowAdded(true);
+                                        setTimeout(() => setShowAdded(false), 2500);
+                                        setQuantity(1);
+                                    }}
+                                    className="w-full py-7 text-lg font-bold uppercase tracking-wider rounded-xl bg-primary hover:bg-primary/90 shadow-[0_0_30px_rgba(var(--primary),0.3)] hover:shadow-[0_0_40px_rgba(var(--primary),0.5)] transition-all flex items-center justify-center gap-3"
                                 >
-                                    <a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=774049&widget_key=E774049&locale=fr_FR&color_primary=00AEEF&code=61890&width_auto=1" target="_blank" rel="noopener noreferrer">
-                                        {t('book')}
-                                    </a>
+                                    <ShoppingCart className="w-5 h-5" />
+                                    Ajouter au panier
                                 </Button>
+
+                                {/* Added notification */}
+                                <AnimatePresence>
+                                    {showAdded && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 10 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            exit={{ opacity: 0, y: -10 }}
+                                            className="mt-4 flex items-center justify-center gap-2 text-green-600 bg-green-50 rounded-xl p-3"
+                                        >
+                                            <CheckCircle className="w-5 h-5" />
+                                            <span className="font-semibold text-sm">Ajouté au panier !</span>
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
 
                                 {/* Secure Payment Badges */}
                                 <div className="mt-6 pt-6 border-t border-border/50">
                                     <div className="flex flex-col items-center gap-4">
                                         <div className="flex items-center gap-2 text-xs text-muted-foreground">
                                             <Shield className="w-4 h-4 text-green-500" />
-                                            <span>Paiement 100% sécurisé via <strong className="text-foreground">Weezevent</strong></span>
+                                            <span>Paiement 100% sécurisé via <strong className="text-foreground">Stripe</strong></span>
                                         </div>
                                         <div className="flex flex-wrap items-center justify-center gap-3">
                                             {/* Payment method badges */}

@@ -166,5 +166,20 @@
         "altitudeValue": "2650 m",
         "duration": "Durée",
         "durationValue": "~1min 20"
+    },
+    "cart": {
+        "title": "Mon Panier",
+        "empty": "Votre panier est vide",
+        "emptyText": "Ajoutez des billets pour la tyrolienne !",
+        "viewPrices": "Voir les tarifs",
+        "summary": "Récapitulatif",
+        "total": "Total",
+        "pay": "Payer",
+        "redirecting": "Redirection...",
+        "continueShopping": "Continuer les achats",
+        "clearCart": "Vider le panier",
+        "securePayment": "Paiement 100% sécurisé via Stripe",
+        "addToCart": "Ajouter au panier",
+        "added": "Ajouté au panier !"
     }
 }

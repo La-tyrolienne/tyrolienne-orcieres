@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Bebas_Neue } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getLocale } from 'next-intl/server';
 import { ThemeProvider } from '@/components/theme-provider';
+import { CartProvider } from '@/context/CartContext';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import "../globals.css";
@@ -202,13 +203,15 @@ export default async function RootLayout({
             >
                 <NextIntlClientProvider messages={messages}>
                     <ThemeProvider>
-                        <div className="flex flex-col min-h-screen">
-                            <Header />
-                            <main className="flex-1">
-                                {children}
-                            </main>
-                            <Footer />
-                        </div>
+                        <CartProvider>
+                            <div className="flex flex-col min-h-screen">
+                                <Header />
+                                <main className="flex-1">
+                                    {children}
+                                </main>
+                                <Footer />
+                            </div>
+                        </CartProvider>
                     </ThemeProvider>
                 </NextIntlClientProvider>
             </body>
