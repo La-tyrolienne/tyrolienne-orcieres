@@ -11,5 +11,17 @@
     "validUntil": "2027-02-21T18:27:46.545Z",
     "status": "used",
     "usedAt": "2026-02-21T18:28:29.999Z"
+  },
+  {
+    "id": "TKT-CE848E39",
+    "stripeSessionId": "cs_test_a1TSsLo6OCA2LMwN9SdDOMzfcmKiNsMn0oxKgUQ2UlBT4JKqtgOjeJloG8",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "noa.rochet@gmail.com",
+    "customerName": "Noa rochet",
+    "createdAt": "2026-02-21T18:29:37.177Z",
+    "validUntil": "2027-02-21T18:29:37.177Z",
+    "status": "active"
   }
 ]
