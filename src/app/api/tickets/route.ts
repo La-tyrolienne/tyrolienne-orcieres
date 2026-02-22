@@ -45,15 +45,20 @@ export async function POST(request: NextRequest) {
         if (metadata?.items) {
             try {
                 items = JSON.parse(metadata.items);
+                console.log('Parsed items from Stripe metadata:', JSON.stringify(items));
             } catch (e) {
                 console.error('Error parsing items metadata:', e);
             }
+        } else {
+            console.error('No items metadata found in session:', stripeSessionId);
         }
 
         // Build all ticket data first, then create in a single batch write
         const ticketDataList = [];
         for (const item of items) {
-            for (let i = 0; i < item.qty; i++) {
+            const qty = Number(item.qty) || 1;
+            console.log(`Processing item: ${item.label}, qty=${qty}, original qty=${item.qty}`);
+            for (let i = 0; i < qty; i++) {
                 ticketDataList.push({
                     stripeSessionId,
                     season: item.season || 'unknown',
@@ -65,7 +70,9 @@ export async function POST(request: NextRequest) {
             }
         }
 
+        console.log(`Total tickets to create: ${ticketDataList.length}`);
         const tickets = await createTicketsBatch(ticketDataList);
+        console.log(`Tickets created: ${tickets.length}, IDs: ${tickets.map(t => t.id).join(', ')}`);
 
         return NextResponse.json({ tickets });
     } catch (error: any) {
