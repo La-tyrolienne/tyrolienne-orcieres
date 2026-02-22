@@ -22,5 +22,17 @@
     "createdAt": "2026-02-22T10:19:11.215Z",
     "validUntil": "2027-02-22T10:19:11.215Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C114EFBB",
+    "stripeSessionId": "cs_live_a1ly2tKP0f7gDhMrH4LvGy57HTmlx5A2IVS4fDGSomE76h639LEQOuV1lf",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "asmasarah.b@gmail.com",
+    "customerName": "Ting Wei-Ting",
+    "createdAt": "2026-02-22T13:00:31.461Z",
+    "validUntil": "2027-02-22T13:00:31.461Z",
+    "status": "active"
   }
 ]
