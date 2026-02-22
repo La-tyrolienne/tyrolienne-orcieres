@@ -126,6 +126,34 @@ export async function createTicket(data: Omit<Ticket, 'id' | 'createdAt' | 'vali
     return ticket;
 }
 
+export async function createTicketsBatch(
+    ticketDataList: Omit<Ticket, 'id' | 'createdAt' | 'validUntil' | 'status'>[]
+): Promise<Ticket[]> {
+    const existingTickets = await readTickets();
+
+    const now = new Date();
+    const validUntil = new Date(now);
+    validUntil.setFullYear(validUntil.getFullYear() + 1);
+
+    const newTickets: Ticket[] = ticketDataList.map(data => ({
+        id: generateTicketId(),
+        ...data,
+        createdAt: now.toISOString(),
+        validUntil: validUntil.toISOString(),
+        status: 'active' as const
+    }));
+
+    try {
+        const allTickets = [...existingTickets, ...newTickets];
+        await writeTickets(allTickets);
+        console.log(`createTicketsBatch: Created ${newTickets.length} tickets in one write`);
+    } catch (error) {
+        console.warn('Failed to persist tickets batch, but returning them for user download', error);
+    }
+
+    return newTickets;
+}
+
 export async function getTicket(id: string): Promise<Ticket | null> {
     const tickets = await readTickets();
     return tickets.find(t => t.id === id) || null;

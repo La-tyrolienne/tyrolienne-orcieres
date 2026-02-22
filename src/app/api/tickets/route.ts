@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
-import { createTicket, getTicketsBySession, getAllTickets } from '@/lib/ticketStore';
+import { createTicketsBatch, getTicketsBySession, getAllTickets } from '@/lib/ticketStore';
 
 const stripe = process.env.STRIPE_SECRET_KEY
     ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -50,11 +50,11 @@ export async function POST(request: NextRequest) {
             }
         }
 
-        // Create a ticket for each item
-        const tickets = [];
+        // Build all ticket data first, then create in a single batch write
+        const ticketDataList = [];
         for (const item of items) {
             for (let i = 0; i < item.qty; i++) {
-                const ticket = await createTicket({
+                ticketDataList.push({
                     stripeSessionId,
                     season: item.season || 'unknown',
                     price: item.price || 0,
@@ -62,9 +62,10 @@ export async function POST(request: NextRequest) {
                     customerEmail: session.customer_details?.email || '',
                     customerName: session.customer_details?.name || 'Client',
                 });
-                tickets.push(ticket);
             }
         }
+
+        const tickets = await createTicketsBatch(ticketDataList);
 
         return NextResponse.json({ tickets });
     } catch (error: any) {
