@@ -95,5 +95,53 @@
     "createdAt": "2026-02-22T16:41:47.494Z",
     "validUntil": "2027-02-22T16:41:47.494Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-B016AC57",
+    "stripeSessionId": "cs_test_a1sfKcvE8BUAn8oZWltJ7KXeacPbiT2TLP65yDId6pCuJ5ghoI3IDueB90",
+    "season": "summer",
+    "price": 0.5,
+    "quantity": 1,
+    "customerEmail": "",
+    "customerName": "Client",
+    "createdAt": "2026-02-22T16:45:29.162Z",
+    "validUntil": "2027-02-22T16:45:29.162Z",
+    "status": "active"
+  },
+  {
+    "id": "TKT-DC48A51E",
+    "stripeSessionId": "cs_test_a1sfKcvE8BUAn8oZWltJ7KXeacPbiT2TLP65yDId6pCuJ5ghoI3IDueB90",
+    "season": "summer",
+    "price": 0.5,
+    "quantity": 1,
+    "customerEmail": "",
+    "customerName": "Client",
+    "createdAt": "2026-02-22T16:45:29.162Z",
+    "validUntil": "2027-02-22T16:45:29.162Z",
+    "status": "active"
+  },
+  {
+    "id": "TKT-83D43828",
+    "stripeSessionId": "cs_test_a1sfKcvE8BUAn8oZWltJ7KXeacPbiT2TLP65yDId6pCuJ5ghoI3IDueB90",
+    "season": "summer",
+    "price": 0.5,
+    "quantity": 1,
+    "customerEmail": "",
+    "customerName": "Client",
+    "createdAt": "2026-02-22T16:45:29.162Z",
+    "validUntil": "2027-02-22T16:45:29.162Z",
+    "status": "active"
+  },
+  {
+    "id": "TKT-6B6C3CAC",
+    "stripeSessionId": "cs_test_a1sfKcvE8BUAn8oZWltJ7KXeacPbiT2TLP65yDId6pCuJ5ghoI3IDueB90",
+    "season": "summer",
+    "price": 0.5,
+    "quantity": 1,
+    "customerEmail": "",
+    "customerName": "Client",
+    "createdAt": "2026-02-22T16:45:29.162Z",
+    "validUntil": "2027-02-22T16:45:29.162Z",
+    "status": "active"
   }
 ]
