@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
@@ -27,6 +27,7 @@ export default function SuccessPage() {
     const [tickets, setTickets] = useState<TicketData[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
+    const fetchedRef = useRef(false);
 
     useEffect(() => {
         // Clear cart on success
@@ -38,6 +39,10 @@ export default function SuccessPage() {
             setLoading(false);
             return;
         }
+
+        // Prevent double calls from React Strict Mode
+        if (fetchedRef.current) return;
+        fetchedRef.current = true;
 
         const fetchTickets = async () => {
             try {
