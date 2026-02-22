@@ -19,7 +19,7 @@ export function BilletterieContent() {
     const [quantity, setQuantity] = useState(1);
     const [showAdded, setShowAdded] = useState(false);
 
-    const price = season === 'winter' ? 40 : 0.50;
+    const price = season === 'winter' ? 40 : 35;
     const seasonLabel = season === 'winter' ? 'Hiver' : 'Été';
     const SeasonIcon = season === 'winter' ? Snowflake : Sun;
 
