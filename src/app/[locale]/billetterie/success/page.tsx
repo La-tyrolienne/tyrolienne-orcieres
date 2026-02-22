@@ -208,7 +208,7 @@ export default function SuccessPage() {
                 )}
 
                 {/* Download All Button */}
-                {tickets.length > 1 && (
+                {tickets.length > 0 && (
                     <motion.div
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -220,7 +220,10 @@ export default function SuccessPage() {
                             className="w-full py-6 bg-green-600 hover:bg-green-700 rounded-xl font-bold uppercase tracking-wider text-lg"
                         >
                             <Download className="w-5 h-5 mr-2" />
-                            Télécharger tous les billets ({tickets.length}) en 1 PDF
+                            {tickets.length === 1
+                                ? 'Télécharger le billet PDF'
+                                : `Télécharger tous les billets (${tickets.length}) en 1 PDF`
+                            }
                         </Button>
                     </motion.div>
                 )}
