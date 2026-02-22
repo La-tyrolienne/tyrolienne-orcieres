@@ -10,5 +10,17 @@
     "createdAt": "2026-02-21T18:37:51.458Z",
     "validUntil": "2027-02-21T18:37:51.458Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-EAB8EFB8",
+    "stripeSessionId": "cs_live_a1PTZ9SS5EMvff9bB2g8T2cP4sXwHayGlfRek8FNAcDzg8EU8CXJeDyb8Q",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "mickaoss@hotmail.com",
+    "customerName": "Robert",
+    "createdAt": "2026-02-22T10:19:11.215Z",
+    "validUntil": "2027-02-22T10:19:11.215Z",
+    "status": "active"
   }
 ]
