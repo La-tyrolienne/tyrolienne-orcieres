@@ -143,5 +143,17 @@
     "createdAt": "2026-02-22T16:45:29.162Z",
     "validUntil": "2027-02-22T16:45:29.162Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-9F6F1327",
+    "stripeSessionId": "cs_live_a10P2PsWRIO8ilMaIL4PYqjjzdg9MpQfpjGaKjO2jxmeo1ny7hplWHqXtz",
+    "season": "summer",
+    "price": 0.5,
+    "quantity": 1,
+    "customerEmail": "noa.rochet@gmail.com",
+    "customerName": "rochet frison",
+    "createdAt": "2026-02-22T16:47:54.123Z",
+    "validUntil": "2027-02-22T16:47:54.123Z",
+    "status": "active"
   }
 ]
