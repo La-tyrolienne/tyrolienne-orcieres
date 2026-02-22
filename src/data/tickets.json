@@ -33,7 +33,8 @@
     "customerName": "Ting Wei-Ting",
     "createdAt": "2026-02-22T13:00:31.461Z",
     "validUntil": "2027-02-22T13:00:31.461Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-22T13:02:17.683Z"
   },
   {
     "id": "TKT-F4841645",
