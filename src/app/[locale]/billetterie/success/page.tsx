@@ -49,9 +49,7 @@ export default function SuccessPage() {
 
                 const data = await response.json();
 
-                if (data.ticket) {
-                    setTickets([data.ticket]);
-                } else if (data.tickets) {
+                if (data.tickets && data.tickets.length > 0) {
                     setTickets(data.tickets);
                 } else if (data.error) {
                     setError(data.error);

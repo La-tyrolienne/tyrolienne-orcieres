@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
-import { createTicket, getTicketBySession, getAllTickets } from '@/lib/ticketStore';
+import { createTicket, getTicketsBySession, getAllTickets } from '@/lib/ticketStore';
 
 const stripe = process.env.STRIPE_SECRET_KEY
     ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -26,10 +26,10 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ error: 'Missing stripeSessionId' }, { status: 400 });
         }
 
-        // Check if ticket already exists for this session
-        const existingTicket = await getTicketBySession(stripeSessionId);
-        if (existingTicket) {
-            return NextResponse.json({ ticket: existingTicket });
+        // Check if tickets already exist for this session
+        const existingTickets = await getTicketsBySession(stripeSessionId);
+        if (existingTickets.length > 0) {
+            return NextResponse.json({ tickets: existingTickets });
         }
 
         // Retrieve the session from Stripe
@@ -66,10 +66,6 @@ export async function POST(request: NextRequest) {
             }
         }
 
-        // Return first ticket if only one, otherwise return array
-        if (tickets.length === 1) {
-            return NextResponse.json({ ticket: tickets[0] });
-        }
         return NextResponse.json({ tickets });
     } catch (error: any) {
         console.error('Error creating ticket:', error);

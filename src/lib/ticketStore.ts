@@ -131,9 +131,9 @@ export async function getTicket(id: string): Promise<Ticket | null> {
     return tickets.find(t => t.id === id) || null;
 }
 
-export async function getTicketBySession(sessionId: string): Promise<Ticket | null> {
+export async function getTicketsBySession(sessionId: string): Promise<Ticket[]> {
     const tickets = await readTickets();
-    return tickets.find(t => t.stripeSessionId === sessionId) || null;
+    return tickets.filter(t => t.stripeSessionId === sessionId);
 }
 
 export async function validateTicket(id: string): Promise<{ success: boolean; message: string; ticket?: Ticket }> {
