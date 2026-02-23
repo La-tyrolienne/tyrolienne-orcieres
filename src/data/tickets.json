@@ -287,5 +287,17 @@
     "createdAt": "2026-02-23T11:12:15.142Z",
     "validUntil": "2027-02-23T11:12:15.142Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-AD639B26",
+    "stripeSessionId": "cs_live_a1eO2WBcpDBtpt9nX3XYjEWodR7LwFasr3dG3LTmAdlIXM7jRCs3HQihr5",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "artusgd441@gmail.com",
+    "customerName": "Artus goupil dionnet",
+    "createdAt": "2026-02-23T11:14:55.649Z",
+    "validUntil": "2027-02-23T11:14:55.649Z",
+    "status": "active"
   }
 ]
