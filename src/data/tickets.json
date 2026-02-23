@@ -347,5 +347,29 @@
     "createdAt": "2026-02-23T14:06:59.119Z",
     "validUntil": "2027-02-23T14:06:59.119Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4F2815CF",
+    "stripeSessionId": "cs_live_a1Beyee4AJsP6aJrWq6hXLRuLcfgrwpHuawC0hZfhZPfalRkQiaPU2u6eQ",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "sabfalk@gmail.com",
+    "customerName": "Sabrina Falk",
+    "createdAt": "2026-02-23T14:07:04.390Z",
+    "validUntil": "2027-02-23T14:07:04.390Z",
+    "status": "active"
+  },
+  {
+    "id": "TKT-D878A2FB",
+    "stripeSessionId": "cs_live_a1Beyee4AJsP6aJrWq6hXLRuLcfgrwpHuawC0hZfhZPfalRkQiaPU2u6eQ",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "sabfalk@gmail.com",
+    "customerName": "Sabrina Falk",
+    "createdAt": "2026-02-23T14:07:04.390Z",
+    "validUntil": "2027-02-23T14:07:04.390Z",
+    "status": "active"
   }
 ]
