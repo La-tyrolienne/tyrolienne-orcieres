@@ -275,5 +275,17 @@
     "createdAt": "2026-02-22T17:51:48.447Z",
     "validUntil": "2027-02-22T17:51:48.447Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-B7938E9A",
+    "stripeSessionId": "cs_live_a1bgTDBI4P32fMYWmhbqd78SNy8YyggwR1wXnWFvCBR6l2HAt6BoNrc9xQ",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "wifeox7@gmail.com",
+    "customerName": "Romain Collin",
+    "createdAt": "2026-02-23T11:12:15.142Z",
+    "validUntil": "2027-02-23T11:12:15.142Z",
+    "status": "active"
   }
 ]
