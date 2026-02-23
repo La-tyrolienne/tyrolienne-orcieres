@@ -299,5 +299,17 @@
     "createdAt": "2026-02-23T11:14:55.649Z",
     "validUntil": "2027-02-23T11:14:55.649Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-6170410B",
+    "stripeSessionId": "cs_live_a1xnducCimD8JQXlGJPolMpVQEWT8mAc4jQVmGylEldh8nmv232mW47Yzh",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "mariondehurtevent@gmail.com",
+    "customerName": "Marion Dehurtevent",
+    "createdAt": "2026-02-23T13:48:04.189Z",
+    "validUntil": "2027-02-23T13:48:04.189Z",
+    "status": "active"
   }
 ]
