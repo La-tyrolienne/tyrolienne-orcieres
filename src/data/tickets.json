@@ -323,5 +323,17 @@
     "createdAt": "2026-02-23T13:48:10.261Z",
     "validUntil": "2027-02-23T13:48:10.261Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-3CF8C818",
+    "stripeSessionId": "cs_live_a1Beyee4AJsP6aJrWq6hXLRuLcfgrwpHuawC0hZfhZPfalRkQiaPU2u6eQ",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "sabfalk@gmail.com",
+    "customerName": "Sabrina Falk",
+    "createdAt": "2026-02-23T14:06:57.493Z",
+    "validUntil": "2027-02-23T14:06:57.493Z",
+    "status": "active"
   }
 ]
