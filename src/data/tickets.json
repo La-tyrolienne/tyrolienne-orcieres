@@ -371,5 +371,17 @@
     "createdAt": "2026-02-23T14:07:04.390Z",
     "validUntil": "2027-02-23T14:07:04.390Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-EA2B8B8D",
+    "stripeSessionId": "cs_live_a1bb7E67tEGxehoOojI96rXKkkC6mvImYxpe8SdI9lvKTd1XJ4ZljapZXG",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "fire.francky@live.fr",
+    "customerName": "Guillon",
+    "createdAt": "2026-02-23T14:35:05.828Z",
+    "validUntil": "2027-02-23T14:35:05.828Z",
+    "status": "active"
   }
 ]
