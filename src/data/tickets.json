@@ -412,5 +412,17 @@
     "createdAt": "2026-02-24T14:28:30.261Z",
     "validUntil": "2027-02-24T14:28:30.261Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2D75387B",
+    "stripeSessionId": "cs_live_a1b5GvJftgbzVa5HpxmnOxOMd5Kje5bmoMrHW2aJVL3aQmeTbEu4PLObi2",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "valentin.buysse@mvbconseil.fr",
+    "customerName": "Valentin Buysse",
+    "createdAt": "2026-02-24T19:01:19.482Z",
+    "validUntil": "2027-02-24T19:01:19.482Z",
+    "status": "active"
   }
 ]
