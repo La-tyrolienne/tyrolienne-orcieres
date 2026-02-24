@@ -400,5 +400,17 @@
     "createdAt": "2026-02-24T11:40:01.895Z",
     "validUntil": "2027-02-24T11:40:01.895Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-59921FC7",
+    "stripeSessionId": "cs_live_a1tC5fzo8AtaRdFDb0e3tkdD6IpjaEjqHlW5FppZ7mXcEzeY5GrMgrKGAv",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "maxi10legen@gmail.com",
+    "customerName": "Maxime Legendre",
+    "createdAt": "2026-02-24T14:28:30.261Z",
+    "validUntil": "2027-02-24T14:28:30.261Z",
+    "status": "active"
   }
 ]
