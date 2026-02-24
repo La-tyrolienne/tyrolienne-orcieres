@@ -370,7 +370,8 @@
     "customerName": "Sabrina Falk",
     "createdAt": "2026-02-23T14:07:04.390Z",
     "validUntil": "2027-02-23T14:07:04.390Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-24T07:20:39.708Z"
   },
   {
     "id": "TKT-EA2B8B8D",
