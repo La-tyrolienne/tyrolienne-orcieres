@@ -388,5 +388,17 @@
     "createdAt": "2026-02-23T14:35:05.828Z",
     "validUntil": "2027-02-23T14:35:05.828Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-46A6DE47",
+    "stripeSessionId": "cs_live_a11owgZuKKNA7fPx8tZnUZStYIhzOKyHZUCNUL0iC1tma1D97iPs7gf1CI",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "hermieucaroline@gmail.com",
+    "customerName": "caroline hermieu",
+    "createdAt": "2026-02-24T11:40:01.895Z",
+    "validUntil": "2027-02-24T11:40:01.895Z",
+    "status": "active"
   }
 ]
