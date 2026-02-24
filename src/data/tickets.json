@@ -346,7 +346,8 @@
     "customerName": "Sabrina Falk",
     "createdAt": "2026-02-23T14:06:59.119Z",
     "validUntil": "2027-02-23T14:06:59.119Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-24T07:21:24.176Z"
   },
   {
     "id": "TKT-4F2815CF",
