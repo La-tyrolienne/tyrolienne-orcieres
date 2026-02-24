@@ -286,7 +286,8 @@
     "customerName": "Romain Collin",
     "createdAt": "2026-02-23T11:12:15.142Z",
     "validUntil": "2027-02-23T11:12:15.142Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-24T07:23:05.158Z"
   },
   {
     "id": "TKT-AD639B26",
