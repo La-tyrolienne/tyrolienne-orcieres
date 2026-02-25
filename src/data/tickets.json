@@ -424,5 +424,17 @@
     "createdAt": "2026-02-24T19:01:19.482Z",
     "validUntil": "2027-02-24T19:01:19.482Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1EC7055B",
+    "stripeSessionId": "cs_live_a1SotQCMl9Q4JqXWOaBOyVN0D5iSf6FS6zAdHsjrSwLAAHrQGcT5MVWHUd",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "marine.gibella@gmail.com",
+    "customerName": "Marine Gibella",
+    "createdAt": "2026-02-25T08:32:42.350Z",
+    "validUntil": "2027-02-25T08:32:42.350Z",
+    "status": "active"
   }
 ]
