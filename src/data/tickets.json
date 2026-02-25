@@ -472,5 +472,17 @@
     "createdAt": "2026-02-25T10:23:35.873Z",
     "validUntil": "2027-02-25T10:23:35.873Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-D9668730",
+    "stripeSessionId": "cs_live_a1yw7IMbHtuZexCMUkzeajCLu1p4d8t9cigyQPKI4LIhz1TSLPe8XzVuG0",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "stephanemalet@free.fr",
+    "customerName": "Stephane MALET",
+    "createdAt": "2026-02-25T13:55:21.065Z",
+    "validUntil": "2027-02-25T13:55:21.065Z",
+    "status": "active"
   }
 ]
