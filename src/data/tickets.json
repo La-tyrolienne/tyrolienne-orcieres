@@ -448,5 +448,17 @@
     "createdAt": "2026-02-25T08:32:43.006Z",
     "validUntil": "2027-02-25T08:32:43.006Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-DEEACABF",
+    "stripeSessionId": "cs_live_a1pqDI4DbwjunNEquCFhsnIORxsptT2W4ILWHf0b1TvuscGuYAOw8s7dGd",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "ciana.moulin@icloud.com",
+    "customerName": "Ciana Moulin",
+    "createdAt": "2026-02-25T09:18:27.093Z",
+    "validUntil": "2027-02-25T09:18:27.093Z",
+    "status": "active"
   }
 ]
