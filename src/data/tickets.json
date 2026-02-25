@@ -520,5 +520,17 @@
     "createdAt": "2026-02-25T14:31:39.914Z",
     "validUntil": "2027-02-25T14:31:39.914Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1F48F52B",
+    "stripeSessionId": "cs_live_a12ItqQ7ZzsNBb7gzCeSE0byBB6ZYvqNbFd43ZFWPVzWrIiNiWhnlQvfVc",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "frimousse0511@hotmail.fr",
+    "customerName": "Laurène Fillet",
+    "createdAt": "2026-02-25T14:45:24.005Z",
+    "validUntil": "2027-02-25T14:45:24.005Z",
+    "status": "active"
   }
 ]
