@@ -484,5 +484,17 @@
     "createdAt": "2026-02-25T13:55:21.065Z",
     "validUntil": "2027-02-25T13:55:21.065Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4596336E",
+    "stripeSessionId": "cs_live_a1Y2Klh8g0dPU1DIw48h5aJ4POrlKn7DpuhI4xgQm1eb3v2E1JQNpA2hpM",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "julesthonon1804@gmail.com",
+    "customerName": "Jules thonon",
+    "createdAt": "2026-02-25T14:31:02.193Z",
+    "validUntil": "2027-02-25T14:31:02.193Z",
+    "status": "active"
   }
 ]
