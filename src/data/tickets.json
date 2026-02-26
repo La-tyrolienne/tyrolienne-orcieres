@@ -604,5 +604,17 @@
     "createdAt": "2026-02-26T12:33:51.152Z",
     "validUntil": "2027-02-26T12:33:51.152Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-DAAD5CB8",
+    "stripeSessionId": "cs_live_a1gvMCZwludbRSiODslQQgzbMdF1LckHsLdEPeS2gUYnC4glDseRfyrE1C",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "daikasoilihi@gmail.com",
+    "customerName": "Soilihi",
+    "createdAt": "2026-02-26T12:35:09.749Z",
+    "validUntil": "2027-02-26T12:35:09.749Z",
+    "status": "active"
   }
 ]
