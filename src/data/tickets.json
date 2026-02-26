@@ -616,5 +616,17 @@
     "createdAt": "2026-02-26T12:35:09.749Z",
     "validUntil": "2027-02-26T12:35:09.749Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-9D008D29",
+    "stripeSessionId": "cs_live_a1fF8lhaQtqlwYy6XH9IP5bHORdmXYhaJPwRDpwO8WTRJpbeOOsmphjHIO",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "thcordier@yahoo.fr",
+    "customerName": "Thomas Cordier",
+    "createdAt": "2026-02-26T13:09:32.889Z",
+    "validUntil": "2027-02-26T13:09:32.889Z",
+    "status": "active"
   }
 ]
