@@ -544,5 +544,17 @@
     "createdAt": "2026-02-25T14:45:24.680Z",
     "validUntil": "2027-02-25T14:45:24.680Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-301910BF",
+    "stripeSessionId": "cs_live_a1436LicLdz5N4XURUO99zIT9qk5DPiAe5GikNdeCJN5xmihnyFuUSa31L",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "natacha.girod@icloud.com",
+    "customerName": "Natacha GIROD",
+    "createdAt": "2026-02-26T10:24:28.066Z",
+    "validUntil": "2027-02-26T10:24:28.066Z",
+    "status": "active"
   }
 ]
