@@ -664,5 +664,17 @@
     "createdAt": "2026-02-26T14:19:57.355Z",
     "validUntil": "2027-02-26T14:19:57.355Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1FE2E3ED",
+    "stripeSessionId": "cs_live_a1k2J9LrFJeyjBguRqMNU90OsJ4sNkeCRcYNK2BpJeTgTNYQekkm0Nmzd2",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "justinebaj@gmail.com",
+    "customerName": "Bajeux",
+    "createdAt": "2026-02-26T14:48:42.899Z",
+    "validUntil": "2027-02-26T14:48:42.899Z",
+    "status": "active"
   }
 ]
