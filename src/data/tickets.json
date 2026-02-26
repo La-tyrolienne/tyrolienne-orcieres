@@ -736,5 +736,17 @@
     "createdAt": "2026-02-26T15:52:14.176Z",
     "validUntil": "2027-02-26T15:52:14.176Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C62AA33D",
+    "stripeSessionId": "cs_live_a1QgkJDwX3uU6FgV5EhZB8bVyLRJQT6rZnw2xr3JRRFsnC2KawJamhJwoV",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "nicolas@rueda-ruiz.net",
+    "customerName": "Nicolas RUEDA-RUIZ",
+    "createdAt": "2026-02-26T15:52:14.803Z",
+    "validUntil": "2027-02-26T15:52:14.803Z",
+    "status": "active"
   }
 ]
