@@ -640,5 +640,17 @@
     "createdAt": "2026-02-26T13:44:36.054Z",
     "validUntil": "2027-02-26T13:44:36.054Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E8294AC8",
+    "stripeSessionId": "cs_live_a1liGhb4PzwLkWebojVHWbInMYSCesEutcz4y1PrqrgzIPOJusyH9efPxh",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "fabrice.lisoon@gmail.com",
+    "customerName": "Fabrice Osolin",
+    "createdAt": "2026-02-26T13:44:39.898Z",
+    "validUntil": "2027-02-26T13:44:39.898Z",
+    "status": "active"
   }
 ]
