@@ -688,5 +688,17 @@
     "createdAt": "2026-02-26T15:11:22.262Z",
     "validUntil": "2027-02-26T15:11:22.262Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-5CEB7AE1",
+    "stripeSessionId": "cs_live_a1Ofxs0eNaP1Ptmjckoj4sYLkFo7GC4KEom2yw7YZePt6JaAHudBFv1jHS",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "smaniotto.stephanie@gmail.com",
+    "customerName": "Smaniotto",
+    "createdAt": "2026-02-26T15:15:59.336Z",
+    "validUntil": "2027-02-26T15:15:59.336Z",
+    "status": "active"
   }
 ]
