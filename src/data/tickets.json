@@ -700,5 +700,29 @@
     "createdAt": "2026-02-26T15:15:59.336Z",
     "validUntil": "2027-02-26T15:15:59.336Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-9DA07A32",
+    "stripeSessionId": "cs_live_a1Ofxs0eNaP1Ptmjckoj4sYLkFo7GC4KEom2yw7YZePt6JaAHudBFv1jHS",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "smaniotto.stephanie@gmail.com",
+    "customerName": "Smaniotto",
+    "createdAt": "2026-02-26T15:16:03.529Z",
+    "validUntil": "2027-02-26T15:16:03.529Z",
+    "status": "active"
+  },
+  {
+    "id": "TKT-281F1427",
+    "stripeSessionId": "cs_live_a1Ofxs0eNaP1Ptmjckoj4sYLkFo7GC4KEom2yw7YZePt6JaAHudBFv1jHS",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "smaniotto.stephanie@gmail.com",
+    "customerName": "Smaniotto",
+    "createdAt": "2026-02-26T15:16:03.529Z",
+    "validUntil": "2027-02-26T15:16:03.529Z",
+    "status": "active"
   }
 ]
