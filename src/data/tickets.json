@@ -748,5 +748,17 @@
     "createdAt": "2026-02-26T15:52:14.803Z",
     "validUntil": "2027-02-26T15:52:14.803Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-239B6C1B",
+    "stripeSessionId": "cs_live_a1x06bjeJsgPqI4cWe3xdfGOmDSiiac8ZzyuVsbStpFzmzQSV5xJ0icHlv",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "sandrine.dally@hotmail.fr",
+    "customerName": "Sandrine DALLY",
+    "createdAt": "2026-02-26T17:24:29.859Z",
+    "validUntil": "2027-02-26T17:24:29.859Z",
+    "status": "active"
   }
 ]
