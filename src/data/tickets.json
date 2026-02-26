@@ -676,5 +676,17 @@
     "createdAt": "2026-02-26T14:48:42.899Z",
     "validUntil": "2027-02-26T14:48:42.899Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-EBD7F3F6",
+    "stripeSessionId": "cs_live_a1weEAvH6iSQybwGcsXziJGqaxABrVArBIMQhuitWp7g4ywRafedHrXUlv",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "touinninon@gmail.com",
+    "customerName": "Ninon Touin",
+    "createdAt": "2026-02-26T15:11:22.262Z",
+    "validUntil": "2027-02-26T15:11:22.262Z",
+    "status": "active"
   }
 ]
