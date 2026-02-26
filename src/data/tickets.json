@@ -652,5 +652,17 @@
     "createdAt": "2026-02-26T13:44:39.898Z",
     "validUntil": "2027-02-26T13:44:39.898Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-AD417F31",
+    "stripeSessionId": "cs_live_a1ZdVi8P8CeiXKHFGXmB6ZmI70jiWSxOAx0ZZ5gkPNEtzkVNkFVCH70xIS",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "tolomelli@free.fr",
+    "customerName": "Tolomelli",
+    "createdAt": "2026-02-26T14:19:57.355Z",
+    "validUntil": "2027-02-26T14:19:57.355Z",
+    "status": "active"
   }
 ]
