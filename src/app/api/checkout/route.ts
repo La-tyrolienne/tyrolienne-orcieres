@@ -12,6 +12,7 @@ interface CheckoutItem {
     label: string;
     price: number;
     quantity: number;
+    isGift?: boolean;
 }
 
 export async function POST(request: NextRequest) {
@@ -62,7 +63,8 @@ export async function POST(request: NextRequest) {
                     season: i.season,
                     label: i.label,
                     qty: i.quantity,
-                    price: i.price
+                    price: i.price,
+                    isGift: !!i.isGift
                 }))),
             },
             custom_text: {

@@ -8,6 +8,7 @@ export interface CartItem {
     price: number;
     quantity: number;
     label: string;
+    isGift?: boolean;
 }
 
 interface CartContextType {
@@ -15,6 +16,7 @@ interface CartContextType {
     addItem: (item: Omit<CartItem, 'id'>) => void;
     removeItem: (id: string) => void;
     updateQuantity: (id: string, quantity: number) => void;
+    toggleGift: (id: string, isGift: boolean) => void;
     clearCart: () => void;
     totalItems: number;
     totalPrice: number;
@@ -47,8 +49,8 @@ export function CartProvider({ children }: { children: ReactNode }) {
     }, [items, isLoaded]);
 
     const addItem = (item: Omit<CartItem, 'id'>) => {
-        // Check if same season item already exists, if so increase quantity
-        const existing = items.find(i => i.season === item.season);
+        // Check if same season and gift status exist, if so increase quantity
+        const existing = items.find(i => i.season === item.season && !!i.isGift === !!item.isGift);
         if (existing) {
             setItems(prev => prev.map(i =>
                 i.id === existing.id
@@ -57,7 +59,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
             ));
         } else {
             const id = `tyro-${item.season}-${Date.now()}`;
-            setItems(prev => [...prev, { ...item, id }]);
+            setItems(prev => [...prev, { ...item, id, isGift: item.isGift || false }]);
         }
     };
 
@@ -75,6 +77,12 @@ export function CartProvider({ children }: { children: ReactNode }) {
         ));
     };
 
+    const toggleGift = (id: string, isGift: boolean) => {
+        setItems(prev => prev.map(item =>
+            item.id === id ? { ...item, isGift } : item
+        ));
+    };
+
     const clearCart = () => {
         setItems([]);
     };
@@ -88,6 +96,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
             addItem,
             removeItem,
             updateQuantity,
+            toggleGift,
             clearCart,
             totalItems,
             totalPrice

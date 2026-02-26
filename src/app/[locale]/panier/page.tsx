@@ -7,12 +7,12 @@ import { useCart } from '@/context/CartContext';
 import { useTheme } from '@/components/theme-provider';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ShoppingCart, Trash2, Minus, Plus, Shield, CreditCard, ArrowLeft, Loader2, Snowflake, Sun } from 'lucide-react';
+import { ShoppingCart, Trash2, Minus, Plus, Shield, CreditCard, ArrowLeft, Loader2, Snowflake, Sun, Gift } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 export default function PanierPage() {
-    const { items, removeItem, updateQuantity, clearCart, totalPrice, totalItems } = useCart();
+    const { items, removeItem, updateQuantity, toggleGift, clearCart, totalPrice, totalItems } = useCart();
     const { season } = useTheme();
     const [isCheckingOut, setIsCheckingOut] = useState(false);
     const [error, setError] = useState('');
@@ -29,6 +29,7 @@ export default function PanierPage() {
                 label: item.label,
                 price: item.price,
                 quantity: item.quantity,
+                isGift: !!item.isGift,
             }));
 
             const response = await fetch('/api/checkout', {
@@ -157,6 +158,30 @@ export default function PanierPage() {
                                                             <Trash2 className="w-4 h-4" />
                                                         </button>
                                                     </div>
+
+                                                    {/* Gift Toggle Box */}
+                                                    <div className="pt-4 mt-4 border-t border-border flex items-center justify-between bg-muted/20 p-3 rounded-lg">
+                                                        <div className="flex items-center gap-3">
+                                                            <div className={`p-2 rounded-full ${item.isGift ? 'bg-primary/10 text-primary' : 'bg-muted text-muted-foreground'}`}>
+                                                                <Gift className="w-5 h-5" />
+                                                            </div>
+                                                            <div>
+                                                                <p className="font-bold text-sm">Offrir en bon cadeau <span className="text-[10px] ml-1 px-1.5 py-0.5 bg-green-100 text-green-700 rounded-full font-bold uppercase">Gratuit</span></p>
+                                                                <p className="text-xs text-muted-foreground hidden md:block">Un beau PDF sans l&apos;affichage du prix sera généré après paiement.</p>
+                                                            </div>
+                                                        </div>
+                                                        <button
+                                                            onClick={() => toggleGift(item.id, !item.isGift)}
+                                                            className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 ${item.isGift ? 'bg-primary' : 'bg-muted-foreground/30'}`}
+                                                            role="switch"
+                                                            aria-checked={item.isGift}
+                                                        >
+                                                            <span
+                                                                aria-hidden="true"
+                                                                className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out ${item.isGift ? 'translate-x-5' : 'translate-x-0'}`}
+                                                            />
+                                                        </button>
+                                                    </div>
                                                 </CardContent>
                                             </Card>
                                         </motion.div>
@@ -187,7 +212,10 @@ export default function PanierPage() {
                                 <CardContent className="p-6 space-y-4">
                                     {items.map(item => (
                                         <div key={item.id} className="flex justify-between text-sm">
-                                            <span className="text-muted-foreground">{item.label} × {item.quantity}</span>
+                                            <span className="text-muted-foreground">
+                                                {item.label} × {item.quantity}
+                                                {item.isGift && <span className="ml-2 text-[10px] text-primary font-bold uppercase px-1.5 py-0.5 bg-primary/10 rounded">Cadeau</span>}
+                                            </span>
                                             <span className="font-medium">{item.price * item.quantity}€</span>
                                         </div>
                                     ))}

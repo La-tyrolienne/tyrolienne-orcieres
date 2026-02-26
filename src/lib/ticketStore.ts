@@ -16,6 +16,7 @@ export interface Ticket {
     validUntil: string;
     status: 'active' | 'used' | 'expired';
     usedAt?: string;
+    isGift?: boolean;
 }
 
 async function readTickets(): Promise<Ticket[]> {

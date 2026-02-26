@@ -52,6 +52,7 @@ export async function POST(request: NextRequest) {
                                 quantity: 1,
                                 customerEmail: session.customer_details?.email || '',
                                 customerName: session.customer_details?.name || 'Client',
+                                isGift: !!item.isGift,
                             });
                         }
                     }
