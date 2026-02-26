@@ -592,5 +592,17 @@
     "createdAt": "2026-02-26T10:24:29.808Z",
     "validUntil": "2027-02-26T10:24:29.808Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-098DE973",
+    "stripeSessionId": "cs_live_a1PZduX0BaBcTxa2rNtACIXGLKFOpU3AVmRItENzVaMhiGOaCZCycUYgF1",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "sabrina.bensmira13@gmail.com",
+    "customerName": "Sabrina Bensmira ",
+    "createdAt": "2026-02-26T12:33:51.152Z",
+    "validUntil": "2027-02-26T12:33:51.152Z",
+    "status": "active"
   }
 ]
