@@ -531,7 +531,8 @@
     "customerName": "Laurène Fillet",
     "createdAt": "2026-02-25T14:45:24.005Z",
     "validUntil": "2027-02-25T14:45:24.005Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:08:56.733Z"
   },
   {
     "id": "TKT-F5A9B1AE",
