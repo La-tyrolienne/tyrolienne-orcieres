@@ -687,7 +687,8 @@
     "customerName": "Ninon Touin",
     "createdAt": "2026-02-26T15:11:22.262Z",
     "validUntil": "2027-02-26T15:11:22.262Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:06:51.032Z"
   },
   {
     "id": "TKT-5CEB7AE1",
