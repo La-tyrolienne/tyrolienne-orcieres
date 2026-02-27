@@ -712,7 +712,8 @@
     "customerName": "Smaniotto",
     "createdAt": "2026-02-26T15:16:03.529Z",
     "validUntil": "2027-02-26T15:16:03.529Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:07:05.372Z"
   },
   {
     "id": "TKT-281F1427",
