@@ -519,7 +519,8 @@
     "customerName": "Lionel Barin",
     "createdAt": "2026-02-25T14:31:39.914Z",
     "validUntil": "2027-02-25T14:31:39.914Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:09:06.238Z"
   },
   {
     "id": "TKT-1F48F52B",
