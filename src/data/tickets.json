@@ -891,5 +891,18 @@
     "createdAt": "2026-02-27T10:31:02.932Z",
     "validUntil": "2027-02-27T10:31:02.932Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-A2C43BEA",
+    "stripeSessionId": "cs_live_a1qtjOIB2uMk4gWg9KoqIELPBCe7bL3XQXIi5rR1IgU31z5iC3gWNWG2xh",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "anthonygauthier1708@gmail.com",
+    "customerName": "Anthony Gauthier",
+    "isGift": false,
+    "createdAt": "2026-02-27T10:31:03.795Z",
+    "validUntil": "2027-02-27T10:31:03.795Z",
+    "status": "active"
   }
 ]
