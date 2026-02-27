@@ -627,7 +627,8 @@
     "customerName": "Thomas Cordier",
     "createdAt": "2026-02-26T13:09:32.889Z",
     "validUntil": "2027-02-26T13:09:32.889Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:08:07.082Z"
   },
   {
     "id": "TKT-46BB68A5",
