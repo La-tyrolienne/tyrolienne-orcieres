@@ -495,7 +495,8 @@
     "customerName": "Jules thonon",
     "createdAt": "2026-02-25T14:31:02.193Z",
     "validUntil": "2027-02-25T14:31:02.193Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:09:18.038Z"
   },
   {
     "id": "TKT-A08B4220",
