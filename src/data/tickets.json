@@ -942,5 +942,18 @@
     "createdAt": "2026-02-27T14:49:25.449Z",
     "validUntil": "2027-02-27T14:49:25.449Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-AA56783B",
+    "stripeSessionId": "cs_live_a1X9ZExsdiownsJ8ipSCbi16MuVMA1PML4dN4MVtCBqaXqkek9Uc38NNwD",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "geoffrey.lete@gmail.com",
+    "customerName": "Loucas petros",
+    "isGift": false,
+    "createdAt": "2026-02-27T15:21:27.782Z",
+    "validUntil": "2027-02-27T15:21:27.782Z",
+    "status": "active"
   }
 ]
