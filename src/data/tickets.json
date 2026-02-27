@@ -413,7 +413,8 @@
     "customerName": "Maxime Legendre",
     "createdAt": "2026-02-24T14:28:30.261Z",
     "validUntil": "2027-02-24T14:28:30.261Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:10:14.337Z"
   },
   {
     "id": "TKT-2D75387B",
