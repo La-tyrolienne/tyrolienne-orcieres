@@ -700,7 +700,8 @@
     "customerName": "Smaniotto",
     "createdAt": "2026-02-26T15:15:59.336Z",
     "validUntil": "2027-02-26T15:15:59.336Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:07:10.882Z"
   },
   {
     "id": "TKT-9DA07A32",
