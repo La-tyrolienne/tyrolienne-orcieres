@@ -435,7 +435,8 @@
     "customerName": "Marine Gibella",
     "createdAt": "2026-02-25T08:32:42.350Z",
     "validUntil": "2027-02-25T08:32:42.350Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:09:39.077Z"
   },
   {
     "id": "TKT-C4ED51FD",
