@@ -826,5 +826,18 @@
     "createdAt": "2026-02-27T07:12:08.617Z",
     "validUntil": "2027-02-27T07:12:08.617Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-BD6BD905",
+    "stripeSessionId": "cs_live_a1QHh5LPYyn0JIjJ1EgwMTKEWYbtIqieOwTKY3byaAZ5uy2ENKUTT4Z98P",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "leray.elodie@gmail.com",
+    "customerName": "LEray",
+    "isGift": false,
+    "createdAt": "2026-02-27T08:45:37.658Z",
+    "validUntil": "2027-02-27T08:45:37.658Z",
+    "status": "active"
   }
 ]
