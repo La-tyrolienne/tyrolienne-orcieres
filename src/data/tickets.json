@@ -616,7 +616,8 @@
     "customerName": "Soilihi",
     "createdAt": "2026-02-26T12:35:09.749Z",
     "validUntil": "2027-02-26T12:35:09.749Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:08:19.847Z"
   },
   {
     "id": "TKT-9D008D29",
