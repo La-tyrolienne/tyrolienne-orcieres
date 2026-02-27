@@ -311,7 +311,8 @@
     "customerName": "Marion Dehurtevent",
     "createdAt": "2026-02-23T13:48:04.189Z",
     "validUntil": "2027-02-23T13:48:04.189Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:10:05.934Z"
   },
   {
     "id": "TKT-1F656F30",
