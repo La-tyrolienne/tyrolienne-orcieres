@@ -675,7 +675,8 @@
     "customerName": "Bajeux",
     "createdAt": "2026-02-26T14:48:42.899Z",
     "validUntil": "2027-02-26T14:48:42.899Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:07:22.953Z"
   },
   {
     "id": "TKT-EBD7F3F6",
