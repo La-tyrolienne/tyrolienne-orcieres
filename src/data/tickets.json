@@ -591,7 +591,8 @@
     "customerName": "Natacha GIROD",
     "createdAt": "2026-02-26T10:24:29.808Z",
     "validUntil": "2027-02-26T10:24:29.808Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:08:25.927Z"
   },
   {
     "id": "TKT-098DE973",
