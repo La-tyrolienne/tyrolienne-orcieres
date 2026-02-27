@@ -663,7 +663,8 @@
     "customerName": "Tolomelli",
     "createdAt": "2026-02-26T14:19:57.355Z",
     "validUntil": "2027-02-26T14:19:57.355Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:07:29.462Z"
   },
   {
     "id": "TKT-1FE2E3ED",
