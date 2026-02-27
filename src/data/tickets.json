@@ -788,5 +788,18 @@
     "createdAt": "2026-02-26T17:24:29.859Z",
     "validUntil": "2027-02-26T17:24:29.859Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-9C7DCF95",
+    "stripeSessionId": "cs_live_a161NvbMIutdgWIxBSakl6R4SbR6hGSGcse1FhBmAfzAdFfK47ZHVtIWwC",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "bomaticedric@gmail.com",
+    "customerName": "Bomati",
+    "isGift": false,
+    "createdAt": "2026-02-27T07:12:03.255Z",
+    "validUntil": "2027-02-27T07:12:03.255Z",
+    "status": "active"
   }
 ]
