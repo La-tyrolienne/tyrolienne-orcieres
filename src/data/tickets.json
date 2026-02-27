@@ -916,5 +916,18 @@
     "createdAt": "2026-02-27T10:31:07.769Z",
     "validUntil": "2027-02-27T10:31:07.769Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-26D6EC0D",
+    "stripeSessionId": "cs_live_a1g85PDLdjsLyGOb3UCTDRvbk3eIV4XeaSZ0sGsB8HgQUZ9Wm5WPXIUQnA",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "dorange.mariee@gmail.com",
+    "customerName": "Dorange Marie",
+    "isGift": false,
+    "createdAt": "2026-02-27T14:49:24.805Z",
+    "validUntil": "2027-02-27T14:49:24.805Z",
+    "status": "active"
   }
 ]
