@@ -639,7 +639,8 @@
     "customerName": "Fabrice Osolin",
     "createdAt": "2026-02-26T13:44:36.054Z",
     "validUntil": "2027-02-26T13:44:36.054Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:08:00.734Z"
   },
   {
     "id": "TKT-E8294AC8",
