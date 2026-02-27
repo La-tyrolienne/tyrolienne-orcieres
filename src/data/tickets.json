@@ -803,7 +803,7 @@
     "status": "active"
   },
   {
-    "id": "TKT-9F260329",
+    "id": "TKT-81193D13",
     "stripeSessionId": "cs_live_a161NvbMIutdgWIxBSakl6R4SbR6hGSGcse1FhBmAfzAdFfK47ZHVtIWwC",
     "season": "winter",
     "price": 40,
@@ -811,8 +811,8 @@
     "customerEmail": "bomaticedric@gmail.com",
     "customerName": "Bomati",
     "isGift": false,
-    "createdAt": "2026-02-27T07:12:03.754Z",
-    "validUntil": "2027-02-27T07:12:03.754Z",
+    "createdAt": "2026-02-27T07:12:04.250Z",
+    "validUntil": "2027-02-27T07:12:04.250Z",
     "status": "active"
   }
 ]
