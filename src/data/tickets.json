@@ -651,7 +651,8 @@
     "customerName": "Fabrice Osolin",
     "createdAt": "2026-02-26T13:44:39.898Z",
     "validUntil": "2027-02-26T13:44:39.898Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:07:35.529Z"
   },
   {
     "id": "TKT-AD417F31",
