@@ -483,7 +483,8 @@
     "customerName": "Stephane MALET",
     "createdAt": "2026-02-25T13:55:21.065Z",
     "validUntil": "2027-02-25T13:55:21.065Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-02-27T07:09:25.024Z"
   },
   {
     "id": "TKT-4596336E",
