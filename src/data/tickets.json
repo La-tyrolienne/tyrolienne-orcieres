@@ -980,5 +980,18 @@
     "createdAt": "2026-02-27T15:21:31.943Z",
     "validUntil": "2027-02-27T15:21:31.943Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-795020BE",
+    "stripeSessionId": "cs_live_a11IDYHOkRiFAn5AknR0SlnD9A5g107hsknzoms1Lw2v7FVL9MuaH6D0FS",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "yoann30500@gmail.com",
+    "customerName": "Moyeux",
+    "isGift": false,
+    "createdAt": "2026-03-01T13:33:47.353Z",
+    "validUntil": "2027-03-01T13:33:47.353Z",
+    "status": "active"
   }
 ]
