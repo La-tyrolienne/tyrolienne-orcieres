@@ -1006,5 +1006,17 @@
     "createdAt": "2026-03-01T13:42:53.294Z",
     "validUntil": "2027-03-01T13:42:53.294Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-3AACA483",
+    "stripeSessionId": "cs_live_a1uWpwO3F2DPns2FSSYYsmMeKLv5IU9XtjDQeIeUFEpjkuIAesfXAWtYdU",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "batexpress.idf@gmail.com",
+    "customerName": "Jeremie  Garrigo ",
+    "createdAt": "2026-03-01T13:42:57.342Z",
+    "validUntil": "2027-03-01T13:42:57.342Z",
+    "status": "active"
   }
 ]
