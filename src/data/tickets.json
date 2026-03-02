@@ -1069,5 +1069,18 @@
     "createdAt": "2026-03-02T10:30:51.523Z",
     "validUntil": "2027-03-02T10:30:51.523Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-FF3EE3BC",
+    "stripeSessionId": "cs_live_a1oDSnh6GhhKLJ9ZhoK0Joxgz9PF5lhBco4nXKBQncxjKUmWyobZBZ0G9o",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "marine.bet@hotmail.fr",
+    "customerName": "Marine Bet",
+    "isGift": false,
+    "createdAt": "2026-03-02T10:33:28.026Z",
+    "validUntil": "2027-03-02T10:33:28.026Z",
+    "status": "active"
   }
 ]
