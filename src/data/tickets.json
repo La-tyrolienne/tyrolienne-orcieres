@@ -1044,5 +1044,18 @@
     "createdAt": "2026-03-02T10:30:43.549Z",
     "validUntil": "2027-03-02T10:30:43.549Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-44115CF9",
+    "stripeSessionId": "cs_live_a1cIcOoMpIViredkBS0yakBmOiCvSwHfPP9mWGPDUsXECPfv5eOUPK4V0I",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "adeline.vanroy@yahoo.fr",
+    "customerName": "Adeline Van Roy",
+    "isGift": false,
+    "createdAt": "2026-03-02T10:30:47.423Z",
+    "validUntil": "2027-03-02T10:30:47.423Z",
+    "status": "active"
   }
 ]
