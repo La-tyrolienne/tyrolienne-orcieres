@@ -1018,5 +1018,18 @@
     "createdAt": "2026-03-01T13:42:57.342Z",
     "validUntil": "2027-03-01T13:42:57.342Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-7FA4CCFE",
+    "stripeSessionId": "cs_live_a1jAGFxpisUbFeyFUo5LZViqz1cp5IWGiNg3XhT0J8IKXhQDxdW4xvj2Tz",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "yves.benyaya@gmail.com",
+    "customerName": "benyaya",
+    "isGift": false,
+    "createdAt": "2026-03-02T10:30:42.543Z",
+    "validUntil": "2027-03-02T10:30:42.543Z",
+    "status": "active"
   }
 ]
