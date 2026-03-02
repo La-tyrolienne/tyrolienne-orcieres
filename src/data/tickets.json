@@ -1108,5 +1108,17 @@
     "createdAt": "2026-03-02T13:56:32.585Z",
     "validUntil": "2027-03-02T13:56:32.585Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-BF106409",
+    "stripeSessionId": "cs_live_a1pyuiwQyJ0GY5oi1dvCrDWsns436sEmA2amIO1KmGyvG7Q4iOPeRWXeH1",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "salome.etienvre@gmail.com",
+    "customerName": "Etienvre",
+    "createdAt": "2026-03-02T13:56:40.069Z",
+    "validUntil": "2027-03-02T13:56:40.069Z",
+    "status": "active"
   }
 ]
