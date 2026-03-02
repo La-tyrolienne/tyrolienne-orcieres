@@ -1082,5 +1082,18 @@
     "createdAt": "2026-03-02T10:33:28.026Z",
     "validUntil": "2027-03-02T10:33:28.026Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1A4424A2",
+    "stripeSessionId": "cs_live_a1rIG9CyfzzuRXgFnqww28GPpljJxoPXnIy4tsbn7xh2QYI7bNU3EgZADx",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "lucie.bet@hotmail.com",
+    "customerName": "Lucie Bet",
+    "isGift": false,
+    "createdAt": "2026-03-02T10:33:55.566Z",
+    "validUntil": "2027-03-02T10:33:55.566Z",
+    "status": "active"
   }
 ]
