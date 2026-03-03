@@ -1208,5 +1208,29 @@
     "createdAt": "2026-03-03T12:52:03.362Z",
     "validUntil": "2027-03-03T12:52:03.362Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C538E1E3",
+    "stripeSessionId": "cs_live_a15tnwNCyrjDlWIYlTysvxEQrrtpbSMXN3Rmde8uPjxds5B6hrjfk6xyGe",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "g.helas@hotmail.com",
+    "customerName": "HELAS",
+    "createdAt": "2026-03-03T12:52:16.824Z",
+    "validUntil": "2027-03-03T12:52:16.824Z",
+    "status": "active"
+  },
+  {
+    "id": "TKT-D7278F39",
+    "stripeSessionId": "cs_live_a15tnwNCyrjDlWIYlTysvxEQrrtpbSMXN3Rmde8uPjxds5B6hrjfk6xyGe",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "g.helas@hotmail.com",
+    "customerName": "HELAS",
+    "createdAt": "2026-03-03T12:52:16.824Z",
+    "validUntil": "2027-03-03T12:52:16.824Z",
+    "status": "active"
   }
 ]
