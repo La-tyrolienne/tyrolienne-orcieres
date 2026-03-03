@@ -1270,5 +1270,18 @@
     "createdAt": "2026-03-03T12:57:44.448Z",
     "validUntil": "2027-03-03T12:57:44.448Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-CD1A22C6",
+    "stripeSessionId": "cs_live_a1Di3LW4asrkjXE8S3ec8S3JSsPxL5zT2ndw88TmjQ3AZOtyoA9wD1pFK0",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "patrice@lifexperience.fr",
+    "customerName": "Patrice  Talens",
+    "isGift": false,
+    "createdAt": "2026-03-03T13:19:05.708Z",
+    "validUntil": "2027-03-03T13:19:05.708Z",
+    "status": "active"
   }
 ]
