@@ -1197,7 +1197,7 @@
     "status": "active"
   },
   {
-    "id": "TKT-A22BCB6C",
+    "id": "TKT-B6707B21",
     "stripeSessionId": "cs_live_a15tnwNCyrjDlWIYlTysvxEQrrtpbSMXN3Rmde8uPjxds5B6hrjfk6xyGe",
     "season": "winter",
     "price": 40,
@@ -1205,8 +1205,8 @@
     "customerEmail": "g.helas@hotmail.com",
     "customerName": "HELAS",
     "isGift": false,
-    "createdAt": "2026-03-03T12:52:02.431Z",
-    "validUntil": "2027-03-03T12:52:02.431Z",
+    "createdAt": "2026-03-03T12:52:03.362Z",
+    "validUntil": "2027-03-03T12:52:03.362Z",
     "status": "active"
   }
 ]
