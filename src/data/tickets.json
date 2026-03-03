@@ -1309,5 +1309,18 @@
     "createdAt": "2026-03-03T14:43:27.832Z",
     "validUntil": "2027-03-03T14:43:27.832Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-21B4B579",
+    "stripeSessionId": "cs_live_a1jCGdj36BCMixpx1MybbD74x7dZzfeBdL8wTcsFDJ6LR9PCPyRSETSgir",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "ambresimonliothin@gmail.com",
+    "customerName": "Ambre Simonliothin",
+    "isGift": true,
+    "createdAt": "2026-03-03T15:43:37.085Z",
+    "validUntil": "2027-03-03T15:43:37.085Z",
+    "status": "active"
   }
 ]
