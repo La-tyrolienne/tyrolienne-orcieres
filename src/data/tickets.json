@@ -1182,5 +1182,18 @@
     "createdAt": "2026-03-03T09:16:38.635Z",
     "validUntil": "2027-03-03T09:16:38.635Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-73F95E7D",
+    "stripeSessionId": "cs_live_a1JR1YF1KUhVvdY6woFbc5OArXbDARwZzK5gkCDjgQ3tHKqrgu7nuQmTLH",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "olivianeel4@gmail.com",
+    "customerName": "Neel olivia",
+    "isGift": false,
+    "createdAt": "2026-03-03T11:33:07.219Z",
+    "validUntil": "2027-03-03T11:33:07.219Z",
+    "status": "active"
   }
 ]
