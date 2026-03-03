@@ -1322,5 +1322,18 @@
     "createdAt": "2026-03-03T15:43:37.085Z",
     "validUntil": "2027-03-03T15:43:37.085Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-51B2ACA9",
+    "stripeSessionId": "cs_live_a1k5cYazMLQNtjwMdHG7jJiSzDTIOB3maA9sGoFjzvY7BL0lLF7omNxwoE",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "adrien.cazeneuve@gmail.com",
+    "customerName": "Adrien Cazeneuve",
+    "isGift": false,
+    "createdAt": "2026-03-03T19:26:05.400Z",
+    "validUntil": "2027-03-03T19:26:05.400Z",
+    "status": "active"
   }
 ]
