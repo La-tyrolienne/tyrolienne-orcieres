@@ -1133,5 +1133,18 @@
     "createdAt": "2026-03-02T16:07:58.346Z",
     "validUntil": "2027-03-02T16:07:58.346Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-33282565",
+    "stripeSessionId": "cs_live_a1i6NYiyfxLRHU45QN2HmuFzFfLG9FhMdNYWnF0s0ATNXfDExIGmRIqLb2",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "gael@philippot-huang.com",
+    "customerName": "WEI PHILIPPOT",
+    "isGift": false,
+    "createdAt": "2026-03-03T09:16:32.647Z",
+    "validUntil": "2027-03-03T09:16:32.647Z",
+    "status": "active"
   }
 ]
