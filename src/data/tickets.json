@@ -1258,5 +1258,17 @@
     "createdAt": "2026-03-03T12:57:39.187Z",
     "validUntil": "2027-03-03T12:57:39.187Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-AF25482F",
+    "stripeSessionId": "cs_live_a1C7YFGFnHxCadBtvnBDtPij7wUA45eU83pGT16sdfIHZBzPiLwgVVvFd4",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "titine311@hotmail.fr",
+    "customerName": "clémentine excoffier",
+    "createdAt": "2026-03-03T12:57:44.448Z",
+    "validUntil": "2027-03-03T12:57:44.448Z",
+    "status": "active"
   }
 ]
