@@ -1579,5 +1579,18 @@
     "createdAt": "2026-03-04T12:04:33.458Z",
     "validUntil": "2027-03-04T12:04:33.458Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-5CB8EAEA",
+    "stripeSessionId": "cs_live_a1nytpfpDoQRI2lZ83wi8cs6Lgl1cF2ZkVzcvs66gdgTDOMJKQfCGuGdv4",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "caroleh.rouge@gmail.com",
+    "customerName": "Carole Rougé",
+    "isGift": false,
+    "createdAt": "2026-03-04T12:30:44.390Z",
+    "validUntil": "2027-03-04T12:30:44.390Z",
+    "status": "active"
   }
 ]
