@@ -1374,5 +1374,18 @@
     "createdAt": "2026-03-04T09:01:55.578Z",
     "validUntil": "2027-03-04T09:01:55.578Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-6B8E625D",
+    "stripeSessionId": "cs_live_a19TZBbZezw5oGXZqWflsdDFdN8o0esCnEkbIja1vzc3HQJ5hFCm5A16rv",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "stephlaine@msn.com",
+    "customerName": "Stéphane Lainé",
+    "isGift": false,
+    "createdAt": "2026-03-04T09:01:56.428Z",
+    "validUntil": "2027-03-04T09:01:56.428Z",
+    "status": "active"
   }
 ]
