@@ -1566,5 +1566,18 @@
     "createdAt": "2026-03-04T11:39:38.364Z",
     "validUntil": "2027-03-04T11:39:38.364Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1E3D0CA0",
+    "stripeSessionId": "cs_live_a1087ZlECglvIdFhVoRnI56LgxBrtiau0CTvPF839Ig9onFElSMMFBYM53",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "j.fauchereau@gmail.com",
+    "customerName": "Jérémy Fauchereau",
+    "isGift": false,
+    "createdAt": "2026-03-04T12:04:33.458Z",
+    "validUntil": "2027-03-04T12:04:33.458Z",
+    "status": "active"
   }
 ]
