@@ -1400,5 +1400,18 @@
     "createdAt": "2026-03-04T09:01:57.612Z",
     "validUntil": "2027-03-04T09:01:57.612Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E9A69239",
+    "stripeSessionId": "cs_live_a1J5dmTus7kVa8AIfiuS3GXxnyMQRO45U7getOnz73UA9xh8lY6kzVphDP",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "josh@wilhelmi.fr",
+    "customerName": "Joshua Wilhelmi",
+    "isGift": false,
+    "createdAt": "2026-03-04T10:04:58.643Z",
+    "validUntil": "2027-03-04T10:04:58.643Z",
+    "status": "active"
   }
 ]
