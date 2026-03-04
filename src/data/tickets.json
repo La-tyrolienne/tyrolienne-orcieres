@@ -1655,5 +1655,18 @@
     "createdAt": "2026-03-04T13:11:47.629Z",
     "validUntil": "2027-03-04T13:11:47.629Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-3F0C0041",
+    "stripeSessionId": "cs_live_a1Ct6Cj2sCFlWQSIXuuRemQVwXvpvRjserHX6pJcT8POsp1TpJkBilvQaq",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "teamlemaire@gmail.com",
+    "customerName": "Marc Lemaire",
+    "isGift": false,
+    "createdAt": "2026-03-04T13:58:00.340Z",
+    "validUntil": "2027-03-04T13:58:00.340Z",
+    "status": "active"
   }
 ]
