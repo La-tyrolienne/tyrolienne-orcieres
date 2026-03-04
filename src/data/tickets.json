@@ -1553,5 +1553,18 @@
     "createdAt": "2026-03-04T11:27:44.691Z",
     "validUntil": "2027-03-04T11:27:44.691Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-255659CB",
+    "stripeSessionId": "cs_live_a1EGLMYv0jG1ln1uDHk6OUuKle6QIbu0vnIZiBCbbjlqEN2hXJ9jducadD",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "vacanceski26@gmail.com",
+    "customerName": "Chella",
+    "isGift": false,
+    "createdAt": "2026-03-04T11:39:38.364Z",
+    "validUntil": "2027-03-04T11:39:38.364Z",
+    "status": "active"
   }
 ]
