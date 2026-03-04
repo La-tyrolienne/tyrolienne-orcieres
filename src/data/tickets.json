@@ -1478,7 +1478,7 @@
     "status": "active"
   },
   {
-    "id": "TKT-F49183A8",
+    "id": "TKT-AEAFB41A",
     "stripeSessionId": "cs_live_a1IJoqhk5sWiPkO7en3CnVMsALVVynoTz4Gs9Rr5cky3gwgXzxr6valCWg",
     "season": "winter",
     "price": 40,
@@ -1486,8 +1486,8 @@
     "customerEmail": "son.fernan@gmail.com",
     "customerName": "Sonia Fernandes",
     "isGift": false,
-    "createdAt": "2026-03-04T11:03:38.192Z",
-    "validUntil": "2027-03-04T11:03:38.192Z",
+    "createdAt": "2026-03-04T11:03:38.766Z",
+    "validUntil": "2027-03-04T11:03:38.766Z",
     "status": "active"
   }
 ]
