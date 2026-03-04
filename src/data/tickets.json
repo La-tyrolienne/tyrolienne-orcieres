@@ -1733,5 +1733,17 @@
     "createdAt": "2026-03-04T14:30:57.490Z",
     "validUntil": "2027-03-04T14:30:57.490Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-D0D9BA85",
+    "stripeSessionId": "cs_live_a13ua8vOgp9fg65eSDzf7sW4N0YjI36uBIG2H52M5ohViFz4QxKwZerXSX",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "m.ferreira@fcrueil92.fr",
+    "customerName": "manuel ferreira",
+    "createdAt": "2026-03-04T14:31:18.620Z",
+    "validUntil": "2027-03-04T14:31:18.620Z",
+    "status": "active"
   }
 ]
