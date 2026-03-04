@@ -1335,5 +1335,18 @@
     "createdAt": "2026-03-03T19:26:05.400Z",
     "validUntil": "2027-03-03T19:26:05.400Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-24EC0C6B",
+    "stripeSessionId": "cs_live_a1i57L4ZBz3Ck7dUVZXuA4bFCYU5dv1KwHwzGW9L3NSLgSh0s1rvZw5SIo",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "comptesmag2016@outlook.fr",
+    "customerName": "Pastor",
+    "isGift": false,
+    "createdAt": "2026-03-04T08:39:20.865Z",
+    "validUntil": "2027-03-04T08:39:20.865Z",
+    "status": "active"
   }
 ]
