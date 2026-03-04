@@ -1605,5 +1605,18 @@
     "createdAt": "2026-03-04T12:30:45.487Z",
     "validUntil": "2027-03-04T12:30:45.487Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-24710718",
+    "stripeSessionId": "cs_live_a1ovrZOqi7vFzChXMQK397J9btC3rLMMXQAcbMtMDFvOMlFRLCxZ9iLmfa",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "salvapeco@gmail.com",
+    "customerName": "Salvatore Pecoraro",
+    "isGift": false,
+    "createdAt": "2026-03-04T13:11:41.230Z",
+    "validUntil": "2027-03-04T13:11:41.230Z",
+    "status": "active"
   }
 ]
