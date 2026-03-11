@@ -1758,5 +1758,18 @@
     "createdAt": "2026-03-05T11:27:10.515Z",
     "validUntil": "2027-03-05T11:27:10.515Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-FD65E1C7",
+    "stripeSessionId": "cs_live_a1jp7bueUA05DhQlV0HnUDCR2sHilkOI4Qgd1XY27547U5MdqVGCQhXkvR",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "cassou056@hotmail.fr",
+    "customerName": "Cassandra Faure",
+    "isGift": true,
+    "createdAt": "2026-03-11T14:29:38.497Z",
+    "validUntil": "2027-03-11T14:29:38.497Z",
+    "status": "active"
   }
 ]
