@@ -1771,5 +1771,18 @@
     "createdAt": "2026-03-11T14:29:38.497Z",
     "validUntil": "2027-03-11T14:29:38.497Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-42CD07E1",
+    "stripeSessionId": "cs_live_a1sBjFSY9cZfLaamBvsMHpiibejv1b5zXBV1KHx2ckoJC5fvXw3xLoBRMu",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "valentin.danten@orange.fr",
+    "customerName": "Valentin Danten ",
+    "isGift": false,
+    "createdAt": "2026-03-13T08:38:38.182Z",
+    "validUntil": "2027-03-13T08:38:38.182Z",
+    "status": "active"
   }
 ]
