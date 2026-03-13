@@ -1784,5 +1784,18 @@
     "createdAt": "2026-03-13T08:38:38.182Z",
     "validUntil": "2027-03-13T08:38:38.182Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-3FD7827F",
+    "stripeSessionId": "cs_live_a1njF6D7iMiHsKNPgLX9tUGYNqY0gk4eLjXcszkjPy9ScB54iUTZC9XKfD",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "alizee.petitmangin@wanadoo.fr",
+    "customerName": "Alizée Petitmangin",
+    "isGift": false,
+    "createdAt": "2026-03-13T10:22:45.211Z",
+    "validUntil": "2027-03-13T10:22:45.211Z",
+    "status": "active"
   }
 ]
