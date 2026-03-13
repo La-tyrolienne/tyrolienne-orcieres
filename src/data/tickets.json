@@ -1835,5 +1835,17 @@
     "createdAt": "2026-03-13T10:34:33.253Z",
     "validUntil": "2027-03-13T10:34:33.253Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-44455C8C",
+    "stripeSessionId": "cs_live_a1dpPCCFduII2J5ARhA8vqgzVSBfm4Nqs5Rocgnsw4n6MPhG2PdVnR30Ud",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "kevin.bert@icloud.com",
+    "customerName": "Kevin Bert",
+    "createdAt": "2026-03-13T10:34:38.010Z",
+    "validUntil": "2027-03-13T10:34:38.010Z",
+    "status": "active"
   }
 ]
