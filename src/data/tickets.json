@@ -1860,5 +1860,18 @@
     "createdAt": "2026-03-13T10:46:04.100Z",
     "validUntil": "2027-03-13T10:46:04.100Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-DF19435D",
+    "stripeSessionId": "cs_live_a1OHxbmKifsrABVaNiGfTNPoL4Fil6GuItgofAJnhNK5REE5Gr4YBkkTtS",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "ronsmanslaurine@gmail.com",
+    "customerName": "Laurine  Ronsmans",
+    "isGift": false,
+    "createdAt": "2026-03-17T09:25:31.183Z",
+    "validUntil": "2027-03-17T09:25:31.183Z",
+    "status": "active"
   }
 ]
