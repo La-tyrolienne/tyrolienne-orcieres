@@ -1873,5 +1873,18 @@
     "createdAt": "2026-03-17T09:25:31.183Z",
     "validUntil": "2027-03-17T09:25:31.183Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-AD9933D8",
+    "stripeSessionId": "cs_live_a13nMrD63c8SvqBq5xEx9QI2E3GrzxClf6gDNfDaowvLzCLIlZVB0oQwL2",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "sachaouali@gmail.com",
+    "customerName": "SACHA OUALI",
+    "isGift": true,
+    "createdAt": "2026-03-18T09:40:02.213Z",
+    "validUntil": "2027-03-18T09:40:02.213Z",
+    "status": "active"
   }
 ]
