@@ -1886,5 +1886,18 @@
     "createdAt": "2026-03-18T09:40:02.213Z",
     "validUntil": "2027-03-18T09:40:02.213Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-44942412",
+    "stripeSessionId": "cs_live_a1pbauFGHJa5HHbpXyA7cBoz8ql6BAUcVOb4lxf06qlONCzuSyHutykhHE",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "chris.aube@gmail.com",
+    "customerName": "Aube",
+    "isGift": false,
+    "createdAt": "2026-03-20T11:17:33.635Z",
+    "validUntil": "2027-03-20T11:17:33.635Z",
+    "status": "active"
   }
 ]
