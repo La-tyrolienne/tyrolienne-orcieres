@@ -1899,5 +1899,18 @@
     "createdAt": "2026-03-20T11:17:33.635Z",
     "validUntil": "2027-03-20T11:17:33.635Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-F850B7F2",
+    "stripeSessionId": "cs_live_a14l6LwIGDfv67FlvrgItCFEAMX2e4mj6vuDMlOH33Hw35hlRdyGujT9jO",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "cici8383@hotmail.fr",
+    "customerName": "Cindy Pozo",
+    "isGift": false,
+    "createdAt": "2026-03-21T22:36:32.753Z",
+    "validUntil": "2027-03-21T22:36:32.753Z",
+    "status": "active"
   }
 ]
