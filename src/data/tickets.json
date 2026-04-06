@@ -1990,5 +1990,18 @@
     "createdAt": "2026-04-06T13:16:44.241Z",
     "validUntil": "2027-04-06T13:16:44.241Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1F3AF1F3",
+    "stripeSessionId": "cs_live_a1rmdhC5JioktXhyT72ogiZ1XyStEY7oqWYrnzWy63AF9zF1RtMOJQrlSN",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "vandaeledennis@hotmail.com",
+    "customerName": "Vandaele Dennis",
+    "isGift": false,
+    "createdAt": "2026-04-06T13:16:44.959Z",
+    "validUntil": "2027-04-06T13:16:44.959Z",
+    "status": "active"
   }
 ]
