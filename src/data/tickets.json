@@ -2003,5 +2003,18 @@
     "createdAt": "2026-04-06T13:16:44.959Z",
     "validUntil": "2027-04-06T13:16:44.959Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E568C7C2",
+    "stripeSessionId": "cs_live_a152FO2vEdu7n2kEQMaRETbQV6eQPbUWQXKjrLaEOlTzT1b9wJCOT1Jv3X",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "clemsellam@gmail.com",
+    "customerName": "SELLAM",
+    "isGift": true,
+    "createdAt": "2026-04-17T14:27:23.960Z",
+    "validUntil": "2027-04-17T14:27:23.960Z",
+    "status": "active"
   }
 ]
