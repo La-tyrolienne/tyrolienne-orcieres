@@ -2016,5 +2016,18 @@
     "createdAt": "2026-04-17T14:27:23.960Z",
     "validUntil": "2027-04-17T14:27:23.960Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-A04D7F6E",
+    "stripeSessionId": "cs_live_a1eLVPwragL9PDY6usoRmNCQ5GmrfggDgvidI6DotL3hYR6LW10CggesEA",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "bastien.mateo@outlook.fr",
+    "customerName": "mateo bastien",
+    "isGift": true,
+    "createdAt": "2026-04-21T13:48:23.059Z",
+    "validUntil": "2027-04-21T13:48:23.059Z",
+    "status": "active"
   }
 ]
