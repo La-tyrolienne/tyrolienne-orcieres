@@ -2055,5 +2055,18 @@
     "createdAt": "2026-05-01T09:08:15.634Z",
     "validUntil": "2027-05-01T09:08:15.634Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-5D6D5BFE",
+    "stripeSessionId": "cs_live_a1WE8gtRoy4zjt8nBP842IlBI6Spd97RRpica8yvFAAoCoscybIXNkxRDK",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "morgane.go@orange.fr",
+    "customerName": "GODEAS MORGANE",
+    "isGift": true,
+    "createdAt": "2026-05-03T08:13:16.708Z",
+    "validUntil": "2027-05-03T08:13:16.708Z",
+    "status": "active"
   }
 ]
