@@ -2068,5 +2068,18 @@
     "createdAt": "2026-05-03T08:13:16.708Z",
     "validUntil": "2027-05-03T08:13:16.708Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-64055E32",
+    "stripeSessionId": "cs_live_a1YlJ5hrP0ZxfT3QqdhYmnjs0gJ9ou3AfmZJwMqOa2BqJpkWt18m7vyolh",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "n.gaydou.mk@gmail.com",
+    "customerName": "GAYDOU NOEMIE",
+    "isGift": true,
+    "createdAt": "2026-05-07T09:04:02.351Z",
+    "validUntil": "2027-05-07T09:04:02.351Z",
+    "status": "active"
   }
 ]
