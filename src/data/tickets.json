@@ -2107,5 +2107,18 @@
     "createdAt": "2026-05-09T20:45:12.192Z",
     "validUntil": "2027-05-09T20:45:12.192Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-F8784B4F",
+    "stripeSessionId": "cs_live_a12hpeRzb6gQqIFi52xduskbjSInyTrWvzj5l9MSyfaYyjOZqCIpWwf3Pa",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "mathismekkas@gmail.com",
+    "customerName": "Mathis Mekkas",
+    "isGift": false,
+    "createdAt": "2026-05-09T20:45:13.442Z",
+    "validUntil": "2027-05-09T20:45:13.442Z",
+    "status": "active"
   }
 ]
