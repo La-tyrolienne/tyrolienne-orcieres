@@ -2132,5 +2132,18 @@
     "createdAt": "2026-05-09T20:45:19.345Z",
     "validUntil": "2027-05-09T20:45:19.345Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1DF90E7B",
+    "stripeSessionId": "cs_live_a1RPG6uVZjt4q8lNeZqmSxv8x780NZ1SKfoS6Cs68dq6Etd10Jr01MwGAG",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "thomaslanglais94@gmail.com",
+    "customerName": "Thomas Langlais",
+    "isGift": true,
+    "createdAt": "2026-05-16T09:37:47.934Z",
+    "validUntil": "2027-05-16T09:37:47.934Z",
+    "status": "active"
   }
 ]
