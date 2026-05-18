@@ -2145,5 +2145,18 @@
     "createdAt": "2026-05-16T09:37:47.934Z",
     "validUntil": "2027-05-16T09:37:47.934Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-35D4EF8E",
+    "stripeSessionId": "cs_live_a1WQLcPuJJF5af91vDCQSOSPQv9mnES1f9BgCWpHk6u9YvYufCnz7WVEKm",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "mathis.gaby@yahoo.fr",
+    "customerName": "mathis",
+    "isGift": true,
+    "createdAt": "2026-05-18T14:57:31.432Z",
+    "validUntil": "2027-05-18T14:57:31.432Z",
+    "status": "active"
   }
 ]
