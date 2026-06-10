@@ -2171,5 +2171,18 @@
     "createdAt": "2026-06-10T13:14:03.114Z",
     "validUntil": "2027-06-10T13:14:03.114Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-44F17635",
+    "stripeSessionId": "cs_live_a1oge3gsdNx4Wr5tFrms2Sfqdc7WT3QOGXrGIt1RePPpKFrmNNqDGIEtM6",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "julia.maddalon@gmail.com",
+    "customerName": "MADDALON Florence",
+    "isGift": false,
+    "createdAt": "2026-06-10T15:27:52.924Z",
+    "validUntil": "2027-06-10T15:27:52.924Z",
+    "status": "active"
   }
 ]
