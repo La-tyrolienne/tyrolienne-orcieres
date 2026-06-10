@@ -2158,5 +2158,18 @@
     "createdAt": "2026-05-18T14:57:31.432Z",
     "validUntil": "2027-05-18T14:57:31.432Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-11DBD36C",
+    "stripeSessionId": "cs_live_a1N4jAcLAIM4T5LFN7YW1BewqBl0I8603srUMXglZGa4iEzEuPUUIx83tS",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "lyvia.durand@outlook.fr",
+    "customerName": "Durand Lyvia",
+    "isGift": true,
+    "createdAt": "2026-06-10T13:14:03.114Z",
+    "validUntil": "2027-06-10T13:14:03.114Z",
+    "status": "active"
   }
 ]
