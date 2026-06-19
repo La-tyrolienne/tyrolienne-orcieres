@@ -18,6 +18,12 @@ const getOpeningSchedule = (year: number, month: number, season: 'winter' | 'sum
         const date = new Date(year, month, day);
         const dayOfWeek = date.getDay();
 
+        // Specific closure for today March 28th, 2026 due to wind
+        if (year === 2026 && month === 2 && day === 28) {
+            schedule[day] = 'closed';
+            continue;
+        }
+
         // Simple logic: weekends and holidays are open, some weekdays closed
         if (season === 'winter') {
             // Winter: open every day during peak season (Dec-March)

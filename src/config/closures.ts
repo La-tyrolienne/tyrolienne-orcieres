@@ -32,6 +32,7 @@ export const closedDates: string[] = [
     // Exemples:
     // '2026-01-15', // Maintenance
     // '2026-02-20', // Météo défavorable prévue
+    '2026-03-28', // Vent fort
 ];
 
 // ===========================================
