@@ -2210,5 +2210,18 @@
     "createdAt": "2026-06-21T14:32:10.616Z",
     "validUntil": "2027-06-21T14:32:10.616Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-B3D0E5E3",
+    "stripeSessionId": "cs_live_a1xwT5IA69I9POa3ctI3yV8hu5GF9Zqo5liw0savFd4IOv03pJtQrHhXnq",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "lucile.dubroca@hotmail.fr",
+    "customerName": "Lucile  Dubroca ",
+    "isGift": false,
+    "createdAt": "2026-06-24T05:29:17.971Z",
+    "validUntil": "2027-06-24T05:29:17.971Z",
+    "status": "active"
   }
 ]
