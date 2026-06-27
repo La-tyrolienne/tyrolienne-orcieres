@@ -2249,5 +2249,17 @@
     "createdAt": "2026-06-27T22:05:53.688Z",
     "validUntil": "2027-06-27T22:05:53.688Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-57F4CD1D",
+    "stripeSessionId": "cs_live_a1JBVCkhCC6MtcDaeTIt1SrGMVGU98n5PVJy2foiEBmY0ajMCmsce4xjzG",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "clement.diphile@gmail.com",
+    "customerName": "Diphile Clément",
+    "createdAt": "2026-06-27T22:06:01.938Z",
+    "validUntil": "2027-06-27T22:06:01.938Z",
+    "status": "active"
   }
 ]
