@@ -2274,5 +2274,18 @@
     "createdAt": "2026-06-30T18:32:36.329Z",
     "validUntil": "2027-06-30T18:32:36.329Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-156D1D38",
+    "stripeSessionId": "cs_live_a1a7GXaUDd28ssoq0H2xwZacwTnODvZMYFoJTTOWee19cuHbmgtzKQOkM2",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "pauline.guignier@orange.fr",
+    "customerName": "Pauline  Guignier",
+    "isGift": true,
+    "createdAt": "2026-06-30T18:32:42.567Z",
+    "validUntil": "2027-06-30T18:32:42.567Z",
+    "status": "active"
   }
 ]
