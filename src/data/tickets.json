@@ -2404,5 +2404,18 @@
     "createdAt": "2026-07-02T11:04:50.895Z",
     "validUntil": "2027-07-02T11:04:50.895Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-EE7C7D92",
+    "stripeSessionId": "cs_live_a1H2NypfFseOHPpHe4iPLP7n7nBSeAkeFRdaMVjQzxgkymdEBIXdutE7A4",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "bastienroz@hotmail.fr",
+    "customerName": "ROZAND Bastien",
+    "isGift": true,
+    "createdAt": "2026-07-02T12:04:14.378Z",
+    "validUntil": "2027-07-02T12:04:14.378Z",
+    "status": "active"
   }
 ]
