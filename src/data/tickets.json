@@ -2300,5 +2300,18 @@
     "createdAt": "2026-06-30T18:32:48.474Z",
     "validUntil": "2027-06-30T18:32:48.474Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-D7311FED",
+    "stripeSessionId": "cs_live_a1H2NypfFseOHPpHe4iPLP7n7nBSeAkeFRdaMVjQzxgkymdEBIXdutE7A4",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "bastienroz@hotmail.fr",
+    "customerName": "ROZAND Bastien",
+    "isGift": true,
+    "createdAt": "2026-07-02T11:03:58.330Z",
+    "validUntil": "2027-07-02T11:03:58.330Z",
+    "status": "active"
   }
 ]
