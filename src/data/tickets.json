@@ -2469,5 +2469,17 @@
     "createdAt": "2026-07-05T09:28:07.321Z",
     "validUntil": "2027-07-05T09:28:07.321Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-CC262023",
+    "stripeSessionId": "cs_live_a1UL9qlbR3vCQRUAGxll4k8PnTTW9RKuJifN3SwDJ27d2WQlBr280LhOcE",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "guemari.nora@gmail.com",
+    "customerName": "EL AJI",
+    "createdAt": "2026-07-05T09:28:23.521Z",
+    "validUntil": "2027-07-05T09:28:23.521Z",
+    "status": "active"
   }
 ]
