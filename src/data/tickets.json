@@ -2494,5 +2494,18 @@
     "createdAt": "2026-07-06T15:42:50.618Z",
     "validUntil": "2027-07-06T15:42:50.618Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-A86532A8",
+    "stripeSessionId": "cs_live_a1SyqvDaQvgwGhcEYSkxabkljO7OiMlAwD32lbfuaT7LKaZ4QRumi4i1lm",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "amelie_charre@hotmail.com",
+    "customerName": "CHARRE AMELIE",
+    "isGift": true,
+    "createdAt": "2026-07-06T18:10:39.618Z",
+    "validUntil": "2027-07-06T18:10:39.618Z",
+    "status": "active"
   }
 ]
