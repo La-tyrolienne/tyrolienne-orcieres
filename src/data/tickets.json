@@ -2481,5 +2481,18 @@
     "createdAt": "2026-07-05T09:28:23.521Z",
     "validUntil": "2027-07-05T09:28:23.521Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C3DAC741",
+    "stripeSessionId": "cs_live_a1ZpDaFFdMNnScJKjivzjohjSUi2iDLhnyYfDVujLIgwkmAZH8Lk154MC1",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "letendu.aurore21@gmail.com",
+    "customerName": "Létendu",
+    "isGift": false,
+    "createdAt": "2026-07-06T15:42:50.618Z",
+    "validUntil": "2027-07-06T15:42:50.618Z",
+    "status": "active"
   }
 ]
