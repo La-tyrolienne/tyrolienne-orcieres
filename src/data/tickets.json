@@ -2507,5 +2507,18 @@
     "createdAt": "2026-07-06T18:10:39.618Z",
     "validUntil": "2027-07-06T18:10:39.618Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-CD1CC9E3",
+    "stripeSessionId": "cs_live_a1fA0aly4JrHh7k94TGP67T5DMtFrvkSvjDk0aZBX1jmOwZi5HIJtvLOpn",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "matjoduval@yahoo.fr",
+    "customerName": "Mathilde Jobbé Duval",
+    "isGift": false,
+    "createdAt": "2026-07-07T08:26:40.978Z",
+    "validUntil": "2027-07-07T08:26:40.978Z",
+    "status": "active"
   }
 ]
