@@ -2532,5 +2532,18 @@
     "createdAt": "2026-07-07T08:26:51.645Z",
     "validUntil": "2027-07-07T08:26:51.645Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-A6E31803",
+    "stripeSessionId": "cs_live_a1Gdxy2tWgZYi8b2V5Dr4XYSbbxNMGMlD5fQ4frkpQZHBjqB2bbzHbgUTh",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "deprezxavier36@gmail.com",
+    "customerName": "Xavier Deprez",
+    "isGift": false,
+    "createdAt": "2026-07-09T08:06:45.308Z",
+    "validUntil": "2027-07-09T08:06:45.308Z",
+    "status": "active"
   }
 ]
