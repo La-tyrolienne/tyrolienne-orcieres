@@ -70,7 +70,7 @@ export function HeroSection() {
                         className="absolute inset-0"
                     >
                         <Image
-                            src="/tyro-real-1.jpg"
+                            src="/tyro-summer.jpg"
                             alt="Tyrolienne été"
                             fill
                             className="object-cover"

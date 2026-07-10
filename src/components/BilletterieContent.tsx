@@ -50,7 +50,7 @@ export function BilletterieContent() {
             {/* Hero Banner */}
             <div className="relative h-[40vh] min-h-[350px] flex items-center justify-center overflow-hidden">
                 <Image
-                    src={season === 'winter' ? '/hero-winter-new.jpg' : '/tyro-real-1.jpg'}
+                    src={season === 'winter' ? '/hero-winter-new.jpg' : '/tyro-summer.jpg'}
                     alt="Billetterie Tyrolienne"
                     fill
                     className="object-cover"

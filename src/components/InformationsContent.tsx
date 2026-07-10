@@ -91,7 +91,7 @@ export function InformationsContent() {
             {/* Hero Banner */}
             <div className="relative h-[40vh] md:h-[50vh] min-h-[300px] md:min-h-[400px] flex items-center justify-center overflow-hidden">
                 <Image
-                    src={season === 'winter' ? '/hero-winter.png' : '/tyro-real-1.jpg'}
+                    src={season === 'winter' ? '/hero-winter.png' : '/tyro-summer.jpg'}
                     alt="Informations pratiques"
                     fill
                     className="object-cover"

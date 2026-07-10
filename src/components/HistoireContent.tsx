@@ -45,7 +45,7 @@ export function HistoireContent() {
             <section className="relative py-20 md:py-32 overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src={season === 'winter' ? '/hero-winter-new.jpg' : '/tyro-real-1.jpg'}
+                        src={season === 'winter' ? '/hero-winter-new.jpg' : '/tyro-summer.jpg'}
                         alt="Tyrolienne Roll'Air Câble"
                         fill
                         className="object-cover"
