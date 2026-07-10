@@ -34,7 +34,7 @@ export function BilletterieContent() {
 
     const conditions = [
         { label: 'Âge minimum', value: '6-7 ans*' },
-        { label: 'Poids', value: '20 à 130 kg' },
+        { label: 'Poids', value: '20 à 120 kg' },
         { label: 'Durée du vol', value: '~1min 20' },
     ];
 
@@ -50,7 +50,7 @@ export function BilletterieContent() {
             {/* Hero Banner */}
             <div className="relative h-[40vh] min-h-[350px] flex items-center justify-center overflow-hidden">
                 <Image
-                    src={season === 'winter' ? '/hero-winter-new.jpg' : '/hero-summer-optimized.png'}
+                    src={season === 'winter' ? '/hero-winter-new.jpg' : '/tyro-real-1.jpg'}
                     alt="Billetterie Tyrolienne"
                     fill
                     className="object-cover"

@@ -27,7 +27,8 @@ export function MentionsLegalesContent() {
                                 05170 Orcières<br />
                                 Hautes-Alpes, France<br /><br />
                                 Téléphone : 06 84 44 88 10<br />
-                                Email : info@latyrolienne.fr
+                                Email : info@latyrolienne.fr<br /><br />
+                                SIREN : 504 306 564
                             </p>
                         </section>
 

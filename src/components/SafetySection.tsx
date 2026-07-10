@@ -28,7 +28,7 @@ export function SafetySection() {
                     >
                         <div className="relative aspect-square rounded-[3rem] overflow-hidden shadow-2xl">
                             <Image
-                                src="/hero-summer.png"
+                                src="/tyro-real-2.jpg"
                                 alt="Sécurité Tyrolienne"
                                 fill
                                 className="object-cover"

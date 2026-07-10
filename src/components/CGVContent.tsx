@@ -80,7 +80,7 @@ export function CGVContent() {
                             </p>
                             <ul className="list-disc list-inside text-muted-foreground space-y-2 mt-4">
                                 <li><strong>Âge minimum :</strong> 6-7 ans (selon adaptation du harnais)</li>
-                                <li><strong>Poids :</strong> entre 20 kg et 130 kg</li>
+                                <li><strong>Poids :</strong> entre 20 kg et 120 kg</li>
                                 <li><strong>Condition physique :</strong> bonne condition physique requise</li>
                                 <li>Ne pas être sous l'emprise de l'alcool ou de substances altérant les capacités</li>
                             </ul>

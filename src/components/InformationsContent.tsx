@@ -81,7 +81,7 @@ export function InformationsContent() {
 
     const requirements = [
         { icon: CheckCircle, text: 'Âge minimum : 6-7 ans (selon adaptation du harnais)', ok: true },
-        { icon: CheckCircle, text: 'Poids : entre 20 et 130 kg', ok: true },
+        { icon: CheckCircle, text: 'Poids : entre 20 et 120 kg', ok: true },
         { icon: ThumbsUp, text: 'Bonne condition physique recommandée', ok: true },
         { icon: AlertTriangle, text: 'Personnes à mobilité réduite : nous contacter', ok: false },
     ];
@@ -91,7 +91,7 @@ export function InformationsContent() {
             {/* Hero Banner */}
             <div className="relative h-[40vh] md:h-[50vh] min-h-[300px] md:min-h-[400px] flex items-center justify-center overflow-hidden">
                 <Image
-                    src={season === 'winter' ? '/hero-winter.png' : '/hero-summer.png'}
+                    src={season === 'winter' ? '/hero-winter.png' : '/tyro-real-1.jpg'}
                     alt="Informations pratiques"
                     fill
                     className="object-cover"
