@@ -2557,5 +2557,18 @@
     "createdAt": "2026-07-09T08:06:55.240Z",
     "validUntil": "2027-07-09T08:06:55.240Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-79F20DAF",
+    "stripeSessionId": "cs_live_a1KxNpdtLWEGcPtv619Z4BpF0dL7F0M1CMK4gRwydOcL0k8WIG1JLb03Nd",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "jm.imp@yahoo.com",
+    "customerName": "Imperato",
+    "isGift": false,
+    "createdAt": "2026-07-10T12:22:58.245Z",
+    "validUntil": "2027-07-10T12:22:58.245Z",
+    "status": "active"
   }
 ]
