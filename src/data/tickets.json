@@ -2595,5 +2595,18 @@
     "createdAt": "2026-07-12T09:37:12.985Z",
     "validUntil": "2027-07-12T09:37:12.985Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-A97F0798",
+    "stripeSessionId": "cs_live_a13JbwKYW3jEzjxI5fbOMJduxKF7fbyihLxNabDqJ6s9j5d2pJjXyMa1TH",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "sylvaindegaye@sfr.fr",
+    "customerName": "Sylvain Degaye",
+    "isGift": false,
+    "createdAt": "2026-07-12T09:37:19.903Z",
+    "validUntil": "2027-07-12T09:37:19.903Z",
+    "status": "active"
   }
 ]
