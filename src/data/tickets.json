@@ -2634,5 +2634,18 @@
     "createdAt": "2026-07-12T10:09:15.416Z",
     "validUntil": "2027-07-12T10:09:15.416Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2C382B2B",
+    "stripeSessionId": "cs_live_a1ZmVVDTsT5vatx5XRqFNLqWueqJEHJ3AjfaOzfhx0clwXxstxaMUWk6CU",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "cuggiarenaud@hotmail.fr",
+    "customerName": "Renaud Cuggia",
+    "isGift": false,
+    "createdAt": "2026-07-12T10:09:31.384Z",
+    "validUntil": "2027-07-12T10:09:31.384Z",
+    "status": "active"
   }
 ]
