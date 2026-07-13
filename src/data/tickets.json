@@ -2762,5 +2762,18 @@
     "createdAt": "2026-07-12T19:46:15.303Z",
     "validUntil": "2027-07-12T19:46:15.303Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-5E21B733",
+    "stripeSessionId": "cs_live_a19pMOO8EVL9zbK0ZWgJQuBkjZMsGNBg5cjOFbD1FdP035tw4uanPD7HBl",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "aumika@hotmail.fr",
+    "customerName": "Michael Aubert",
+    "isGift": false,
+    "createdAt": "2026-07-13T09:53:16.612Z",
+    "validUntil": "2027-07-13T09:53:16.612Z",
+    "status": "active"
   }
 ]
