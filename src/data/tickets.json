@@ -2788,5 +2788,18 @@
     "createdAt": "2026-07-14T09:12:03.173Z",
     "validUntil": "2027-07-14T09:12:03.173Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4D988B58",
+    "stripeSessionId": "cs_live_a1YbNo8fagvb8st5VzUdvnXFP07oielO9xE2adyUhGHhcqi3Sfxl8AHmxt",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "mirko.stodola@seznam.cz",
+    "customerName": "Mirko Stodola",
+    "isGift": false,
+    "createdAt": "2026-07-14T09:12:10.305Z",
+    "validUntil": "2027-07-14T09:12:10.305Z",
+    "status": "active"
   }
 ]
