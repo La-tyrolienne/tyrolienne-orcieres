@@ -2801,5 +2801,18 @@
     "createdAt": "2026-07-14T09:12:10.305Z",
     "validUntil": "2027-07-14T09:12:10.305Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-56A0863F",
+    "stripeSessionId": "cs_live_a1HaHBqSsskumED8kHFcPNmFh4ebPgwezTWpTaE05BvsVoZ4uZqOsXNQis",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "carpediem8@live.fr",
+    "customerName": "Le Borgne",
+    "isGift": true,
+    "createdAt": "2026-07-14T13:32:06.381Z",
+    "validUntil": "2027-07-14T13:32:06.381Z",
+    "status": "active"
   }
 ]
