@@ -2827,5 +2827,18 @@
     "createdAt": "2026-07-15T17:07:42.956Z",
     "validUntil": "2027-07-15T17:07:42.956Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-CDCDBFAB",
+    "stripeSessionId": "cs_live_a1GFwprqDkPRQFrXAu69YrXVFxBecr0NDhQpcI0iXET5qneshOROo2ByXN",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "abaillieu@yahoo.fr",
+    "customerName": "ARMELLE ODER",
+    "isGift": false,
+    "createdAt": "2026-07-15T17:07:49.852Z",
+    "validUntil": "2027-07-15T17:07:49.852Z",
+    "status": "active"
   }
 ]
