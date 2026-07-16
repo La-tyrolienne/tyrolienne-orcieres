@@ -83,6 +83,8 @@ export function InformationsContent() {
         { icon: CheckCircle, text: 'Âge minimum : 6-7 ans (selon adaptation du harnais)', ok: true },
         { icon: CheckCircle, text: 'Poids : entre 20 et 120 kg', ok: true },
         { icon: ThumbsUp, text: 'Bonne condition physique recommandée', ok: true },
+        { icon: AlertTriangle, text: 'Foulards, écharpes et tout accessoire autour du cou sont interdits (bijoux longs inclus)*', ok: false },
+        { icon: AlertTriangle, text: 'Port du voile : prévoir un bonnet ou un bandana pour couvrir les cheveux lors du passage*', ok: false },
         { icon: AlertTriangle, text: 'Personnes à mobilité réduite : nous contacter', ok: false },
     ];
 
@@ -280,6 +282,9 @@ export function InformationsContent() {
                                     </div>
                                 ))}
                             </div>
+                            <p className="text-xs text-muted-foreground mt-4 italic">
+                                * Pour des raisons de sécurité : les éléments flottants peuvent se coincer dans le mécanisme de la tyrolienne lors du passage.
+                            </p>
                         </motion.div>
 
                         {/* Equipment */}

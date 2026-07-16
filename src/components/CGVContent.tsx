@@ -83,7 +83,12 @@ export function CGVContent() {
                                 <li><strong>Poids :</strong> entre 20 kg et 120 kg</li>
                                 <li><strong>Condition physique :</strong> bonne condition physique requise</li>
                                 <li>Ne pas être sous l'emprise de l'alcool ou de substances altérant les capacités</li>
+                                <li><strong>Accessoires interdits* :</strong> foulards, écharpes, et tout accessoire autour du cou (bijoux longs inclus)</li>
+                                <li><strong>Port du voile :</strong> prévoir un bonnet ou un bandana pour couvrir les cheveux lors du passage*</li>
                             </ul>
+                            <p className="text-xs text-muted-foreground mt-2 italic">
+                                * Pour des raisons de sécurité : les éléments flottants peuvent se coincer dans le mécanisme de la tyrolienne lors du passage.
+                            </p>
                             <p className="text-muted-foreground mt-4">
                                 Le Prestataire se réserve le droit de refuser l'accès à toute personne ne remplissant pas ces conditions,
                                 sans possibilité de remboursement si le non-respect des conditions est imputable au Client.
