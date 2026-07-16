@@ -2853,5 +2853,18 @@
     "createdAt": "2026-07-15T17:07:56.633Z",
     "validUntil": "2027-07-15T17:07:56.633Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-83B98A71",
+    "stripeSessionId": "cs_live_a1g2ohz6u8wxDOjZjj3Eo8QQ02rOGFwCQi4gIuQri8d80209o9QHdVd2mw",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "aurelie.belaidi@gmail.com",
+    "customerName": "Aurélie BELAIDI",
+    "isGift": true,
+    "createdAt": "2026-07-16T13:10:15.665Z",
+    "validUntil": "2027-07-16T13:10:15.665Z",
+    "status": "active"
   }
 ]
