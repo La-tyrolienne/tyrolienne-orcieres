@@ -2879,5 +2879,18 @@
     "createdAt": "2026-07-17T07:17:10.671Z",
     "validUntil": "2027-07-17T07:17:10.671Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-070950FD",
+    "stripeSessionId": "cs_live_a1mMv2IvU04ykOUVGLdyRy1opNYKCCSPmWwJ7JfxvTQ7V5rwyVzAn8Tg4N",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "remi.rblanc@gmail.com",
+    "customerName": "Blanc",
+    "isGift": false,
+    "createdAt": "2026-07-18T11:15:21.545Z",
+    "validUntil": "2027-07-18T11:15:21.545Z",
+    "status": "active"
   }
 ]
