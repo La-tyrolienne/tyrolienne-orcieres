@@ -2905,5 +2905,18 @@
     "createdAt": "2026-07-18T11:15:28.194Z",
     "validUntil": "2027-07-18T11:15:28.194Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4EC67947",
+    "stripeSessionId": "cs_live_a1JriBy1AyyKjryL2OFAnTHMT1TpvctLoZbtjoKCEX4MuzdvrcXHQlL9h5",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "amelie.taelman@gmail.com",
+    "customerName": "Taelman",
+    "isGift": false,
+    "createdAt": "2026-07-20T15:03:49.898Z",
+    "validUntil": "2027-07-20T15:03:49.898Z",
+    "status": "active"
   }
 ]
