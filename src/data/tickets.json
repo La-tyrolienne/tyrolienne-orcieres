@@ -2983,5 +2983,18 @@
     "createdAt": "2026-07-22T07:45:31.712Z",
     "validUntil": "2027-07-22T07:45:31.712Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-7AB1D402",
+    "stripeSessionId": "cs_live_a13wFYuIGEpbO9KSkWySq3GPz7MeyIPktqKXxXKul726ONNUOXEjs237th",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "dofamily@infonie.fr",
+    "customerName": "Domenc Philippe",
+    "isGift": false,
+    "createdAt": "2026-07-22T07:45:38.465Z",
+    "validUntil": "2027-07-22T07:45:38.465Z",
+    "status": "active"
   }
 ]
