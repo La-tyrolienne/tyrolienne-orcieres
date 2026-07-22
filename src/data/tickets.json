@@ -3269,5 +3269,18 @@
     "createdAt": "2026-07-22T11:52:14.578Z",
     "validUntil": "2027-07-22T11:52:14.578Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-3CACB97B",
+    "stripeSessionId": "cs_live_a1m1Lq0fbrgdUAnffvXbOlMdaYPFjB7tilpyEGpHImjBVMRb8wOQsOK7mr",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "florian.roullier@gmail.com",
+    "customerName": "Roullier",
+    "isGift": false,
+    "createdAt": "2026-07-22T12:53:25.088Z",
+    "validUntil": "2027-07-22T12:53:25.088Z",
+    "status": "active"
   }
 ]
