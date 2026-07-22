@@ -3503,5 +3503,18 @@
     "createdAt": "2026-07-22T20:43:41.178Z",
     "validUntil": "2027-07-22T20:43:41.178Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-A85EF5B1",
+    "stripeSessionId": "cs_live_a130eqEhqZd619JNdINNTd8cbwOkOPHD7iMjMZFFsXf7eGSWX5mqZsGF8q",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "marc_juramy@yahoo.fr",
+    "customerName": "Marc Juramy",
+    "isGift": false,
+    "createdAt": "2026-07-22T20:43:48.146Z",
+    "validUntil": "2027-07-22T20:43:48.146Z",
+    "status": "active"
   }
 ]
