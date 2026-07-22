@@ -3022,5 +3022,18 @@
     "createdAt": "2026-07-22T08:46:56.976Z",
     "validUntil": "2027-07-22T08:46:56.976Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E797E625",
+    "stripeSessionId": "cs_live_a1P068WemrLAwqF5C2rJqCcvdv1mL5x5bGfbq5Rvl2dRU8hK5n3286rNeN",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "zoe07.tortes@gmail.com",
+    "customerName": "Tortes Zoé",
+    "isGift": false,
+    "createdAt": "2026-07-22T08:47:35.490Z",
+    "validUntil": "2027-07-22T08:47:35.490Z",
+    "status": "active"
   }
 ]
