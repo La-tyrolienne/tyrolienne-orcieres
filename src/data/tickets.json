@@ -3360,5 +3360,18 @@
     "createdAt": "2026-07-22T14:43:55.605Z",
     "validUntil": "2027-07-22T14:43:55.605Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2FA37C8B",
+    "stripeSessionId": "cs_live_a10Fm7Vh2vLl8hpo4AjWhgmMHfoou8rdDYoCkUQE2jD4IYcTcujPuxdBeg",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "g.ferrare@hotmail.fr",
+    "customerName": "Geoffrey Ferrare",
+    "isGift": false,
+    "createdAt": "2026-07-22T14:58:29.872Z",
+    "validUntil": "2027-07-22T14:58:29.872Z",
+    "status": "active"
   }
 ]
