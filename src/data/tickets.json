@@ -3581,5 +3581,18 @@
     "createdAt": "2026-07-23T05:00:47.592Z",
     "validUntil": "2027-07-23T05:00:47.592Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-A4104D30",
+    "stripeSessionId": "cs_live_a1okoGECgrfq5UnQaQkGSWYp1H1NmcRPQdfTeiV5TZxeJm7NYmlXCpl6Df",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "h.bomas@gmail.com",
+    "customerName": "H. Bomas",
+    "isGift": false,
+    "createdAt": "2026-07-23T05:00:54.328Z",
+    "validUntil": "2027-07-23T05:00:54.328Z",
+    "status": "active"
   }
 ]
