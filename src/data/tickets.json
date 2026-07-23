@@ -3684,5 +3684,18 @@
     "createdAt": "2026-07-23T15:16:01.358Z",
     "validUntil": "2027-07-23T15:16:01.358Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-46AE408E",
+    "stripeSessionId": "cs_live_a10nhQ4sYZEKoRCY4KSpCIhcIPEQmDI2XWUmGJFKZN17p2HERfAMGMv8KB",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "vsolenev@hotmail.com",
+    "customerName": "Maman Travail",
+    "isGift": false,
+    "createdAt": "2026-07-23T15:16:08.297Z",
+    "validUntil": "2027-07-23T15:16:08.297Z",
+    "status": "active"
   }
 ]
