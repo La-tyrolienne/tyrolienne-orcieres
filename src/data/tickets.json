@@ -3905,5 +3905,18 @@
     "createdAt": "2026-07-25T08:58:56.052Z",
     "validUntil": "2027-07-25T08:58:56.052Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-26CD59C3",
+    "stripeSessionId": "cs_live_a13O7TIGI9dNXoepoaZtmLorqE354MK4PdN9NY9ggwSJGjNgjs47dAc7Hf",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "carlitapm1602@gmail.com",
+    "customerName": "CARLIER",
+    "isGift": false,
+    "createdAt": "2026-07-25T08:59:17.208Z",
+    "validUntil": "2027-07-25T08:59:17.208Z",
+    "status": "active"
   }
 ]
