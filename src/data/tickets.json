@@ -4022,5 +4022,17 @@
     "createdAt": "2026-07-25T11:09:23.642Z",
     "validUntil": "2027-07-25T11:09:23.642Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-52BBB88E",
+    "stripeSessionId": "cs_live_a1Lnj668qpacdaVA1jk4ZdkCrUrcoe1B34cu8jpqZzKtvyqkXQTHZVkTP3",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "felixkops@gmail.com",
+    "customerName": "Felix",
+    "createdAt": "2026-07-25T11:09:35.918Z",
+    "validUntil": "2027-07-25T11:09:35.918Z",
+    "status": "active"
   }
 ]
