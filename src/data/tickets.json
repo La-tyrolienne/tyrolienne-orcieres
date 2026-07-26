@@ -4138,5 +4138,18 @@
     "createdAt": "2026-07-26T03:47:57.089Z",
     "validUntil": "2027-07-26T03:47:57.089Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E82E6130",
+    "stripeSessionId": "cs_live_a1Z4TNr5p5KptikeUyaY8NmLXg8EereceSmGTHyWcy8yxphj2pe9QdEulf",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "florenceb34@orange.fr",
+    "customerName": "BALLAND Florence",
+    "isGift": false,
+    "createdAt": "2026-07-26T18:47:53.927Z",
+    "validUntil": "2027-07-26T18:47:53.927Z",
+    "status": "active"
   }
 ]
