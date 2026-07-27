@@ -4215,5 +4215,18 @@
     "createdAt": "2026-07-27T03:24:12.536Z",
     "validUntil": "2027-07-27T03:24:12.536Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1A66F714",
+    "stripeSessionId": "cs_live_a1ztD7za3MXUZr0DaXPDekVYQFs3mFjja7v5vgxBuqFjWvxJOyf2T8G9Mg",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "Farid.kheniche@gmail.com",
+    "customerName": "Khenniche",
+    "isGift": false,
+    "createdAt": "2026-07-27T13:21:04.148Z",
+    "validUntil": "2027-07-27T13:21:04.148Z",
+    "status": "active"
   }
 ]
