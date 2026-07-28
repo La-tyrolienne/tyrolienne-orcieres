@@ -4293,5 +4293,18 @@
     "createdAt": "2026-07-28T11:38:34.872Z",
     "validUntil": "2027-07-28T11:38:34.872Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-7F8FFD38",
+    "stripeSessionId": "cs_live_a1LxePvJwm2ZpOaafQak8Sm4V43LVnYZlzEBxKwbrx2ZMGuxc6T0zWNEm3",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "morgandu84@gmail.com",
+    "customerName": "FOGNINI",
+    "isGift": false,
+    "createdAt": "2026-07-28T11:38:57.918Z",
+    "validUntil": "2027-07-28T11:38:57.918Z",
+    "status": "active"
   }
 ]
