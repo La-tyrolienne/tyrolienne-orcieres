@@ -4306,5 +4306,18 @@
     "createdAt": "2026-07-28T11:38:57.918Z",
     "validUntil": "2027-07-28T11:38:57.918Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-96D60001",
+    "stripeSessionId": "cs_live_a16vFMs9nMueR19ShYECjzzIXJGaJLF8JzqUMoQUhU7bFht9TvlGv04LbS",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "trebelo@mi4e.fr",
+    "customerName": "rebelo thierry",
+    "isGift": true,
+    "createdAt": "2026-07-28T12:13:05.419Z",
+    "validUntil": "2027-07-28T12:13:05.419Z",
+    "status": "active"
   }
 ]
