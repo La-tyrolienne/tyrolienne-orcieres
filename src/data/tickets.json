@@ -4383,5 +4383,18 @@
     "createdAt": "2026-07-29T08:32:49.643Z",
     "validUntil": "2027-07-29T08:32:49.643Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-46CA23F0",
+    "stripeSessionId": "cs_live_a1HrEN8GSCWO1b7d9VlyxZHZlWgA2Q0TadRXT8xQsCfJpWSyUcQ1MNztU6",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "loukas200613@gmail.com",
+    "customerName": "loukas Quersante ",
+    "isGift": false,
+    "createdAt": "2026-07-29T09:59:23.651Z",
+    "validUntil": "2027-07-29T09:59:23.651Z",
+    "status": "active"
   }
 ]
