@@ -4344,5 +4344,18 @@
     "createdAt": "2026-07-29T08:23:08.449Z",
     "validUntil": "2027-07-29T08:23:08.449Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C36CA28E",
+    "stripeSessionId": "cs_live_a1txRB6zyzevzoaQlZ7sIa8DbAnMG7RlmGD3AZyYLPb6WIxEL9k6mBO7d2",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "matthiasguieu@gmail.com",
+    "customerName": "Guieu",
+    "isGift": false,
+    "createdAt": "2026-07-29T08:23:41.781Z",
+    "validUntil": "2027-07-29T08:23:41.781Z",
+    "status": "active"
   }
 ]
