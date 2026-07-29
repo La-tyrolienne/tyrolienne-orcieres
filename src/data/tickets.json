@@ -4396,5 +4396,18 @@
     "createdAt": "2026-07-29T09:59:23.651Z",
     "validUntil": "2027-07-29T09:59:23.651Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C3FF6B81",
+    "stripeSessionId": "cs_live_a1Izm936T0e2vzj8UMnaVNdMCXQ2QVvKtNosKgYTPRzkiA4LUB0C6KqBM6",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "sophie.dupont.37@live.fr",
+    "customerName": "Dupont sophie",
+    "isGift": false,
+    "createdAt": "2026-07-29T10:11:54.069Z",
+    "validUntil": "2027-07-29T10:11:54.069Z",
+    "status": "active"
   }
 ]
