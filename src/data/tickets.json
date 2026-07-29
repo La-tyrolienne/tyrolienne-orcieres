@@ -4357,5 +4357,18 @@
     "createdAt": "2026-07-29T08:23:41.781Z",
     "validUntil": "2027-07-29T08:23:41.781Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-DAD28EEF",
+    "stripeSessionId": "cs_live_a1JSAR5nfPwfvD8f5T8CoURTp8suTQWq2u9eMFR0l5LHQV8Gw8FfvyXVbd",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "vincent.moroso@gmail.com",
+    "customerName": "Moroso-Barre",
+    "isGift": false,
+    "createdAt": "2026-07-29T08:27:57.763Z",
+    "validUntil": "2027-07-29T08:27:57.763Z",
+    "status": "active"
   }
 ]
