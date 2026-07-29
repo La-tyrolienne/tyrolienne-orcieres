@@ -4370,5 +4370,18 @@
     "createdAt": "2026-07-29T08:27:57.763Z",
     "validUntil": "2027-07-29T08:27:57.763Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-DC261235",
+    "stripeSessionId": "cs_live_a1we5lcdMIX5ikoQY71O7EiYEjWZ1B0UcxhBBQap7yqRUEHoMe7YS2CXc4",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "florian.aiello@orange.fr",
+    "customerName": "Florian Aiello",
+    "isGift": false,
+    "createdAt": "2026-07-29T08:32:49.643Z",
+    "validUntil": "2027-07-29T08:32:49.643Z",
+    "status": "active"
   }
 ]
