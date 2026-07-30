@@ -4769,5 +4769,18 @@
     "createdAt": "2026-07-30T13:31:45.712Z",
     "validUntil": "2027-07-30T13:31:45.712Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1801E3B7",
+    "stripeSessionId": "cs_live_a1ZUKKxsKWBMQf2xPCQD0eoKbglHt7tubtvXKRvaMCs7Mo6WShEG0QYx0r",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "barbaradelaloy@gmail.com",
+    "customerName": "ventre",
+    "isGift": false,
+    "createdAt": "2026-07-30T13:31:52.630Z",
+    "validUntil": "2027-07-30T13:31:52.630Z",
+    "status": "active"
   }
 ]
