@@ -4487,5 +4487,18 @@
     "createdAt": "2026-07-30T06:51:07.603Z",
     "validUntil": "2027-07-30T06:51:07.603Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4EE28170",
+    "stripeSessionId": "cs_live_a1Sk9eOYIFhK02hXfkzr9QAkOFUssIXiHE4V6lPXXNKIRQOpsTh2LYP3GD",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "exmelin56@gmail.com",
+    "customerName": "Exmelin Kévin",
+    "isGift": false,
+    "createdAt": "2026-07-30T07:39:26.224Z",
+    "validUntil": "2027-07-30T07:39:26.224Z",
+    "status": "active"
   }
 ]
