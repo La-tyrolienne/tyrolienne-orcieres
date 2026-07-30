@@ -4691,5 +4691,18 @@
     "createdAt": "2026-07-30T09:14:31.990Z",
     "validUntil": "2027-07-30T09:14:31.990Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-43899E34",
+    "stripeSessionId": "cs_live_a1MEaCjjC3bADbraJtRmp3TJmBy1vnllmflZ69E2iHtB9DwPXjQdtnsaaG",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "bastien.sciandra@gmail.com",
+    "customerName": "Bastien Sciandra",
+    "isGift": false,
+    "createdAt": "2026-07-30T09:14:38.743Z",
+    "validUntil": "2027-07-30T09:14:38.743Z",
+    "status": "active"
   }
 ]
