@@ -4717,5 +4717,18 @@
     "createdAt": "2026-07-30T11:52:47.422Z",
     "validUntil": "2027-07-30T11:52:47.422Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-071CC938",
+    "stripeSessionId": "cs_live_a1HP6jS7EH5uxwHGeLBBL3i7rHzVlPrkDp46FpXA9U5vJ2AmWwcfHYl9Tb",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "raphael.b0410@gmail.com",
+    "customerName": "Raphael Bostaji",
+    "isGift": false,
+    "createdAt": "2026-07-30T11:52:54.445Z",
+    "validUntil": "2027-07-30T11:52:54.445Z",
+    "status": "active"
   }
 ]
