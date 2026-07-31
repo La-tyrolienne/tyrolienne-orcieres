@@ -4782,5 +4782,18 @@
     "createdAt": "2026-07-30T13:31:52.630Z",
     "validUntil": "2027-07-30T13:31:52.630Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-930B9828",
+    "stripeSessionId": "cs_live_a1oXM5j9brXFgT9CZweLHGlHPhUKn0JKS1buKiQ7YInB0MDbLUSxoShqVI",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "vincentb.lcm@gmail.com",
+    "customerName": "VINCENT BARLATIER",
+    "isGift": true,
+    "createdAt": "2026-07-31T07:13:07.664Z",
+    "validUntil": "2027-07-31T07:13:07.664Z",
+    "status": "active"
   }
 ]
