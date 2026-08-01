@@ -4795,5 +4795,18 @@
     "createdAt": "2026-07-31T07:13:07.664Z",
     "validUntil": "2027-07-31T07:13:07.664Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-7385EF02",
+    "stripeSessionId": "cs_live_a17aIZdxnMlbMYr5K5rHKc1qgkYgjs9guygtbcwb82MKfxY5Qf5UuqmezE",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "anneleenholluyn@telenet.be",
+    "customerName": "Holluyn Anneleen",
+    "isGift": false,
+    "createdAt": "2026-08-01T12:19:56.406Z",
+    "validUntil": "2027-08-01T12:19:56.406Z",
+    "status": "active"
   }
 ]
