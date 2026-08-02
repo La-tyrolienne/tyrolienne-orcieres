@@ -4896,5 +4896,18 @@
     "createdAt": "2026-08-02T11:22:29.673Z",
     "validUntil": "2027-08-02T11:22:29.673Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-FAA18ACA",
+    "stripeSessionId": "cs_live_a1ZqBrI2zZXQMoZIypBn84p4zz5E3l0DEwaVjpxE2XJQ5EBn6iYJcLpFdx",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "alexandermol@hotmail.com",
+    "customerName": "Alexander Mol",
+    "isGift": false,
+    "createdAt": "2026-08-02T11:22:36.760Z",
+    "validUntil": "2027-08-02T11:22:36.760Z",
+    "status": "active"
   }
 ]
