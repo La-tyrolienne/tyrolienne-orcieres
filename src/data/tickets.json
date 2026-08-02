@@ -4870,5 +4870,18 @@
     "createdAt": "2026-08-02T07:49:28.472Z",
     "validUntil": "2027-08-02T07:49:28.472Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-230EAAF9",
+    "stripeSessionId": "cs_live_a1PHq2fSIkQ4EKjyWyzr6RObXAG74hPfptqD1yEQPdOqQiiAB9EUPwXqE2",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "vane-noann@hotmail.fr",
+    "customerName": "Romeu Vanessa",
+    "isGift": false,
+    "createdAt": "2026-08-02T07:49:35.228Z",
+    "validUntil": "2027-08-02T07:49:35.228Z",
+    "status": "active"
   }
 ]
