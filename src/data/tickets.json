@@ -5047,5 +5047,18 @@
     "createdAt": "2026-08-03T10:32:48.731Z",
     "validUntil": "2027-08-03T10:32:48.731Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-DC61166F",
+    "stripeSessionId": "cs_live_a1DNlBLHBOmjMW6adIGLPTCtwHF8CpHAASrsdw4tXEc5q3jMwivBJBDOBX",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "tbelder@gmail.com",
+    "customerName": "Theo Belder",
+    "isGift": true,
+    "createdAt": "2026-08-03T11:34:01.012Z",
+    "validUntil": "2027-08-03T11:34:01.012Z",
+    "status": "active"
   }
 ]
