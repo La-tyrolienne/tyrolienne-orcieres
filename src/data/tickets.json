@@ -5203,5 +5203,18 @@
     "createdAt": "2026-08-04T10:19:39.643Z",
     "validUntil": "2027-08-04T10:19:39.643Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-0E7E9205",
+    "stripeSessionId": "cs_live_a1qfnqVOtPWdKl1q0kASCYw8elW4a60KDlvtm0bsBPXKCCHEFtwYH01oGj",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "lysan75@hotmail.fr",
+    "customerName": "Grospeaud",
+    "isGift": false,
+    "createdAt": "2026-08-04T10:19:47.363Z",
+    "validUntil": "2027-08-04T10:19:47.363Z",
+    "status": "active"
   }
 ]
