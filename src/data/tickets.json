@@ -5417,5 +5417,18 @@
     "createdAt": "2026-08-05T14:57:34.350Z",
     "validUntil": "2027-08-05T14:57:34.350Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-860325C7",
+    "stripeSessionId": "cs_live_a1Hgws9UIMF9edMQhaHPDJVjFZGKTVXawJTpiXz3DRjeepHQALugMDROE4",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "adidier@thalgo.com",
+    "customerName": "Andrea Didier",
+    "isGift": false,
+    "createdAt": "2026-08-05T14:57:41.594Z",
+    "validUntil": "2027-08-05T14:57:41.594Z",
+    "status": "active"
   }
 ]
