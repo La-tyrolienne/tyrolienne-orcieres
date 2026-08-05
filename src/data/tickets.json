@@ -5443,5 +5443,18 @@
     "createdAt": "2026-08-05T15:01:57.923Z",
     "validUntil": "2027-08-05T15:01:57.923Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-F2255701",
+    "stripeSessionId": "cs_live_a100ZI5rqfkChSd4kUDH3qwJ8873JqBuGVSTKoK5mOYqR7vXl2Hfvo7O62",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "chrystel.garciah@gmail.com",
+    "customerName": "Chrystel  Guay",
+    "isGift": false,
+    "createdAt": "2026-08-05T16:20:08.670Z",
+    "validUntil": "2027-08-05T16:20:08.670Z",
+    "status": "active"
   }
 ]
