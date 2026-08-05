@@ -5352,5 +5352,18 @@
     "createdAt": "2026-08-05T07:39:33.883Z",
     "validUntil": "2027-08-05T07:39:33.883Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-76C62492",
+    "stripeSessionId": "cs_live_a1OWKuJJxCI7efLXIy6Pb3kO11TuPcs5nnZeGHaBrYHsrYy0wkvzI8lCP9",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "renaud.goge@outlook.fr",
+    "customerName": "Gogé Renaud",
+    "isGift": false,
+    "createdAt": "2026-08-05T07:47:31.246Z",
+    "validUntil": "2027-08-05T07:47:31.246Z",
+    "status": "active"
   }
 ]
