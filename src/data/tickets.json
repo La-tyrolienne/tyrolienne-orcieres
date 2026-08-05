@@ -5430,5 +5430,18 @@
     "createdAt": "2026-08-05T14:57:41.594Z",
     "validUntil": "2027-08-05T14:57:41.594Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4D194E04",
+    "stripeSessionId": "cs_live_a1SIZHD1LLvZwFoqRR0EHSeNnF08pnwDErM8ShAfoUwnaO6705CUydoH1t",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "toque.aurelie@gmail.com",
+    "customerName": "Isoardo",
+    "isGift": false,
+    "createdAt": "2026-08-05T15:01:57.923Z",
+    "validUntil": "2027-08-05T15:01:57.923Z",
+    "status": "active"
   }
 ]
