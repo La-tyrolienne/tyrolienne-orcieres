@@ -5302,5 +5302,18 @@
     "createdAt": "2026-08-05T05:48:08.284Z",
     "validUntil": "2027-08-05T05:48:08.284Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-B308E9F6",
+    "stripeSessionId": "cs_live_a1AcX7HUIrtYZ8GIL727w3RmQ1eX3aUcig7d8Xik7Em8gP0TpMTdEv6Gpo",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "kiara170608@hotmail.fr",
+    "customerName": "Larrazet noemie",
+    "isGift": false,
+    "createdAt": "2026-08-05T07:39:01.007Z",
+    "validUntil": "2027-08-05T07:39:01.007Z",
+    "status": "active"
   }
 ]
