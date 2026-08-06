@@ -5586,5 +5586,18 @@
     "createdAt": "2026-08-06T07:56:31.445Z",
     "validUntil": "2027-08-06T07:56:31.445Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-9C3ECD8C",
+    "stripeSessionId": "cs_live_a1kq1a1178khzKSPoBtrTnICkeYgTNtNLHxmXQ9yFDwnBp2MYBGxQ5NjNO",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "l.crescence@gmail.com",
+    "customerName": "Lionel Crescence",
+    "isGift": false,
+    "createdAt": "2026-08-06T08:55:31.826Z",
+    "validUntil": "2027-08-06T08:55:31.826Z",
+    "status": "active"
   }
 ]
