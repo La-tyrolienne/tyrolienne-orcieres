@@ -5495,5 +5495,18 @@
     "createdAt": "2026-08-06T07:34:02.758Z",
     "validUntil": "2027-08-06T07:34:02.758Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-76968138",
+    "stripeSessionId": "cs_live_a1ZGHhUO7UdGn8bKSoZpGZtdXrh7kBUPPkgaUgWSWyayncs9XuqDBx4oaG",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "christelle.demassia@laposte.net",
+    "customerName": "Lecocq christelle",
+    "isGift": false,
+    "createdAt": "2026-08-06T07:39:35.703Z",
+    "validUntil": "2027-08-06T07:39:35.703Z",
+    "status": "active"
   }
 ]
