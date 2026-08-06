@@ -5638,5 +5638,18 @@
     "createdAt": "2026-08-06T09:04:22.478Z",
     "validUntil": "2027-08-06T09:04:22.478Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-3CEB8E6F",
+    "stripeSessionId": "cs_live_a1RHKL0U5jVrZwYRcar6M28vGE6r21kC04uQOiK9WEuIeOJRpo9wTE68Mq",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "juge.rodolphe@gmail.com",
+    "customerName": "Juge Rodolphe",
+    "isGift": false,
+    "createdAt": "2026-08-06T09:11:53.854Z",
+    "validUntil": "2027-08-06T09:11:53.854Z",
+    "status": "active"
   }
 ]
