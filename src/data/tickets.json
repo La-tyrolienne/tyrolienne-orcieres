@@ -5482,5 +5482,18 @@
     "createdAt": "2026-08-06T07:33:55.808Z",
     "validUntil": "2027-08-06T07:33:55.808Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-59F03D5B",
+    "stripeSessionId": "cs_live_a1Xu41jJ7ln7Uo2TYCjmytY67J3NGVdu8ue2wJ94H7Yt2FKAbUDlCxySi3",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "e.emilien@hotmail.fr",
+    "customerName": "EMILIEN ERCOLANI",
+    "isGift": false,
+    "createdAt": "2026-08-06T07:34:02.758Z",
+    "validUntil": "2027-08-06T07:34:02.758Z",
+    "status": "active"
   }
 ]
