@@ -5677,5 +5677,18 @@
     "createdAt": "2026-08-06T09:31:35.481Z",
     "validUntil": "2027-08-06T09:31:35.481Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-18E61906",
+    "stripeSessionId": "cs_live_a16eZVXwRlQptB4kN88q1XsMZTNDpDGof2KW6d5dqtypuEsdjYFR03qind",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "leagrzeskowiak@icloud.com",
+    "customerName": "Emmanuelle Didier",
+    "isGift": false,
+    "createdAt": "2026-08-06T09:31:42.390Z",
+    "validUntil": "2027-08-06T09:31:42.390Z",
+    "status": "active"
   }
 ]
