@@ -5742,5 +5742,18 @@
     "createdAt": "2026-08-07T06:45:33.173Z",
     "validUntil": "2027-08-07T06:45:33.173Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-7960B1FF",
+    "stripeSessionId": "cs_live_a12Kn5c07H3m6y2gX57owGochUMfuaHrgGEsVZXHYjb8BturkEPibWRYiT",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "franha26@gmail.com",
+    "customerName": "Francois Halart",
+    "isGift": false,
+    "createdAt": "2026-08-07T07:02:41.104Z",
+    "validUntil": "2027-08-07T07:02:41.104Z",
+    "status": "active"
   }
 ]
