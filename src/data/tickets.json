@@ -5831,5 +5831,18 @@
     "createdAt": "2026-08-07T10:01:32.406Z",
     "validUntil": "2027-08-07T10:01:32.406Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-F05D2E24",
+    "stripeSessionId": "cs_live_a1QC9rgxdMZjk7xGH4Pz0ib3dStIjilEA6zq1OId2JWgdOQAHOmQt40NE3",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "stephaniehuys@hotmail.fr",
+    "customerName": "Stephanie  Huys",
+    "isGift": false,
+    "createdAt": "2026-08-07T10:01:39.384Z",
+    "validUntil": "2027-08-07T10:01:39.384Z",
+    "status": "active"
   }
 ]
