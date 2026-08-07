@@ -5974,5 +5974,18 @@
     "createdAt": "2026-08-07T13:15:29.262Z",
     "validUntil": "2027-08-07T13:15:29.262Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2CB4EA66",
+    "stripeSessionId": "cs_live_a1HfFrFND5c7HOgxIWf1C01LdCLHfRtF9y6ByTSZg7kA9iWrU9dBtUpwnd",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "nippotam@yahoo.fr",
+    "customerName": "Pierre-Denis Autric",
+    "isGift": false,
+    "createdAt": "2026-08-07T13:43:41.705Z",
+    "validUntil": "2027-08-07T13:43:41.705Z",
+    "status": "active"
   }
 ]
