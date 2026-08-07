@@ -6181,5 +6181,18 @@
     "createdAt": "2026-08-07T19:57:40.440Z",
     "validUntil": "2027-08-07T19:57:40.440Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-0B17C365",
+    "stripeSessionId": "cs_live_a1GdxPj6axF4caiiwzVBbAG1MxmygGlQMXK3O0fOSMvaPSaaWQWKb7IY1B",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "kathyoudin34@orange.fr",
+    "customerName": "Katia OUDIN",
+    "isGift": false,
+    "createdAt": "2026-08-07T20:04:47.974Z",
+    "validUntil": "2027-08-07T20:04:47.974Z",
+    "status": "active"
   }
 ]
