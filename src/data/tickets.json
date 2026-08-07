@@ -6013,5 +6013,18 @@
     "createdAt": "2026-08-07T13:48:23.199Z",
     "validUntil": "2027-08-07T13:48:23.199Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-8B238008",
+    "stripeSessionId": "cs_live_a1AXPQlYpZse1EVqicwd6GyTPBPPMYww7DCZXBztzd2QtT03ayeI9QjsV1",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "virginie.ek@gmail.com",
+    "customerName": "Ek",
+    "isGift": false,
+    "createdAt": "2026-08-07T13:48:30.719Z",
+    "validUntil": "2027-08-07T13:48:30.719Z",
+    "status": "active"
   }
 ]
