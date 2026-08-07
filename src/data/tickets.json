@@ -5844,5 +5844,18 @@
     "createdAt": "2026-08-07T10:01:39.384Z",
     "validUntil": "2027-08-07T10:01:39.384Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-F3BA2683",
+    "stripeSessionId": "cs_live_a12h8xOIQGDRUYXxkEAEfl2F1jNnvyL9NkdSboBhkO4iYIi04PDfrCt3eI",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "flavie.launaire@evoliz.com",
+    "customerName": "Flavie Launaire",
+    "isGift": false,
+    "createdAt": "2026-08-07T10:19:49.638Z",
+    "validUntil": "2027-08-07T10:19:49.638Z",
+    "status": "active"
   }
 ]
