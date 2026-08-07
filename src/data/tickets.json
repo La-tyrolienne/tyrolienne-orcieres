@@ -5948,5 +5948,18 @@
     "createdAt": "2026-08-07T12:49:13.383Z",
     "validUntil": "2027-08-07T12:49:13.383Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-6C9C4F7C",
+    "stripeSessionId": "cs_live_a1RMpwwzLZEotcR5m7Tzy9VlIbZbzx6OQqAw3WVdG99UIQ3YPj5j4NSAht",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "rastel.elodie@gmail.com",
+    "customerName": "Elodie CORNET",
+    "isGift": false,
+    "createdAt": "2026-08-07T13:15:22.336Z",
+    "validUntil": "2027-08-07T13:15:22.336Z",
+    "status": "active"
   }
 ]
