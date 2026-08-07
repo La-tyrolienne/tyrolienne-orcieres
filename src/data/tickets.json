@@ -5805,5 +5805,18 @@
     "createdAt": "2026-08-07T09:32:24.783Z",
     "validUntil": "2027-08-07T09:32:24.783Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4D96035C",
+    "stripeSessionId": "cs_live_a1JpshjzHz08PJbIs59Xuc2HRSib1QUrc98oCYMq6fekwSOOBPtduC0Mga",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "jpalibeu@gmail.com",
+    "customerName": "Jean-Pierre Alibeu",
+    "isGift": false,
+    "createdAt": "2026-08-07T09:32:33.118Z",
+    "validUntil": "2027-08-07T09:32:33.118Z",
+    "status": "active"
   }
 ]
