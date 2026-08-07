@@ -5716,5 +5716,18 @@
     "createdAt": "2026-08-06T11:24:48.002Z",
     "validUntil": "2027-08-06T11:24:48.002Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-8756E185",
+    "stripeSessionId": "cs_live_a1RdIcPEGiXstlzPqaFiUJIvLKR0ttGnEmtez8WE3hKfrApbtPrYXkKY6h",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "stef1237@hotmail.fr",
+    "customerName": "Stephane Morel",
+    "isGift": false,
+    "createdAt": "2026-08-07T06:45:26.430Z",
+    "validUntil": "2027-08-07T06:45:26.430Z",
+    "status": "active"
   }
 ]
