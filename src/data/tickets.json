@@ -6406,5 +6406,18 @@
     "createdAt": "2026-08-08T09:37:32.742Z",
     "validUntil": "2027-08-08T09:37:32.742Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-673CCD5C",
+    "stripeSessionId": "cs_live_a19lJrseO3r7i3Z3QeOP1Qyy6QEjFfZQ0kxehpiwwNGk92p6vzRRsgOGYi",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "conrod974@gmail.com",
+    "customerName": "Connes",
+    "isGift": false,
+    "createdAt": "2026-08-08T09:57:37.840Z",
+    "validUntil": "2027-08-08T09:57:37.840Z",
+    "status": "active"
   }
 ]
