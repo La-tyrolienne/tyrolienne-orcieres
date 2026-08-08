@@ -5780,7 +5780,8 @@
     "isGift": false,
     "createdAt": "2026-08-07T09:31:50.521Z",
     "validUntil": "2027-08-07T09:31:50.521Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-08T07:40:17.323Z"
   },
   {
     "id": "TKT-F1A65793",
