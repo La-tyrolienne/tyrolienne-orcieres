@@ -6445,7 +6445,8 @@
     "isGift": false,
     "createdAt": "2026-08-08T12:26:19.474Z",
     "validUntil": "2027-08-08T12:26:19.474Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-08T12:27:37.980Z"
   },
   {
     "id": "TKT-2A5012E0",
