@@ -6374,6 +6374,7 @@
     "customerName": "Anne-Laure Durand",
     "createdAt": "2026-08-08T08:52:53.707Z",
     "validUntil": "2027-08-08T08:52:53.707Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-08T08:59:10.464Z"
   }
 ]
