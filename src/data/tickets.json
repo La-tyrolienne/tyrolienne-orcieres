@@ -6393,5 +6393,18 @@
     "createdAt": "2026-08-08T09:37:25.966Z",
     "validUntil": "2027-08-08T09:37:25.966Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-34701821",
+    "stripeSessionId": "cs_live_a1GzvAkmRxr79aMRR8KW9sHWc90W13V2PvhZF2YTgw1YFZvfPoiwLLvOnB",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "charlotte_monnet@yahoo.fr",
+    "customerName": "Monnet",
+    "isGift": false,
+    "createdAt": "2026-08-08T09:37:32.742Z",
+    "validUntil": "2027-08-08T09:37:32.742Z",
+    "status": "active"
   }
 ]
