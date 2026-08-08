@@ -6222,7 +6222,8 @@
     "customerName": "Katia OUDIN",
     "createdAt": "2026-08-07T20:05:01.680Z",
     "validUntil": "2027-08-07T20:05:01.680Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-08T09:05:49.947Z"
   },
   {
     "id": "TKT-DC47E7AC",
