@@ -6130,7 +6130,8 @@
     "isGift": false,
     "createdAt": "2026-08-07T19:56:51.433Z",
     "validUntil": "2027-08-07T19:56:51.433Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-08T08:52:23.897Z"
   },
   {
     "id": "TKT-EB2E2CBD",
