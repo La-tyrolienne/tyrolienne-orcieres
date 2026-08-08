@@ -6418,7 +6418,8 @@
     "isGift": false,
     "createdAt": "2026-08-08T09:57:37.840Z",
     "validUntil": "2027-08-08T09:57:37.840Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-08T10:08:03.899Z"
   },
   {
     "id": "TKT-97CE2A0A",
