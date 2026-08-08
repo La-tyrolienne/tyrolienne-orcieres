@@ -6349,5 +6349,18 @@
     "createdAt": "2026-08-08T07:51:15.392Z",
     "validUntil": "2027-08-08T07:51:15.392Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-A9E93F4A",
+    "stripeSessionId": "cs_live_a1I4xtqp5vCO8vBODxjC01m8CvuvwLMiwojulTUsMM05TWOkVcB5ZJ9a0C",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "annelaure13.durand@yahoo.fr",
+    "customerName": "Anne-Laure Durand",
+    "isGift": false,
+    "createdAt": "2026-08-08T08:52:08.579Z",
+    "validUntil": "2027-08-08T08:52:08.579Z",
+    "status": "active"
   }
 ]
