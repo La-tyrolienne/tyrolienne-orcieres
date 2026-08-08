@@ -6309,5 +6309,17 @@
     "createdAt": "2026-08-08T05:49:40.537Z",
     "validUntil": "2027-08-08T05:49:40.537Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-42622002",
+    "stripeSessionId": "cs_live_a1l6tsSkjGWZcFnU8YxaJMmEnBxiXp0rPc1AF5lPWJ8C6jDwKGgesJcjQH",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "raynal.lionel@live.fr",
+    "customerName": "Lionel Raynal",
+    "createdAt": "2026-08-08T05:50:18.287Z",
+    "validUntil": "2027-08-08T05:50:18.287Z",
+    "status": "active"
   }
 ]
