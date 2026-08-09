@@ -6709,5 +6709,18 @@
     "validUntil": "2027-08-09T08:12:52.170Z",
     "status": "used",
     "usedAt": "2026-08-09T08:17:20.511Z"
+  },
+  {
+    "id": "TKT-9A0B4909",
+    "stripeSessionId": "cs_live_a1dfPrXsi8RBTI8xzH5M2asQZhICnIeu4ezQpYdpBd6iaGaD7TtUbfohdc",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "melvern@hotmail.fr",
+    "customerName": "Mélissa Vernez",
+    "isGift": false,
+    "createdAt": "2026-08-09T09:38:45.887Z",
+    "validUntil": "2027-08-09T09:38:45.887Z",
+    "status": "active"
   }
 ]
