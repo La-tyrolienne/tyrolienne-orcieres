@@ -6803,5 +6803,18 @@
     "createdAt": "2026-08-09T14:52:15.991Z",
     "validUntil": "2027-08-09T14:52:15.991Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-158CD311",
+    "stripeSessionId": "cs_live_a1J6a7Cv0w8BdAXyCcstcE7WQd4TdYDgsnNzYnOcs2fgjs0pCf2Ji9E8iC",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "ruaudmarion@gmail.com",
+    "customerName": "marion Fournier",
+    "isGift": false,
+    "createdAt": "2026-08-09T16:56:21.930Z",
+    "validUntil": "2027-08-09T16:56:21.930Z",
+    "status": "active"
   }
 ]
