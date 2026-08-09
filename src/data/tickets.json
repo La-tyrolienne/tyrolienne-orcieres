@@ -6590,5 +6590,18 @@
     "createdAt": "2026-08-09T01:22:46.769Z",
     "validUntil": "2027-08-09T01:22:46.769Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-90EF3D1F",
+    "stripeSessionId": "cs_live_a1lRcowQ1DY5JUlCxwF1RVqjFg1zGriH3aoKldmZCupN8LLs4bWsK3G2WR",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "emilie.brosset@hormail.fr",
+    "customerName": "Emilie BROSSET",
+    "isGift": false,
+    "createdAt": "2026-08-09T07:50:21.274Z",
+    "validUntil": "2027-08-09T07:50:21.274Z",
+    "status": "active"
   }
 ]
