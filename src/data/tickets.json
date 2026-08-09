@@ -6777,5 +6777,18 @@
     "createdAt": "2026-08-09T14:52:02.377Z",
     "validUntil": "2027-08-09T14:52:02.377Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-3457ED4E",
+    "stripeSessionId": "cs_live_a1ij6CTC7eX0yYkkew5J5cx7wBPtrQqnQxsaJJWPQm6DuYeEo7TfH1Huur",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "ianouclot@gmail.com",
+    "customerName": "Ian Clot",
+    "isGift": false,
+    "createdAt": "2026-08-09T14:52:09.276Z",
+    "validUntil": "2027-08-09T14:52:09.276Z",
+    "status": "active"
   }
 ]
