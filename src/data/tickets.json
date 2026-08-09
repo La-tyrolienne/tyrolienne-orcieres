@@ -6762,6 +6762,7 @@
     "customerName": "Antoine  Morin ",
     "createdAt": "2026-08-09T13:09:03.609Z",
     "validUntil": "2027-08-09T13:09:03.609Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-09T13:09:52.758Z"
   }
 ]
