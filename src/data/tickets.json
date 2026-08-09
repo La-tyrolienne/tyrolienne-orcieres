@@ -6737,5 +6737,18 @@
     "validUntil": "2027-08-09T09:38:52.665Z",
     "status": "used",
     "usedAt": "2026-08-09T09:40:06.052Z"
+  },
+  {
+    "id": "TKT-F8A07A03",
+    "stripeSessionId": "cs_live_a1zlsZHCwfyDDjl4W7LMPjiPR9URhzf8hchyah20iFeXINBPfBzf3l9f9O",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "antoine.morin2404@gmail.com",
+    "customerName": "Antoine  Morin ",
+    "isGift": false,
+    "createdAt": "2026-08-09T13:08:52.166Z",
+    "validUntil": "2027-08-09T13:08:52.166Z",
+    "status": "active"
   }
 ]
