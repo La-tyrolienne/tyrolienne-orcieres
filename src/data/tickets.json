@@ -6693,7 +6693,8 @@
     "isGift": false,
     "createdAt": "2026-08-09T08:12:45.273Z",
     "validUntil": "2027-08-09T08:12:45.273Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-09T08:17:07.868Z"
   },
   {
     "id": "TKT-FAA41ED3",
