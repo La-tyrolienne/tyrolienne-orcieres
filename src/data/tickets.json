@@ -6567,7 +6567,7 @@
     "status": "active"
   },
   {
-    "id": "TKT-4E017648",
+    "id": "TKT-E2B33360",
     "stripeSessionId": "cs_live_a1ALc2dzzULpzNCjpz83CSPT2e428SABwiTSPq3ZWwYtxUj0EWfK7hAWHK",
     "season": "summer",
     "price": 35,
@@ -6575,8 +6575,8 @@
     "customerEmail": "loris.nastapastorelli@gmail.com",
     "customerName": "Loris Nasta",
     "isGift": false,
-    "createdAt": "2026-08-09T01:21:41.984Z",
-    "validUntil": "2027-08-09T01:21:41.984Z",
+    "createdAt": "2026-08-09T01:21:48.800Z",
+    "validUntil": "2027-08-09T01:21:48.800Z",
     "status": "active"
   }
 ]
