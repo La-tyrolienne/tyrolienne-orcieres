@@ -6749,7 +6749,8 @@
     "isGift": false,
     "createdAt": "2026-08-09T13:08:52.166Z",
     "validUntil": "2027-08-09T13:08:52.166Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-09T13:09:35.913Z"
   },
   {
     "id": "TKT-24B5E4CF",
