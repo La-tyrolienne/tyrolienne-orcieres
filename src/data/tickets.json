@@ -6694,5 +6694,18 @@
     "createdAt": "2026-08-09T08:12:45.273Z",
     "validUntil": "2027-08-09T08:12:45.273Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-FAA41ED3",
+    "stripeSessionId": "cs_live_a1l1smE1sr0IpxI5SGb2aeStaVRiXNoHDLIBtDAF0hqKP2OnTVAHmdqG6z",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "celine.tilleauboucard@gmail.com",
+    "customerName": "Celine Tilleau",
+    "isGift": false,
+    "createdAt": "2026-08-09T08:12:52.170Z",
+    "validUntil": "2027-08-09T08:12:52.170Z",
+    "status": "active"
   }
 ]
