@@ -6920,6 +6920,7 @@
     "isGift": false,
     "createdAt": "2026-08-10T11:06:16.250Z",
     "validUntil": "2027-08-10T11:06:16.250Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-10T11:09:13.757Z"
   }
 ]
