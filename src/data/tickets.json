@@ -6895,5 +6895,18 @@
     "createdAt": "2026-08-10T10:45:19.659Z",
     "validUntil": "2027-08-10T10:45:19.659Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-01AD22B5",
+    "stripeSessionId": "cs_live_a11HNGh1NtxgYuibPFVLlt9tlndbqBVlHCkmkJ07cvXWr1UlCWMZkgIg6y",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "florian.nalin@gmail.com",
+    "customerName": "Florian NALIN",
+    "isGift": false,
+    "createdAt": "2026-08-10T10:45:27.109Z",
+    "validUntil": "2027-08-10T10:45:27.109Z",
+    "status": "active"
   }
 ]
