@@ -7105,5 +7105,18 @@
     "createdAt": "2026-08-10T16:37:53.689Z",
     "validUntil": "2027-08-10T16:37:53.689Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-56AC3DE0",
+    "stripeSessionId": "cs_live_a1N1v7W7cgK4VCBrw4ztpKHTc3qYgBo8Yq47PdROcaNoKEgGzEVCy81Bnf",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "martin.christ05@orange.fr",
+    "customerName": "Flore Rousselle",
+    "isGift": false,
+    "createdAt": "2026-08-10T16:51:22.401Z",
+    "validUntil": "2027-08-10T16:51:22.401Z",
+    "status": "active"
   }
 ]
