@@ -6602,7 +6602,8 @@
     "isGift": false,
     "createdAt": "2026-08-09T07:50:21.274Z",
     "validUntil": "2027-08-09T07:50:21.274Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-10T12:11:14.552Z"
   },
   {
     "id": "TKT-4186E4C1",
