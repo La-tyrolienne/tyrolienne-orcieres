@@ -7157,5 +7157,18 @@
     "createdAt": "2026-08-10T18:28:00.944Z",
     "validUntil": "2027-08-10T18:28:00.944Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-50ACDEFD",
+    "stripeSessionId": "cs_live_a1yq0VMTCzAQX2CyU9HAe908utcVB6sNxW6goj93XV7R7ssQJyWIyphXtL",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "amandine.maddy.moglia@gmail.com",
+    "customerName": "Calabrese",
+    "isGift": false,
+    "createdAt": "2026-08-10T20:27:44.958Z",
+    "validUntil": "2027-08-10T20:27:44.958Z",
+    "status": "active"
   }
 ]
