@@ -6868,5 +6868,18 @@
     "createdAt": "2026-08-10T07:46:13.148Z",
     "validUntil": "2027-08-10T07:46:13.148Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-5D3DA45A",
+    "stripeSessionId": "cs_live_a1rVsGXNAirWIB82a5s6UA5ZAGsgNVpXy7yCi3d2y6NfL2KEu96oJCyLCo",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "jeromegrosset@gmail.com",
+    "customerName": "Jérôme Grosset",
+    "isGift": false,
+    "createdAt": "2026-08-10T08:01:31.031Z",
+    "validUntil": "2027-08-10T08:01:31.031Z",
+    "status": "active"
   }
 ]
