@@ -6922,5 +6922,18 @@
     "validUntil": "2027-08-10T11:06:16.250Z",
     "status": "used",
     "usedAt": "2026-08-10T11:09:13.757Z"
+  },
+  {
+    "id": "TKT-88C368D7",
+    "stripeSessionId": "cs_live_a1M74ADq1eutjDr7Wsr3Vl90gJRT7onKN6QlLWn0GF6s6ulyyKhjQZkX1E",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "liveforever13@hotmail.com",
+    "customerName": "Michet aurelie",
+    "isGift": false,
+    "createdAt": "2026-08-10T11:31:50.895Z",
+    "validUntil": "2027-08-10T11:31:50.895Z",
+    "status": "active"
   }
 ]
