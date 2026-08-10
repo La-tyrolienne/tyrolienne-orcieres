@@ -7001,5 +7001,18 @@
     "createdAt": "2026-08-10T11:32:45.530Z",
     "validUntil": "2027-08-10T11:32:45.530Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C99625BD",
+    "stripeSessionId": "cs_live_a1zfepd4eYGv0ime4hxuGil0s2QAsrUr3jpBsC526J8habKS90qf5h9x5a",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "eleonore.damblin@capifrance.fr",
+    "customerName": "ELEONORE DAMBLIN",
+    "isGift": false,
+    "createdAt": "2026-08-10T12:19:56.611Z",
+    "validUntil": "2027-08-10T12:19:56.611Z",
+    "status": "active"
   }
 ]
