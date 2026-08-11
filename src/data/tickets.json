@@ -7247,5 +7247,17 @@
     "createdAt": "2026-08-11T08:18:37.562Z",
     "validUntil": "2027-08-11T08:18:37.562Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-EBDA3611",
+    "stripeSessionId": "cs_live_a193xdc8dNTyM9waf3tkZZNzf4zQTXpwYP6ORZ1jpu49ZuwSAPMLv7JTaR",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "david.infirmier@laposte.net",
+    "customerName": "David garnier",
+    "createdAt": "2026-08-11T08:19:12.454Z",
+    "validUntil": "2027-08-11T08:19:12.454Z",
+    "status": "active"
   }
 ]
