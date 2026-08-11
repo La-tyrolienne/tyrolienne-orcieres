@@ -7297,5 +7297,18 @@
     "createdAt": "2026-08-11T08:51:36.693Z",
     "validUntil": "2027-08-11T08:51:36.693Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-8C0288EC",
+    "stripeSessionId": "cs_live_a114KITKhv6SsVD7KdZ7w7zHe6vaJXccadjpydArzUrWBO8vHJ4KfbIZtJ",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "alexandre.gass@gmail.com",
+    "customerName": "Alexandre Gass",
+    "isGift": false,
+    "createdAt": "2026-08-11T15:38:57.704Z",
+    "validUntil": "2027-08-11T15:38:57.704Z",
+    "status": "active"
   }
 ]
