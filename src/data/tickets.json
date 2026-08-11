@@ -7224,16 +7224,15 @@
     "status": "active"
   },
   {
-    "id": "TKT-B40F7D6E",
+    "id": "TKT-16467A50",
     "stripeSessionId": "cs_live_a1SuyJHIShEmMg8ZDIm9ooRjmuRFAoTrYCSV2i4DozXVtmV69LY0JTfWO8",
     "season": "summer",
     "price": 35,
     "quantity": 1,
     "customerEmail": "rouxcecil@orange.fr",
     "customerName": "MR CECIL ROUX",
-    "isGift": false,
-    "createdAt": "2026-08-11T07:43:26.875Z",
-    "validUntil": "2027-08-11T07:43:26.875Z",
+    "createdAt": "2026-08-11T07:43:34.426Z",
+    "validUntil": "2027-08-11T07:43:34.426Z",
     "status": "active"
   }
 ]
