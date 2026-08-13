@@ -7789,5 +7789,18 @@
     "createdAt": "2026-08-13T13:36:09.942Z",
     "validUntil": "2027-08-13T13:36:09.942Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C07792FA",
+    "stripeSessionId": "cs_live_a1Rw1DTdTWsHQpmkJo9v1Ei8NSXETfwbIWlTfKcmeI32EbOZzttrMb5DQt",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "florence.roman23@gmail.com",
+    "customerName": "Florence ROMAN",
+    "isGift": false,
+    "createdAt": "2026-08-13T13:36:17.024Z",
+    "validUntil": "2027-08-13T13:36:17.024Z",
+    "status": "active"
   }
 ]
