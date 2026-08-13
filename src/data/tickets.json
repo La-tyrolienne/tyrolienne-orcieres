@@ -7531,5 +7531,18 @@
     "createdAt": "2026-08-13T04:29:38.494Z",
     "validUntil": "2027-08-13T04:29:38.494Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-CEFF98EB",
+    "stripeSessionId": "cs_live_a14sKwQt7JPIfzQR7qROa89Yuoaj0XMQzfICXY6huuK3efS9lSJqTfUdTz",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "aurelielucas1708@gmail.com",
+    "customerName": "MME AURELIE LUCAS",
+    "isGift": false,
+    "createdAt": "2026-08-13T04:29:45.448Z",
+    "validUntil": "2027-08-13T04:29:45.448Z",
+    "status": "active"
   }
 ]
