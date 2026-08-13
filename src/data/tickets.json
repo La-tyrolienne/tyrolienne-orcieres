@@ -7699,5 +7699,18 @@
     "createdAt": "2026-08-13T08:58:39.498Z",
     "validUntil": "2027-08-13T08:58:39.498Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2D0C81F1",
+    "stripeSessionId": "cs_live_a1iOOuFzo1ZyXi8W28UEqSfplG2vuUv3X3ekd4Y5PYIklmhB37U10DEwW1",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "christophesoscia@hotmail.com",
+    "customerName": "SOSCIA",
+    "isGift": false,
+    "createdAt": "2026-08-13T08:59:00.290Z",
+    "validUntil": "2027-08-13T08:59:00.290Z",
+    "status": "active"
   }
 ]
