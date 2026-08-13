@@ -7622,5 +7622,18 @@
     "createdAt": "2026-08-13T07:34:02.752Z",
     "validUntil": "2027-08-13T07:34:02.752Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-78C684BD",
+    "stripeSessionId": "cs_live_a1doZUJ7Elk4owUMUtU1vJ72UMtORrEIT6e6lIO4yGER8QA7HpvkQP6tr7",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "alexisricou26@gmail.com",
+    "customerName": "Ricou",
+    "isGift": false,
+    "createdAt": "2026-08-13T07:38:07.568Z",
+    "validUntil": "2027-08-13T07:38:07.568Z",
+    "status": "active"
   }
 ]
