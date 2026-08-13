@@ -7828,5 +7828,18 @@
     "createdAt": "2026-08-13T15:04:53.147Z",
     "validUntil": "2027-08-13T15:04:53.147Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-BD218950",
+    "stripeSessionId": "cs_live_a1ZFr4hypN3s7lQZnegJRmy6N5G1FclTqBzVT3gVQsY45ZGP9ibWKIa8in",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "thoms3891@gmail.com",
+    "customerName": "Thomas Fds",
+    "isGift": false,
+    "createdAt": "2026-08-13T15:05:00.427Z",
+    "validUntil": "2027-08-13T15:05:00.427Z",
+    "status": "active"
   }
 ]
