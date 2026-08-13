@@ -7751,5 +7751,17 @@
     "createdAt": "2026-08-13T10:52:06.543Z",
     "validUntil": "2027-08-13T10:52:06.543Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E2970733",
+    "stripeSessionId": "cs_live_a1TU5dH8oXL7kGVGj1ge2B9TiL01mGu4YF9lboMJrQwe8LMHHelTwkiUPP",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "arnaud_beseme@yahoo.fr",
+    "customerName": "Arnaud Besème",
+    "createdAt": "2026-08-13T13:03:57.490Z",
+    "validUntil": "2027-08-13T13:03:57.490Z",
+    "status": "active"
   }
 ]
