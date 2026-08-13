@@ -7635,5 +7635,18 @@
     "createdAt": "2026-08-13T07:38:07.568Z",
     "validUntil": "2027-08-13T07:38:07.568Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E8BA0ABE",
+    "stripeSessionId": "cs_live_a12GjSA4Gap2wUU3ZKt7AzTJxdtPqHiP0aMEELcnaBb5oknFtbVpdXKhFF",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "fanny.amblard@gmail.com",
+    "customerName": "Fanny Amblard",
+    "isGift": false,
+    "createdAt": "2026-08-13T07:54:18.485Z",
+    "validUntil": "2027-08-13T07:54:18.485Z",
+    "status": "active"
   }
 ]
