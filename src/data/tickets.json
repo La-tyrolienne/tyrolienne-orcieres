@@ -7970,5 +7970,18 @@
     "createdAt": "2026-08-14T13:10:45.087Z",
     "validUntil": "2027-08-14T13:10:45.087Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-165B9EA9",
+    "stripeSessionId": "cs_live_a1KnrISvR6wEzfNHeHlXkHUVuD8Ai9o6tx1VNIblSm17Zpn8p2SRWOh8VM",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "sandrine.h.2@hotmail.fr",
+    "customerName": "Sandrine HELY",
+    "isGift": false,
+    "createdAt": "2026-08-14T13:10:51.984Z",
+    "validUntil": "2027-08-14T13:10:51.984Z",
+    "status": "active"
   }
 ]
