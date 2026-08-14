@@ -7880,5 +7880,18 @@
     "createdAt": "2026-08-13T15:05:36.037Z",
     "validUntil": "2027-08-13T15:05:36.037Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-17CBF9EE",
+    "stripeSessionId": "cs_live_a1Ebkk4GxORfcRrwGneZ7heQTlj9JGiKUc05XlybM9pf4JFuj0rPW4GxCH",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "patrick.artmand0064@orange.fr",
+    "customerName": "patrick armand",
+    "isGift": false,
+    "createdAt": "2026-08-14T05:57:48.430Z",
+    "validUntil": "2027-08-14T05:57:48.430Z",
+    "status": "active"
   }
 ]
