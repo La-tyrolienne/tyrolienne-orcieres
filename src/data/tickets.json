@@ -8205,5 +8205,18 @@
     "createdAt": "2026-08-15T13:36:52.189Z",
     "validUntil": "2027-08-15T13:36:52.189Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4671430E",
+    "stripeSessionId": "cs_live_a1mBOGiiVJQnhSlBy3aKhZWTh4Pbaxa0OR0ar3Sjqfy9O8MJycXe5iw2RC",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "b.pery@hotmail.fr",
+    "customerName": "Bérengère Pery",
+    "isGift": false,
+    "createdAt": "2026-08-15T19:06:25.776Z",
+    "validUntil": "2027-08-15T19:06:25.776Z",
+    "status": "active"
   }
 ]
