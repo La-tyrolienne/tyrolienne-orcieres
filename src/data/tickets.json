@@ -8061,5 +8061,17 @@
     "createdAt": "2026-08-15T04:58:23.296Z",
     "validUntil": "2027-08-15T04:58:23.296Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-795829ED",
+    "stripeSessionId": "cs_live_a1KQqapmPzc6XQqNCFLxvRK5wHQDIva1MRvMinq3rPwEIVVZDU3SKabYE4",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "matysse.regal@sncf.fr",
+    "customerName": "Matysse Regal",
+    "createdAt": "2026-08-15T04:59:00.815Z",
+    "validUntil": "2027-08-15T04:59:00.815Z",
+    "status": "active"
   }
 ]
