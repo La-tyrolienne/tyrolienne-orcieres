@@ -8098,6 +8098,7 @@
     "customerName": "Pennacino",
     "createdAt": "2026-08-15T08:48:40.866Z",
     "validUntil": "2027-08-15T08:48:40.866Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-15T08:57:37.640Z"
   }
 ]
