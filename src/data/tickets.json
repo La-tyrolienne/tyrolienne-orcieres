@@ -8127,5 +8127,18 @@
     "createdAt": "2026-08-15T09:34:55.690Z",
     "validUntil": "2027-08-15T09:34:55.690Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-85298F36",
+    "stripeSessionId": "cs_live_a1Oxj0OoYdP9QU55a8RGzGbowsrFn85mnkX4oUFBvLIldgPl2nIuFPX85p",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "matsuz38@outlook.com",
+    "customerName": "PIERRE SUZZARINI",
+    "isGift": false,
+    "createdAt": "2026-08-15T09:35:02.652Z",
+    "validUntil": "2027-08-15T09:35:02.652Z",
+    "status": "active"
   }
 ]
