@@ -8086,7 +8086,8 @@
     "isGift": false,
     "createdAt": "2026-08-15T08:48:29.840Z",
     "validUntil": "2027-08-15T08:48:29.840Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-15T08:57:52.668Z"
   },
   {
     "id": "TKT-2895E823",
