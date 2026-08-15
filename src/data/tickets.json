@@ -8074,5 +8074,18 @@
     "createdAt": "2026-08-15T04:59:00.815Z",
     "validUntil": "2027-08-15T04:59:00.815Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-28643EA8",
+    "stripeSessionId": "cs_live_a1MEswNfCnB1Kr0I5Dn6PyaY0V7eC7OASWgYyE428G1KgVvsR8fd3SEsCG",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "marionpennacino@yahoo.fr",
+    "customerName": "Pennacino",
+    "isGift": false,
+    "createdAt": "2026-08-15T08:48:29.840Z",
+    "validUntil": "2027-08-15T08:48:29.840Z",
+    "status": "active"
   }
 ]
