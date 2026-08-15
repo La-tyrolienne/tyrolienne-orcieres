@@ -8153,5 +8153,18 @@
     "createdAt": "2026-08-15T09:35:09.765Z",
     "validUntil": "2027-08-15T09:35:09.765Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-FFD1FDA3",
+    "stripeSessionId": "cs_live_a1t73OkLEukidgWImmuo44ElTBsIqWWHhMhRJ4sX3ukaUwhx0BZWOFR1yA",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "pierre-bertin05@hotmail.fr",
+    "customerName": "Bertin Pierre",
+    "isGift": true,
+    "createdAt": "2026-08-15T11:56:15.025Z",
+    "validUntil": "2027-08-15T11:56:15.025Z",
+    "status": "active"
   }
 ]
