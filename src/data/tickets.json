@@ -8256,5 +8256,18 @@
     "createdAt": "2026-08-16T08:47:06.177Z",
     "validUntil": "2027-08-16T08:47:06.177Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-FFDC3BD0",
+    "stripeSessionId": "cs_live_a1oHwRmWbMCdldAaMFL7HXJSJTfgrYZdPAQhptPbpyIxORzUzu8jgU3qFF",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "louane.pabion@gmail.com",
+    "customerName": "Louane Pabion",
+    "isGift": false,
+    "createdAt": "2026-08-16T13:42:17.924Z",
+    "validUntil": "2027-08-16T13:42:17.924Z",
+    "status": "active"
   }
 ]
