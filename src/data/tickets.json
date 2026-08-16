@@ -8282,5 +8282,18 @@
     "createdAt": "2026-08-16T13:42:24.944Z",
     "validUntil": "2027-08-16T13:42:24.944Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-7950ACED",
+    "stripeSessionId": "cs_live_a1xWTT87wtYg0cJ6ziDKpAPapH0kmp78qEoBITz7YzMRVVS6Cuye8TCHRV",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "charly-stann@hotmail.fr",
+    "customerName": "REBHI Charly",
+    "isGift": false,
+    "createdAt": "2026-08-16T20:39:37.756Z",
+    "validUntil": "2027-08-16T20:39:37.756Z",
+    "status": "active"
   }
 ]
