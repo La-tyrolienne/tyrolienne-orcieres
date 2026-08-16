@@ -8230,5 +8230,18 @@
     "createdAt": "2026-08-15T19:06:35.626Z",
     "validUntil": "2027-08-15T19:06:35.626Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-D4EA9183",
+    "stripeSessionId": "cs_live_a1b2BeVmOmag1tOuNn1MGfmPw0FOMcrdott7Ikxt0Jwrzg88susGSt7xMf",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "dimegliosab@yahoo.fr",
+    "customerName": "Sabine dimeglio",
+    "isGift": false,
+    "createdAt": "2026-08-16T08:46:59.097Z",
+    "validUntil": "2027-08-16T08:46:59.097Z",
+    "status": "active"
   }
 ]
