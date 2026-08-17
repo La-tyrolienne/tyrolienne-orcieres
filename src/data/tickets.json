@@ -8295,5 +8295,18 @@
     "createdAt": "2026-08-16T20:39:37.756Z",
     "validUntil": "2027-08-16T20:39:37.756Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-44E87E9C",
+    "stripeSessionId": "cs_live_a1rZbsoZdrQ3rEU2QSZ0xWwTtHezFKPb4DHhv4S8gSFGC8Va3kvgnWB1yp",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "gabibou46@gmail.com",
+    "customerName": "Boudol",
+    "isGift": false,
+    "createdAt": "2026-08-17T05:26:38.292Z",
+    "validUntil": "2027-08-17T05:26:38.292Z",
+    "status": "active"
   }
 ]
