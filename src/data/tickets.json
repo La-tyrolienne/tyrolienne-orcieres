@@ -8360,5 +8360,18 @@
     "createdAt": "2026-08-17T07:16:31.554Z",
     "validUntil": "2027-08-17T07:16:31.554Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-EDF3B5CD",
+    "stripeSessionId": "cs_live_a1gBF5YivA247o61UygYPAI6kDTTkjZLNtHUEOOfgSNCNhm4hZpUbj0a8x",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "soffe78@hotmail.fr",
+    "customerName": "Giroudon",
+    "isGift": false,
+    "createdAt": "2026-08-17T07:16:38.431Z",
+    "validUntil": "2027-08-17T07:16:38.431Z",
+    "status": "active"
   }
 ]
