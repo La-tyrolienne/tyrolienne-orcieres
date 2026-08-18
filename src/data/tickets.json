@@ -8815,5 +8815,18 @@
     "createdAt": "2026-08-18T08:40:10.695Z",
     "validUntil": "2027-08-18T08:40:10.695Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2998F571",
+    "stripeSessionId": "cs_live_a1BAjj9t5A6DM69cZeAAxEeVDbaij3lhkzMqVsMnFaxawmNNVNLVVUBBY0",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "clairefond.gael@gmail.com",
+    "customerName": "Gael Clairefond",
+    "isGift": false,
+    "createdAt": "2026-08-18T08:53:44.718Z",
+    "validUntil": "2027-08-18T08:53:44.718Z",
+    "status": "active"
   }
 ]
