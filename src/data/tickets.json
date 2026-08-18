@@ -8646,5 +8646,18 @@
     "createdAt": "2026-08-18T07:58:46.707Z",
     "validUntil": "2027-08-18T07:58:46.707Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-4F5B7D5D",
+    "stripeSessionId": "cs_live_a1wkwDhmYGRKI7NzAxfMVTuVvTmCYZq1pxilDRkg514pClqZMReQycY8ay",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "ripeness_smashing404@faralias.fr",
+    "customerName": "matthieu Faravel",
+    "isGift": false,
+    "createdAt": "2026-08-18T07:58:53.629Z",
+    "validUntil": "2027-08-18T07:58:53.629Z",
+    "status": "active"
   }
 ]
