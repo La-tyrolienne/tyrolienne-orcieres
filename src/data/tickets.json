@@ -8620,5 +8620,18 @@
     "createdAt": "2026-08-18T07:40:50.480Z",
     "validUntil": "2027-08-18T07:40:50.480Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2BA763F9",
+    "stripeSessionId": "cs_live_a1RNcWSH5pHhhpVxnMOBMvDMBduPOcDY0tTyKCAOedqcrXsL1ZW8bcSwzt",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "charondiere.ludovic@hotmail.fr",
+    "customerName": "Ludovic Charondiere",
+    "isGift": false,
+    "createdAt": "2026-08-18T07:40:58.036Z",
+    "validUntil": "2027-08-18T07:40:58.036Z",
+    "status": "active"
   }
 ]
