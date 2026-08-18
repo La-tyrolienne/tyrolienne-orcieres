@@ -8945,5 +8945,18 @@
     "createdAt": "2026-08-18T09:30:12.231Z",
     "validUntil": "2027-08-18T09:30:12.231Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-96894660",
+    "stripeSessionId": "cs_live_a1QtM7tQsO33eLr6HNUQ19irs6LiQHPhNMJR9oNH822IjsI2hXLcihTAyu",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "virginierib16@gmail.com",
+    "customerName": "Virginie Ribiere",
+    "isGift": false,
+    "createdAt": "2026-08-18T10:09:51.281Z",
+    "validUntil": "2027-08-18T10:09:51.281Z",
+    "status": "active"
   }
 ]
