@@ -9334,5 +9334,18 @@
     "createdAt": "2026-08-18T18:10:58.784Z",
     "validUntil": "2027-08-18T18:10:58.784Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-AC11EEC7",
+    "stripeSessionId": "cs_live_a1aUDahK5FEDf7VaEMv2aGHHq835PHnmQxkssw6TRpbqhdpWPRwT7kuIOU",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "gui-gui-03@hotmail.fr",
+    "customerName": "Saint-Cast",
+    "isGift": false,
+    "createdAt": "2026-08-18T21:24:40.306Z",
+    "validUntil": "2027-08-18T21:24:40.306Z",
+    "status": "active"
   }
 ]
