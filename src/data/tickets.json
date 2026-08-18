@@ -8841,5 +8841,18 @@
     "createdAt": "2026-08-18T08:53:51.750Z",
     "validUntil": "2027-08-18T08:53:51.750Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-AD546962",
+    "stripeSessionId": "cs_live_a1xKdG9zHsfJiIwUfcjDZHtf9xJ0zTHiS52KFyHhn1P52AaPEBZU6sjEuv",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "sandrinesoreda1985@gmail.com",
+    "customerName": "Soreda",
+    "isGift": false,
+    "createdAt": "2026-08-18T09:20:35.983Z",
+    "validUntil": "2027-08-18T09:20:35.983Z",
+    "status": "active"
   }
 ]
