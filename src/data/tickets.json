@@ -8919,5 +8919,18 @@
     "createdAt": "2026-08-18T09:29:51.488Z",
     "validUntil": "2027-08-18T09:29:51.488Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-0B0751A0",
+    "stripeSessionId": "cs_live_a1aroqySiH24VmMds13W9Umm78iRRnXsv0vTeG3p7RMsxc9RduVJ68skOH",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "mariannehelix@orange.fr",
+    "customerName": "Giordanino",
+    "isGift": false,
+    "createdAt": "2026-08-18T09:29:58.532Z",
+    "validUntil": "2027-08-18T09:29:58.532Z",
+    "status": "active"
   }
 ]
