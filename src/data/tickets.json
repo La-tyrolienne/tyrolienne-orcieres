@@ -9308,5 +9308,18 @@
     "createdAt": "2026-08-18T18:10:44.655Z",
     "validUntil": "2027-08-18T18:10:44.655Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-700C7764",
+    "stripeSessionId": "cs_live_a18Julu0dfpJtTcVwESHDqgrLJhuqNWEu95rztiT3LRlVb8EDgli37pE2F",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "drouts83@gmail.comm",
+    "customerName": "Drouin",
+    "isGift": false,
+    "createdAt": "2026-08-18T18:10:51.755Z",
+    "validUntil": "2027-08-18T18:10:51.755Z",
+    "status": "active"
   }
 ]
