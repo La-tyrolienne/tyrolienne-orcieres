@@ -8802,5 +8802,18 @@
     "createdAt": "2026-08-18T08:40:03.868Z",
     "validUntil": "2027-08-18T08:40:03.868Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-04B102CB",
+    "stripeSessionId": "cs_live_a110ToTQ8iatVv2nin9zc5jDGWv23WqpbnZM01AIcOh0OVfbZnLgGFUUxa",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "marleneblot@yahoo.fr",
+    "customerName": "Blot",
+    "isGift": false,
+    "createdAt": "2026-08-18T08:40:10.695Z",
+    "validUntil": "2027-08-18T08:40:10.695Z",
+    "status": "active"
   }
 ]
