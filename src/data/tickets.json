@@ -8960,16 +8960,15 @@
     "status": "active"
   },
   {
-    "id": "TKT-3873A449",
+    "id": "TKT-87803F3B",
     "stripeSessionId": "cs_live_a1QtM7tQsO33eLr6HNUQ19irs6LiQHPhNMJR9oNH822IjsI2hXLcihTAyu",
     "season": "summer",
     "price": 35,
     "quantity": 1,
     "customerEmail": "virginierib16@gmail.com",
     "customerName": "Virginie Ribiere",
-    "isGift": false,
-    "createdAt": "2026-08-18T10:09:58.553Z",
-    "validUntil": "2027-08-18T10:09:58.553Z",
+    "createdAt": "2026-08-18T10:10:05.424Z",
+    "validUntil": "2027-08-18T10:10:05.424Z",
     "status": "active"
   }
 ]
