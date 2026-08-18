@@ -9022,5 +9022,18 @@
     "createdAt": "2026-08-18T11:28:36.929Z",
     "validUntil": "2027-08-18T11:28:36.929Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-DF35A324",
+    "stripeSessionId": "cs_live_a1dE82gQamE5n65oM8FoQikgQbF2RGFb7HDZCRvWm2Ennx0wQkAzchUySE",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "morel.f@free.fr",
+    "customerName": "Florent Morel",
+    "isGift": false,
+    "createdAt": "2026-08-18T12:24:34.942Z",
+    "validUntil": "2027-08-18T12:24:34.942Z",
+    "status": "active"
   }
 ]
