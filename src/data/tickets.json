@@ -9048,5 +9048,18 @@
     "createdAt": "2026-08-18T12:32:44.572Z",
     "validUntil": "2027-08-18T12:32:44.572Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2AFE13F9",
+    "stripeSessionId": "cs_live_a1FMfk4RYT42RCm5VSoaR3ddhTFkS7bKEC1OoN8MG69ZmUpPBgGaND3ScB",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "Tarrou.adrien@gmail.com",
+    "customerName": "Adrien  Tarrou",
+    "isGift": false,
+    "createdAt": "2026-08-18T12:32:51.623Z",
+    "validUntil": "2027-08-18T12:32:51.623Z",
+    "status": "active"
   }
 ]
