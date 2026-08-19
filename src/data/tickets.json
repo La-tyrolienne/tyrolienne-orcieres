@@ -9477,5 +9477,18 @@
     "createdAt": "2026-08-19T08:06:23.427Z",
     "validUntil": "2027-08-19T08:06:23.427Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-39751A33",
+    "stripeSessionId": "cs_live_a16uQfLgOjoFHTXxvluQOUOc93Yh3IjZiovJzyXCn43GMms2NuEOdPUksK",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "prince@colombus-consulting.com",
+    "customerName": "Guilhem PRINCE",
+    "isGift": false,
+    "createdAt": "2026-08-19T08:45:03.955Z",
+    "validUntil": "2027-08-19T08:45:03.955Z",
+    "status": "active"
   }
 ]
