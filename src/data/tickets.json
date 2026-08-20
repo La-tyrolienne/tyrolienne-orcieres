@@ -9698,5 +9698,18 @@
     "createdAt": "2026-08-20T03:25:27.038Z",
     "validUntil": "2027-08-20T03:25:27.038Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-95734961",
+    "stripeSessionId": "cs_live_a1r9ZTuGxyjc5oVurzAJzOV7a14yzg9294WkTYAE2cWpLlIvVnWHwzTdiV",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "laetitia.gay@free.fr",
+    "customerName": "Client",
+    "isGift": false,
+    "createdAt": "2026-08-20T03:25:33.992Z",
+    "validUntil": "2027-08-20T03:25:33.992Z",
+    "status": "active"
   }
 ]
