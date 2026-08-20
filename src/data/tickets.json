@@ -9804,5 +9804,18 @@
     "createdAt": "2026-08-20T05:49:58.155Z",
     "validUntil": "2027-08-20T05:49:58.155Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-F2EDD635",
+    "stripeSessionId": "cs_live_a18Julu0dfpJtTcVwESHDqgrLJhuqNWEu95rztiT3LRlVb8EDgli37pE2F",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "drouts83@gmail.comm",
+    "customerName": "Drouin",
+    "isGift": false,
+    "createdAt": "2026-08-20T07:38:02.751Z",
+    "validUntil": "2027-08-20T07:38:02.751Z",
+    "status": "active"
   }
 ]
