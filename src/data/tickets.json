@@ -8268,7 +8268,8 @@
     "isGift": false,
     "createdAt": "2026-08-16T13:42:17.924Z",
     "validUntil": "2027-08-16T13:42:17.924Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-20T07:34:48.546Z"
   },
   {
     "id": "TKT-858E83AB",
