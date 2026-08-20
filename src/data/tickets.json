@@ -8282,7 +8282,8 @@
     "isGift": false,
     "createdAt": "2026-08-16T13:42:24.944Z",
     "validUntil": "2027-08-16T13:42:24.944Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-20T07:35:03.716Z"
   },
   {
     "id": "TKT-7950ACED",
