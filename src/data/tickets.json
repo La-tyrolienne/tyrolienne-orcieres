@@ -9895,5 +9895,18 @@
     "createdAt": "2026-08-20T09:19:46.595Z",
     "validUntil": "2027-08-20T09:19:46.595Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-1013FDCC",
+    "stripeSessionId": "cs_live_a18wzVDkFOH4KJyIvRRSFYFbOOM9fL8DkwcGlE12MQxPeKzi81i1a0t6wW",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "charlesandre44@gmail.com",
+    "customerName": "Charles ANDRE",
+    "isGift": false,
+    "createdAt": "2026-08-20T12:27:30.838Z",
+    "validUntil": "2027-08-20T12:27:30.838Z",
+    "status": "active"
   }
 ]
