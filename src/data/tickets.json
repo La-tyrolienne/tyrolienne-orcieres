@@ -9869,5 +9869,18 @@
     "createdAt": "2026-08-20T09:19:16.760Z",
     "validUntil": "2027-08-20T09:19:16.760Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C0984835",
+    "stripeSessionId": "cs_live_a1rtHGU8uWu8wRrW18bqcDZ4bVkHF30Gr5m3ku3MDxmd2apvDfHmrTWNE6",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "tauriel049@gmail.com",
+    "customerName": "SOPHIE HOUDAYER",
+    "isGift": false,
+    "createdAt": "2026-08-20T09:19:39.669Z",
+    "validUntil": "2027-08-20T09:19:39.669Z",
+    "status": "active"
   }
 ]
