@@ -9922,5 +9922,18 @@
     "createdAt": "2026-08-20T16:12:24.018Z",
     "validUntil": "2027-08-20T16:12:24.018Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-83747831",
+    "stripeSessionId": "cs_live_a15X9FHdeHBGoREGtuYv4LGiCDkI6wUQgWjZcz06pQ8RjuyA4jhfNS9JS8",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "play_boydu11@hotmail.fr",
+    "customerName": "Loic Serre",
+    "isGift": false,
+    "createdAt": "2026-08-20T16:12:31.196Z",
+    "validUntil": "2027-08-20T16:12:31.196Z",
+    "status": "active"
   }
 ]
