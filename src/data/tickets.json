@@ -10182,5 +10182,18 @@
     "createdAt": "2026-08-22T06:36:21.960Z",
     "validUntil": "2027-08-22T06:36:21.960Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-59860168",
+    "stripeSessionId": "cs_live_a1XUZi2eX1WK9FAGDtuEtPvr01u7pUZ0ST7p4rf3s5XFQe0eq0RZEDcLSs",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "l.crescence@gmail.com",
+    "customerName": "Marianne Crescence ",
+    "isGift": false,
+    "createdAt": "2026-08-22T06:36:28.646Z",
+    "validUntil": "2027-08-22T06:36:28.646Z",
+    "status": "active"
   }
 ]
