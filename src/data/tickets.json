@@ -10208,5 +10208,18 @@
     "createdAt": "2026-08-22T09:20:15.776Z",
     "validUntil": "2027-08-22T09:20:15.776Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-DAECDEBE",
+    "stripeSessionId": "cs_live_a1wM6StrbSxKlidK2rHTirGD0QGIvIdzbhJb7R0su8qQyJTGpzEhQlIaUV",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "raphael.cocciolo@gmail.com",
+    "customerName": "Raphael COCCIOLO",
+    "isGift": false,
+    "createdAt": "2026-08-23T16:29:39.594Z",
+    "validUntil": "2027-08-23T16:29:39.594Z",
+    "status": "active"
   }
 ]
