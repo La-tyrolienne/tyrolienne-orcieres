@@ -10234,5 +10234,18 @@
     "createdAt": "2026-08-23T19:19:25.588Z",
     "validUntil": "2027-08-23T19:19:25.588Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E58C88DC",
+    "stripeSessionId": "cs_live_a1MKtCnVfXG0T2EzxQYvjwmLwwRqpsx7Z7ul1BPfYTuhdscwJ7nX2qHLpB",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "gdlc1979@outlook.com",
+    "customerName": "Yasmina BOURICHE ",
+    "isGift": false,
+    "createdAt": "2026-08-23T19:19:32.685Z",
+    "validUntil": "2027-08-23T19:19:32.685Z",
+    "status": "active"
   }
 ]
