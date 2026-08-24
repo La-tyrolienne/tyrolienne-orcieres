@@ -10220,7 +10220,8 @@
     "isGift": false,
     "createdAt": "2026-08-23T16:29:39.594Z",
     "validUntil": "2027-08-23T16:29:39.594Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-24T09:07:23.900Z"
   },
   {
     "id": "TKT-4F619109",
