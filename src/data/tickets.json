@@ -10287,7 +10287,8 @@
     "isGift": false,
     "createdAt": "2026-08-24T08:39:04.844Z",
     "validUntil": "2027-08-24T08:39:04.844Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-24T08:40:04.413Z"
   },
   {
     "id": "TKT-B25C4A91",
