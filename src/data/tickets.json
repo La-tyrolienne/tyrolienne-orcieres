@@ -2093,7 +2093,8 @@
     "isGift": true,
     "createdAt": "2026-05-07T19:36:24.665Z",
     "validUntil": "2027-05-07T19:36:24.665Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-24T09:09:58.620Z"
   },
   {
     "id": "TKT-1C419958",
