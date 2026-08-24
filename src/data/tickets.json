@@ -10235,7 +10235,8 @@
     "isGift": false,
     "createdAt": "2026-08-23T19:19:25.588Z",
     "validUntil": "2027-08-23T19:19:25.588Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-24T11:59:39.800Z"
   },
   {
     "id": "TKT-E58C88DC",
