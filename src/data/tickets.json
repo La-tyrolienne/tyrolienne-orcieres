@@ -10275,5 +10275,18 @@
     "validUntil": "2027-08-24T07:53:37.956Z",
     "status": "used",
     "usedAt": "2026-08-24T07:57:58.598Z"
+  },
+  {
+    "id": "TKT-025C15D2",
+    "stripeSessionId": "cs_live_a1pXnIQdebFapHXdSZhMMddfTxbss6OWHq2mrwtBfGdvipVTjYc3kToHCz",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "jeremy.sabia@gmail.com",
+    "customerName": "MR JEREMY SABIA",
+    "isGift": false,
+    "createdAt": "2026-08-24T08:39:04.844Z",
+    "validUntil": "2027-08-24T08:39:04.844Z",
+    "status": "active"
   }
 ]
