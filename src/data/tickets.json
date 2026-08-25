@@ -10305,5 +10305,18 @@
     "createdAt": "2026-08-24T08:39:12.004Z",
     "validUntil": "2027-08-24T08:39:12.004Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-8B044DFB",
+    "stripeSessionId": "cs_live_a1UTUzVV1HtFUffaojqjFqDHQynbedp1B9L4ZJvulvnoEkl9Vr03cSqSR6",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "maud.lorrain@hotmail.fr",
+    "customerName": "MAUD LORRAIN",
+    "isGift": false,
+    "createdAt": "2026-08-25T07:59:43.929Z",
+    "validUntil": "2027-08-25T07:59:43.929Z",
+    "status": "active"
   }
 ]
