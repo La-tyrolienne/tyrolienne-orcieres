@@ -10320,7 +10320,7 @@
     "status": "active"
   },
   {
-    "id": "TKT-8506A828",
+    "id": "TKT-BAB36CA1",
     "stripeSessionId": "cs_live_a1gElolQdzPcUWNbLIScckPlhrgEJotUcBxd6qnl0bXvpNMUiRPpYdqDdf",
     "season": "summer",
     "price": 35,
@@ -10328,8 +10328,8 @@
     "customerEmail": "vancebancou@gmail.com",
     "customerName": "Raphael bancou",
     "isGift": false,
-    "createdAt": "2026-08-25T08:38:06.412Z",
-    "validUntil": "2027-08-25T08:38:06.412Z",
+    "createdAt": "2026-08-25T08:38:13.425Z",
+    "validUntil": "2027-08-25T08:38:13.425Z",
     "status": "active"
   }
 ]
