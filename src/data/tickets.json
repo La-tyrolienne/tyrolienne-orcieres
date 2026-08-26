@@ -10317,7 +10317,8 @@
     "isGift": false,
     "createdAt": "2026-08-25T07:59:43.929Z",
     "validUntil": "2027-08-25T07:59:43.929Z",
-    "status": "active"
+    "status": "used",
+    "usedAt": "2026-08-26T08:16:54.998Z"
   },
   {
     "id": "TKT-BAB36CA1",
