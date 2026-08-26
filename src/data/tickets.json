@@ -10346,5 +10346,18 @@
     "validUntil": "2027-08-25T09:08:29.248Z",
     "status": "used",
     "usedAt": "2026-08-25T09:10:09.957Z"
+  },
+  {
+    "id": "TKT-1ACA64B4",
+    "stripeSessionId": "cs_live_a15IM4wLpRH6Etrz2B9nocdeoUgx33slS1wbiwLGJaEfV8xGtOqjwB7MK7",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "marinamorrow7@gmail.com",
+    "customerName": "Marina Morrow",
+    "isGift": false,
+    "createdAt": "2026-08-26T10:43:32.271Z",
+    "validUntil": "2027-08-26T10:43:32.271Z",
+    "status": "active"
   }
 ]
