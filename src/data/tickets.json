@@ -10362,5 +10362,18 @@
     "validUntil": "2027-08-26T10:43:32.271Z",
     "status": "used",
     "usedAt": "2026-08-26T10:45:24.515Z"
+  },
+  {
+    "id": "TKT-EE30EB54",
+    "stripeSessionId": "cs_live_a1EEvChElO9SeAbjvNY9te8Taa6NAdrHt60RB8RhIOJdgLojHKT8FWgmCP",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "magner.sonia@live.fr",
+    "customerName": "SONIA MAGNER",
+    "isGift": true,
+    "createdAt": "2026-08-29T17:30:13.427Z",
+    "validUntil": "2027-08-29T17:30:13.427Z",
+    "status": "active"
   }
 ]
