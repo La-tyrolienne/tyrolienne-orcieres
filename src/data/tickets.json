@@ -10375,5 +10375,18 @@
     "createdAt": "2026-08-29T17:30:13.427Z",
     "validUntil": "2027-08-29T17:30:13.427Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-2A289808",
+    "stripeSessionId": "cs_live_a1TLgY3kykIlhBI3eND0Z7VWsiFK3dZ1mmETrQjEMu9OaoY1KCceUmjIAG",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "elodie.rivaud@gmail.com",
+    "customerName": "RIVAUD",
+    "isGift": true,
+    "createdAt": "2026-09-02T13:38:26.070Z",
+    "validUntil": "2027-09-02T13:38:26.070Z",
+    "status": "active"
   }
 ]
