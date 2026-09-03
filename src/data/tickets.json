@@ -10413,5 +10413,18 @@
     "createdAt": "2026-09-03T04:48:10.047Z",
     "validUntil": "2027-09-03T04:48:10.047Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-C664B045",
+    "stripeSessionId": "cs_live_a1o9O64ciYLmeWtR7mnnkiD9VN4qojQaVmE8lpd116JqYJMifY5FY5rsF0",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "brigittederosa@gmail.com",
+    "customerName": "de rosa",
+    "isGift": true,
+    "createdAt": "2026-09-03T04:48:17.186Z",
+    "validUntil": "2027-09-03T04:48:17.186Z",
+    "status": "active"
   }
 ]
