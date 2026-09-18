@@ -10426,5 +10426,18 @@
     "createdAt": "2026-09-03T04:48:17.186Z",
     "validUntil": "2027-09-03T04:48:17.186Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-CCFE5509",
+    "stripeSessionId": "cs_live_a1PjcuBxyvYBF89RHHj25l9VAWSnYPNiRTq3Zpv5WstNtb2P6XLJujeIDT",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "camille-rolland@hotmail.fr",
+    "customerName": "Rolland",
+    "isGift": true,
+    "createdAt": "2026-09-18T14:45:53.376Z",
+    "validUntil": "2027-09-18T14:45:53.376Z",
+    "status": "active"
   }
 ]
