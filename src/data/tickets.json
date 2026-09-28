@@ -10439,5 +10439,18 @@
     "createdAt": "2026-09-18T14:45:53.376Z",
     "validUntil": "2027-09-18T14:45:53.376Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E1E34B8C",
+    "stripeSessionId": "cs_live_a1VUmv2G6cafSA5JJ6umcy2UF5sDlnqey0adlbs1IHxWZ0e6kPYAK2IFJO",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "daniel.chabre.scgb@gmail.com",
+    "customerName": "CHABRE DANIEL",
+    "isGift": true,
+    "createdAt": "2026-09-28T08:13:34.845Z",
+    "validUntil": "2027-09-28T08:13:34.845Z",
+    "status": "active"
   }
 ]
