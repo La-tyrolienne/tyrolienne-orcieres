@@ -10452,5 +10452,18 @@
     "createdAt": "2026-09-28T08:13:34.845Z",
     "validUntil": "2027-09-28T08:13:34.845Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-EF8F034E",
+    "stripeSessionId": "cs_live_a1jrj4XSkB4dJO6AiYYK9pYP9IpaefKOPmV0bvZ4QqKzhYgN1livT5CIqm",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "emilie.darlay@gmail.com",
+    "customerName": "Darlay",
+    "isGift": true,
+    "createdAt": "2026-10-19T17:36:02.149Z",
+    "validUntil": "2027-10-19T17:36:02.149Z",
+    "status": "active"
   }
 ]
