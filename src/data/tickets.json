@@ -10478,5 +10478,18 @@
     "createdAt": "2026-10-19T17:36:03.954Z",
     "validUntil": "2027-10-19T17:36:03.954Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-E6CFCADE",
+    "stripeSessionId": "cs_live_a1ZkBF7ivBDLc3G3zVo2uydzds0s1yNC6CGdOfvk8hwItTYJOIMtbETMl7",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "anais.barbe1802@gmail.com",
+    "customerName": "Barbé Anaïs",
+    "isGift": false,
+    "createdAt": "2026-10-24T17:57:16.994Z",
+    "validUntil": "2027-10-24T17:57:16.994Z",
+    "status": "active"
   }
 ]
