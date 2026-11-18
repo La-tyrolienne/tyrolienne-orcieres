@@ -10491,5 +10491,18 @@
     "createdAt": "2026-10-24T17:57:16.994Z",
     "validUntil": "2027-10-24T17:57:16.994Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-18FA63E1",
+    "stripeSessionId": "cs_live_ag23x4jb7C4MSgG0wKbA1pcPc6fbBWr3oeJWYd7fOM0Jy1WpS23i0D0jH7",
+    "season": "summer",
+    "price": 35,
+    "quantity": 1,
+    "customerEmail": "tallaronalbin@gmail.com",
+    "customerName": "albin tallaron",
+    "isGift": false,
+    "createdAt": "2026-11-18T07:14:41.355Z",
+    "validUntil": "2027-11-18T07:14:41.355Z",
+    "status": "active"
   }
 ]
