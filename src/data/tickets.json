@@ -10517,5 +10517,18 @@
     "createdAt": "2026-11-18T15:38:10.419Z",
     "validUntil": "2027-11-18T15:38:10.419Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-121D36BA",
+    "stripeSessionId": "cs_live_agTelCYedJLXXMqtjhpx171lXadXJBsljBru8orQVFiljWfz7R7smhZgIM",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "chrisalex6@sfr.fr",
+    "customerName": "FRULEUX Alexandra",
+    "isGift": true,
+    "createdAt": "2026-11-18T15:38:12.618Z",
+    "validUntil": "2027-11-18T15:38:12.618Z",
+    "status": "active"
   }
 ]
