@@ -10530,5 +10530,18 @@
     "createdAt": "2026-11-18T15:38:12.618Z",
     "validUntil": "2027-11-18T15:38:12.618Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-85509119",
+    "stripeSessionId": "cs_live_ag0WMK8IrkhQgfY9Gpko1bIcVkg7qFYOPQpAFXXoiGMZOIIEqPZwZoyELJ",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "alexiaberthelot123@gmail.com",
+    "customerName": "Alexia Berthelot",
+    "isGift": true,
+    "createdAt": "2026-11-19T09:47:22.654Z",
+    "validUntil": "2027-11-19T09:47:22.654Z",
+    "status": "active"
   }
 ]
