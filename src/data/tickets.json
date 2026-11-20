@@ -10556,5 +10556,18 @@
     "createdAt": "2026-11-20T11:44:05.248Z",
     "validUntil": "2027-11-20T11:44:05.248Z",
     "status": "active"
+  },
+  {
+    "id": "TKT-82BA7220",
+    "stripeSessionId": "cs_live_agvYVlmDD7K2RmWESyFm9UA05mDN3YeJta7Xrl0uoqgqYbpVlxM1lhrUcE",
+    "season": "winter",
+    "price": 40,
+    "quantity": 1,
+    "customerEmail": "montainerambaud@outlook.fr",
+    "customerName": "Pommerais Montaine",
+    "isGift": true,
+    "createdAt": "2026-11-20T11:44:06.827Z",
+    "validUntil": "2027-11-20T11:44:06.827Z",
+    "status": "active"
   }
 ]
